@@ -160,5 +160,23 @@
       "Pack: 50 pcs/box"
     ],
     "tags": ["tray", "impression", "disposable", "auxiliary"]
+  },
+  {
+    "id": "dev-001",
+    "category": "devices",
+    "category_label": "Professional Dental Devices",
+    "name": "JINTAI Dental Lab Round Vibrator",
+    "name_tr": "JINTAI Dental Lab Round Vibrator",
+    "description": "Variable-intensity model vibrator ideal for mixing plaster/gypsum, pouring models, and investing. Quiet, powerful, and highly durable.",
+    "description_tr": "Alçı karışımı, model dökme ve yatırma için ideal, değişken yoğunluklu model vibratörü. Sessiz, güçlü ve son derece dayanıklı.",
+    "unit": "1 Unit (110V/220V)",
+    "image": "assets/images/products/DENTAL VIBRATOR/m-v-d-Mini Dental Vibrator Dental Lab Equipment Round Dental Plaster Vibrator Machine_main_image_1.jpg",
+    "specs": [
+      "Variable speed control knob",
+      "Voltage: 110V and 220V available",
+      "Weight: 6 lbs",
+      "Dimensions: 14 x 15 x 11cm"
+    ],
+    "tags": ["vibrator", "lab equipment", "device", "plaster"]
   }
 ]
