@@ -431,8 +431,61 @@
   transition: transform var(--transition-slow);
 }
 
-.product-card:hover .product-card__image-wrap img {
+.product-card:hover .product-card__image-wrap > img {
   transform: scale(1.04);
+}
+
+/* Product Card Slider (Multiple Images) */
+.product-card__slider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.product-card__slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity var(--transition-base), transform var(--transition-slow);
+}
+
+.product-card__slider .slider-img-2 {
+  opacity: 0;
+}
+
+/* Hover effect for desktop */
+@media (hover: hover) {
+  .product-card:hover .product-card__slider .slider-img-1 {
+    opacity: 0;
+  }
+  .product-card:hover .product-card__slider .slider-img-2 {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+/* Auto-slide effect for mobile */
+@media (hover: none) {
+  @keyframes autoSlide {
+    0%, 40% { opacity: 1; transform: scale(1); }
+    50%, 90% { opacity: 0; transform: scale(1.02); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  @keyframes autoSlideReverse {
+    0%, 40% { opacity: 0; transform: scale(1.02); }
+    50%, 90% { opacity: 1; transform: scale(1); }
+    100% { opacity: 0; transform: scale(1.02); }
+  }
+  
+  .product-card__slider .slider-img-1 {
+    animation: autoSlide 6s infinite;
+  }
+  .product-card__slider .slider-img-2 {
+    animation: autoSlideReverse 6s infinite;
+  }
 }
 
 /* CSS placeholder for products without photos */

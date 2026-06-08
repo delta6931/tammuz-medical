@@ -27,14 +27,32 @@ function createProductCard(product) {
     .map(s => `<li style="font-size:var(--text-xs);color:var(--color-text-light);margin-bottom:4px;">• ${s}</li>`)
     .join('');
 
+  // Determine image HTML
+  let imageHTML = `
+    <div class="product-card__placeholder">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714a2.25 2.25 0 001.5 2.122l4.5 1.5m-10.5-9.336a2.25 2.25 0 012.25 0M3 16.5v-6a1.5 1.5 0 011.5-1.5h15A1.5 1.5 0 0121 10.5v6m-18 0a3 3 0 003 3h12a3 3 0 003-3m-18 0h18" />
+      </svg>
+    </div>
+  `;
+
+  if (product.images && product.images.length > 1) {
+    // Has multiple images for slider
+    imageHTML = `
+      <div class="product-card__slider">
+        <img src="${product.images[0]}" alt="${product.name} - View 1" class="product-card__img slider-img-1" loading="lazy" />
+        <img src="${product.images[1]}" alt="${product.name} - View 2" class="product-card__img slider-img-2" loading="lazy" />
+      </div>
+    `;
+  } else if (product.image) {
+    // Has single image
+    imageHTML = `<img src="${product.image}" alt="${product.name}" class="product-card__img" loading="lazy" />`;
+  }
+
   card.innerHTML = `
     <div class="product-card__image-wrap">
-      <div class="product-card__placeholder">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714a2.25 2.25 0 001.5 2.122l4.5 1.5m-10.5-9.336a2.25 2.25 0 012.25 0M3 16.5v-6a1.5 1.5 0 011.5-1.5h15A1.5 1.5 0 0121 10.5v6m-18 0a3 3 0 003 3h12a3 3 0 003-3m-18 0h18" />
-        </svg>
-      </div>
+      ${imageHTML}
       <span class="product-card__category-badge" style="background-color:rgba(${hexToRgb(categoryBg)}, 0.85)">
         ${product.category_label}
       </span>

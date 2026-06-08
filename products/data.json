@@ -171,6 +171,10 @@
     "description_tr": "Alçı karışımı, model dökme ve yatırma için ideal, değişken yoğunluklu model vibratörü. Sessiz, güçlü ve son derece dayanıklı.",
     "unit": "1 Unit (110V/220V)",
     "image": "assets/images/products/DENTAL VIBRATOR/m-v-d-Mini Dental Vibrator Dental Lab Equipment Round Dental Plaster Vibrator Machine_main_image_1.jpg",
+    "images": [
+      "assets/images/products/DENTAL VIBRATOR/m-v-d-Mini Dental Vibrator Dental Lab Equipment Round Dental Plaster Vibrator Machine_main_image_1.jpg",
+      "assets/images/products/DENTAL VIBRATOR/m-v-d-Mini Dental Vibrator Dental Lab Equipment Round Dental Plaster Vibrator Machine_main_image_3.jpg"
+    ],
     "specs": [
       "Variable speed control knob",
       "Voltage: 110V and 220V available",
