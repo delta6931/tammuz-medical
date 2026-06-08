@@ -10,7 +10,7 @@
 
 'use strict';
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORMSPREE_ID';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mjgdwdpp';
 
 /* ============================================================
    MODAL STATE
