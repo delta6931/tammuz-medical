@@ -62,14 +62,17 @@
 }
 
 .nav__logo-img {
-  height: 48px;
+  height: 40px;
   width: auto;
+  max-width: 220px;
   object-fit: contain;
   transition: opacity var(--transition-base);
+  /* Render crisply at small sizes */
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .nav__logo:hover .nav__logo-img {
-  opacity: 0.85;
+  opacity: 0.80;
 }
 
 /* Remove old text logo styles to keep file clean */
