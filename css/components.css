@@ -61,29 +61,18 @@
   flex-shrink: 0;
 }
 
-.nav__logo-name {
-  font-family: var(--font-serif);
-  font-size: var(--text-xl);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-white);
-  letter-spacing: var(--letter-spacing-tight);
-  line-height: 1;
-  transition: color var(--transition-base);
+.nav__logo-img {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  transition: opacity var(--transition-base);
 }
 
-.nav__logo-name span {
-  color: var(--color-gold-500);
+.nav__logo:hover .nav__logo-img {
+  opacity: 0.85;
 }
 
-.nav__logo-tagline {
-  font-family: var(--font-sans);
-  font-size: var(--text-xs);
-  font-weight: var(--font-weight-medium);
-  letter-spacing: var(--letter-spacing-wider);
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
-  transition: color var(--transition-base);
-}
+/* Remove old text logo styles to keep file clean */
 
 .nav__menu {
   display: flex;
