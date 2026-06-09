@@ -170,8 +170,15 @@ async function initCatalog() {
       return;
     }
 
+    // Sort: products with images first
+    const sorted = [...products].sort((a, b) => {
+      const aHasImg = !!(a.image || (a.images && a.images.length));
+      const bHasImg = !!(b.image || (b.images && b.images.length));
+      return bHasImg - aHasImg;
+    });
+
     // Render cards
-    products.forEach((product, index) => {
+    sorted.forEach((product, index) => {
       const card = createProductCard(product);
       // Stagger reveal delays
       const delayClass = `reveal-delay-${Math.min((index % 6) + 1, 6)}`;
@@ -234,8 +241,15 @@ async function initFeaturedProducts() {
 
     container.innerHTML = '';
 
-    // Show first 6 products as featured
-    products.slice(0, 6).forEach((product, index) => {
+    // Sort: products with images first
+    const sorted = [...products].sort((a, b) => {
+      const aHasImg = !!(a.image || (a.images && a.images.length));
+      const bHasImg = !!(b.image || (b.images && b.images.length));
+      return bHasImg - aHasImg;
+    });
+
+    // Show first 6 products as featured (images-first order)
+    sorted.slice(0, 6).forEach((product, index) => {
       const card = createProductCard(product);
       card.classList.add(`reveal-delay-${Math.min(index + 1, 6)}`);
       container.appendChild(card);
