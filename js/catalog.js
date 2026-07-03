@@ -16,11 +16,18 @@ function createProductCard(product) {
 
   // Category color map
   const categoryColors = {
-    impression:  '#2A4A72',
-    restorative: '#3D5A2E',
-    auxiliary:   '#5A3D2E',
+    impression:  '#079992', // Teal/green
+    restorative: '#38ada9', // Teal
+    auxiliary:   '#78e08f', // Greenish
+    diagnostic:  '#3c6382', // Slate blue
+    surgery:     '#b71540', // Crimson/red
+    periodontal: '#0a3d62', // Deep blue
+    orthodontic: '#60a3bc', // Light blue
+    trays:       '#82ccdd', // Sky blue
+    laboratory:  '#0c2461', // Dark Navy
+    devices:     '#f6b93b', // Warm Gold
   };
-  const categoryBg = categoryColors[product.category] || '#2A4A72';
+  const categoryBg = categoryColors[product.category] || '#2a4558';
 
   // Specs list HTML
   const specsHTML = product.specs
