@@ -34,6 +34,9 @@ function createProductCard(product) {
     .map(s => `<li style="font-size:var(--text-xs);color:var(--color-text-light);margin-bottom:4px;">• ${s}</li>`)
     .join('');
 
+  // Get base path for resolving asset paths correctly in subdirectories (/tr/, /iq/)
+  const basePath = document.documentElement.dataset.basePath || '';
+
   // Determine image HTML
   let imageHTML = `
     <div class="product-card__placeholder">
@@ -48,13 +51,13 @@ function createProductCard(product) {
     // Has multiple images for slider
     imageHTML = `
       <div class="product-card__slider">
-        <img src="${product.images[0]}" alt="${product.name} - View 1" class="product-card__img slider-img-1" loading="lazy" />
-        <img src="${product.images[1]}" alt="${product.name} - View 2" class="product-card__img slider-img-2" loading="lazy" />
+        <img src="${basePath}${product.images[0]}" alt="${product.name} - View 1" class="product-card__img slider-img-1" loading="lazy" />
+        <img src="${basePath}${product.images[1]}" alt="${product.name} - View 2" class="product-card__img slider-img-2" loading="lazy" />
       </div>
     `;
   } else if (product.image) {
     // Has single image
-    imageHTML = `<img src="${product.image}" alt="${product.name}" class="product-card__img" loading="lazy" />`;
+    imageHTML = `<img src="${basePath}${product.image}" alt="${product.name}" class="product-card__img" loading="lazy" />`;
   }
 
   card.innerHTML = `

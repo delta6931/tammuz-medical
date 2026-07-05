@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Iraqi Flag — three equal horizontal bands -->
+  <!-- Red top band -->
+  <rect width="900" height="200" fill="#CE1126"/>
+  <!-- White middle band -->
+  <rect y="200" width="900" height="200" fill="#FFFFFF"/>
+  <!-- Black bottom band -->
+  <rect y="400" width="900" height="200" fill="#000000"/>
+  <!-- Takbir "الله أكبر" in green Kufic script — SVG text approximation -->
+  <text
+    x="450" y="317"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="'Scheherazade New', 'Amiri', 'Traditional Arabic', serif"
+    font-size="108"
+    font-weight="700"
+    fill="#007A3D"
+    letter-spacing="4"
+  >الله أكبر</text>
+</svg>

@@ -1390,50 +1390,23 @@ body.gate-open { overflow: hidden; }
   position: relative;
 }
 
-/* Turkey button — solid red flag */
+/* Turkey button — SVG flag image */
 #region-btn-tr {
-  background: #E30A17;
+  background: url('/assets/images/flags/turkey.svg') center/cover no-repeat;
   border-color: #E30A17;
 }
 
-/* Turkey: white crescent + star as large decorative element */
-#region-btn-tr::before {
-  content: '☽★';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -62%);
-  font-size: 2.6rem;
-  color: rgba(255, 255, 255, 0.30);
-  letter-spacing: -6px;
-  pointer-events: none;
-  line-height: 1;
-}
+/* Remove CSS-only crescent (real flag used now) */
+#region-btn-tr::before { display: none; }
 
-/* Iraq button — red / white / black tricolor */
+/* Iraq button — SVG flag image */
 #region-btn-iq {
-  background: linear-gradient(
-    to bottom,
-    #CE1126 0%, #CE1126 33.33%,
-    #FFFFFF 33.33%, #FFFFFF 66.66%,
-    #000000 66.66%, #000000 100%
-  );
+  background: url('/assets/images/flags/iraq.svg') center/cover no-repeat;
   border-color: #CE1126;
 }
 
-/* Iraq: Allahu Akbar text watermark in green */
-#region-btn-iq::before {
-  content: 'الله أكبر';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.1rem;
-  color: rgba(0, 122, 61, 0.55);
-  pointer-events: none;
-  white-space: nowrap;
-  font-family: serif;
-}
+/* Remove CSS-only text watermark */
+#region-btn-iq::before { display: none; }
 
 .region-btn:hover {
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
