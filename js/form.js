@@ -2,13 +2,13 @@
  * form.js — Tammuz Medical
  * Quote request modal: open/close, form validation, Formspree submission.
  *
- * Formspree endpoint: https://formspree.io/f/mjgdwdpp
- * Make sure the form in your Formspree dashboard is set to deliver to info@tammuzmedical.com
+ * Formspree endpoint: https://formspree.io/f/mrewjlpe
+ * Delivers to: info@tammuzmedical.com
  */
 
 'use strict';
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mjgdwdpp';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mrewjlpe';
 
 /** Pull region/language from localStorage for every submission */
 function getSubmissionMeta() {
