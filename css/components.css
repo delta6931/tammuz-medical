@@ -1390,18 +1390,18 @@ body.gate-open { overflow: hidden; }
   position: relative;
 }
 
-/* Turkey button — SVG flag image */
+/* Turkey button — Original flag image */
 #region-btn-tr {
-  background: url('/assets/images/flags/turkey.svg') center/cover no-repeat;
+  background: url('/assets/images/flags/turkey.png') center/cover no-repeat;
   border-color: #E30A17;
 }
 
 /* Remove CSS-only crescent (real flag used now) */
 #region-btn-tr::before { display: none; }
 
-/* Iraq button — SVG flag image */
+/* Iraq button — Original flag image */
 #region-btn-iq {
-  background: url('/assets/images/flags/iraq.svg') center/cover no-repeat;
+  background: url('/assets/images/flags/iraq.png') center/cover no-repeat;
   border-color: #CE1126;
 }
 
