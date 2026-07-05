@@ -6,16 +6,22 @@
 /
   Cache-Control: no-cache, must-revalidate
 
+/en/
+  Cache-Control: no-cache, must-revalidate
+
 /tr/
   Cache-Control: no-cache, must-revalidate
 
-/iq/
+/ar/
+  Cache-Control: no-cache, must-revalidate
+
+/en/*.html
   Cache-Control: no-cache, must-revalidate
 
 /tr/*.html
   Cache-Control: no-cache, must-revalidate
 
-/iq/*.html
+/ar/*.html
   Cache-Control: no-cache, must-revalidate
 
 # JS and CSS: revalidate on every load (active development)
