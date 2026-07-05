@@ -1,4 +1,4 @@
-/**
+﻿/**
  * form.js — Tammuz Dental
  * Quote request modal: open/close, form validation, Formspree submission.
  *
@@ -218,7 +218,7 @@ if (quoteForm) {
       console.error('Form submission error:', err);
       if (formMessage) {
         formMessage.className = 'form-message error';
-        formMessage.textContent = 'Something went wrong. Please email us directly at info@tammuz-dental.com';
+        formMessage.textContent = 'Something went wrong. Please email us directly at info@tammuzmedical.com';
       }
     } finally {
       isSubmitting = false;
@@ -293,7 +293,7 @@ if (contactForm) {
     } catch (err) {
       if (contactMessage) {
         contactMessage.className = 'form-message error';
-        contactMessage.textContent = 'Submission failed. Please email info@tammuz-dental.com directly.';
+        contactMessage.textContent = 'Submission failed. Please email info@tammuzmedical.com directly.';
       }
     } finally {
       isSubmitting = false;
