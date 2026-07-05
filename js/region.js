@@ -42,8 +42,7 @@
   function showGate() {
     const gate = document.getElementById('region-gate');
     if (gate) {
-      gate.removeAttribute('hidden');
-      gate.classList.add('region-gate--visible');
+      gate.classList.add('is-open');
       document.body.classList.add('gate-open');
     }
   }
@@ -51,9 +50,8 @@
   function hideGate() {
     const gate = document.getElementById('region-gate');
     if (gate) {
-      gate.classList.remove('region-gate--visible');
+      gate.classList.remove('is-open');
       document.body.classList.remove('gate-open');
-      setTimeout(() => gate.setAttribute('hidden', ''), 400);
     }
   }
 

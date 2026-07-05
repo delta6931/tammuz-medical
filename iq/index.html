@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl" data-base-path="../" data-region="iq">
 <head>
   <meta charset="UTF-8" />
@@ -9,13 +9,13 @@
   <meta name="description" content="Tammuz Medical sources premium medical and dental supplies for B2B clients across Turkey and Iraq. Asadental instruments, consumables, lab equipment. Request a quote today." />
   <meta name="keywords" content="medical supplies Turkey, dental supplies Iraq, B2B medical wholesale, diş malzemeleri, dental instruments, Asadental distributor Turkey Iraq" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://tammuzmedical.com/iq/index.html" />
+  <link rel="canonical" href="https://tammuzmedical.com/" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Tammuz Medical — B2B Medical & Dental Supplies" />
   <meta property="og:description" content="Premium medical and dental supplies for clinics, hospitals and distributors in Turkey and Iraq. B2B verified partners only." />
-  <meta property="og:url" content="https://tammuzmedical.com/iq/index.html" />
+  <meta property="og:url" content="https://tammuzmedical.com/" />
   <meta property="og:site_name" content="Tammuz Medical" />
 
   <!-- Twitter Card -->
@@ -67,25 +67,27 @@
 <body>
 
   <!-- ================================================================
-       REGION GATE OVERLAY (shown only on first visit when no region stored)
+       REGION GATE — floating modal, shown on first visit only
        ================================================================ -->
-  <div class="region-gate" id="region-gate" hidden aria-modal="true" role="dialog" aria-label="Select your region">
+  <div class="region-gate" id="region-gate" role="dialog" aria-modal="true" aria-label="Select your region">
+    <div class="region-gate__backdrop" id="region-gate-backdrop"></div>
     <div class="region-gate__card">
       <img src="../assets/logo/TAMMUZ_GLOBAL_MEDICAL__1_-removebg-preview.png" alt="Tammuz Medical" class="region-gate__logo" />
-      <h2 class="region-gate__title" data-i18n="gate.title">Select Your Region</h2>
-      <p class="region-gate__subtitle" data-i18n="gate.subtitle">We operate in two countries — choose yours for the best experience.</p>
+      <h2 class="region-gate__title">Where are you located?</h2>
+      <p class="region-gate__subtitle">Select your country so we can show you the right products, language, and pricing.</p>
       <div class="region-gate__options">
-        <button class="region-btn" id="region-btn-tr">
+        <button class="region-btn" id="region-btn-tr" aria-label="Select Turkey">
           <span class="region-btn__flag">🇹🇷</span>
-          <span class="region-btn__name" data-i18n="gate.tr">Turkey</span>
-          <span class="region-btn__sub">Türkiye operasyonları</span>
+          <span class="region-btn__name">Turkey</span>
+          <span class="region-btn__sub">Türkiye</span>
         </button>
-        <button class="region-btn" id="region-btn-iq">
+        <button class="region-btn" id="region-btn-iq" aria-label="Select Iraq">
           <span class="region-btn__flag">🇮🇶</span>
-          <span class="region-btn__name" data-i18n="gate.iq">Iraq</span>
-          <span class="region-btn__sub">العمليات في العراق</span>
+          <span class="region-btn__name">Iraq</span>
+          <span class="region-btn__sub">العراق</span>
         </button>
       </div>
+      <p class="region-gate__footer">You can change this at any time using the language switcher in the menu.</p>
     </div>
   </div>
 
