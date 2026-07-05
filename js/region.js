@@ -1,38 +1,43 @@
 /**
  * region.js — Tammuz Medical
- * Handles: region gate (first visit), localStorage persistence,
- * /tr/ and /iq/ redirects, language switching, RTL toggle, i18n DOM updates.
+ * Handles: region gate, /tr/ and /iq/ redirects, language switching, RTL, i18n.
+ *
+ * Gate behaviour:
+ *   - Show the gate on EVERY visit to root, UNLESS the visitor has chosen
+ *     the same region 5+ times in a row (then we trust their preference).
+ *   - Picking a different region resets the streak counter back to 1.
  */
 (function () {
   'use strict';
 
   const STORAGE_REGION = 'tmz_region';
   const STORAGE_LANG   = 'tmz_lang';
+  const STORAGE_COUNT  = 'tmz_pick_count';   // consecutive same-region picks
+  const REMEMBER_AFTER = 5;                   // skip gate after this many same picks
+
   const REGION_LANG_MAP = { tr: 'tr', iq: 'ar' };
 
   // ── 1. Detect where we are ──────────────────────────────────────────────
-  const path = window.location.pathname;
-  const inTR = path.startsWith('/tr/') || path === '/tr';
-  const inIQ = path.startsWith('/iq/') || path === '/iq';
+  const path  = window.location.pathname;
+  const inTR  = path.startsWith('/tr/') || path === '/tr';
+  const inIQ  = path.startsWith('/iq/') || path === '/iq';
   const inRoot = !inTR && !inIQ;
 
-  // If inside a region subdirectory, persist that region automatically
+  // If inside a region subdirectory, sync storage (but do NOT increment count here)
   if (inTR) {
-    localStorage.setItem(STORAGE_REGION, 'tr');
     if (!localStorage.getItem(STORAGE_LANG)) localStorage.setItem(STORAGE_LANG, 'tr');
   } else if (inIQ) {
-    localStorage.setItem(STORAGE_REGION, 'iq');
     if (!localStorage.getItem(STORAGE_LANG)) localStorage.setItem(STORAGE_LANG, 'ar');
   }
 
   const storedRegion = localStorage.getItem(STORAGE_REGION);
   const storedLang   = localStorage.getItem(STORAGE_LANG);
+  const storedCount  = parseInt(localStorage.getItem(STORAGE_COUNT) || '0', 10);
 
-  // ── 2. On root pages: redirect if region already known ──────────────────
-  if (inRoot && storedRegion) {
+  // ── 2. On root: redirect ONLY if user has hit the remember threshold ─────
+  if (inRoot && storedRegion && storedCount >= REMEMBER_AFTER) {
     const dest = storedRegion === 'tr' ? '/tr/' : '/iq/';
-    // Only redirect from root index-style pages, not assets/API calls
-    if (path === '/' || path === '/index.html' || path.endsWith('/index.html')) {
+    if (path === '/' || path === '/index.html') {
       window.location.replace(dest);
       return;
     }
@@ -56,11 +61,18 @@
   }
 
   function chooseRegion(region) {
+    // Track consecutive same-region picks
+    const prevRegion = localStorage.getItem(STORAGE_REGION);
+    const prevCount  = parseInt(localStorage.getItem(STORAGE_COUNT) || '0', 10);
+    const newCount   = (prevRegion === region) ? prevCount + 1 : 1;
+
     localStorage.setItem(STORAGE_REGION, region);
     localStorage.setItem(STORAGE_LANG, REGION_LANG_MAP[region]);
+    localStorage.setItem(STORAGE_COUNT, String(newCount));
+
     hideGate();
-    // Small delay so fade-out plays
-    setTimeout(() => { window.location.href = '/' + region + '/'; }, 350);
+    // Small delay so fade-out plays before navigation
+    setTimeout(() => { window.location.href = '/' + region + '/'; }, 320);
   }
 
   // ── 4. Language / i18n ──────────────────────────────────────────────────
@@ -69,7 +81,6 @@
     html.lang = lang;
     html.dir  = (lang === 'ar') ? 'rtl' : 'ltr';
 
-    // Translate data-i18n elements
     const strings = window.i18n && window.i18n[lang];
     if (strings) {
       document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -85,7 +96,6 @@
       });
     }
 
-    // Highlight active lang button
     document.querySelectorAll('[data-lang-btn]').forEach(btn => {
       btn.classList.toggle('lang-btn--active', btn.getAttribute('data-lang-btn') === lang);
     });
@@ -93,10 +103,9 @@
     localStorage.setItem(STORAGE_LANG, lang);
   }
 
-  // Public API for onclick in HTML
   window.switchLang = function (lang) { applyLanguage(lang); };
 
-  // ── 5. Footer entity ─────────────────────────────────────────────────────
+  // ── 5. Footer legal entity ───────────────────────────────────────────────
   function updateFooterEntity(region) {
     const el = document.getElementById('footer-legal-entity');
     if (!el) return;
@@ -127,14 +136,13 @@
     if (btnTR) btnTR.addEventListener('click', () => chooseRegion('tr'));
     if (btnIQ) btnIQ.addEventListener('click', () => chooseRegion('iq'));
 
-    // Show gate only on root when no region stored
-    if (inRoot && !storedRegion) {
+    // Show gate on root UNLESS remember threshold met
+    if (inRoot && !(storedRegion && storedCount >= REMEMBER_AFTER)) {
       showGate();
     }
 
-    // Determine active lang
-    const activeLang = storedLang
-      || (inTR ? 'tr' : inIQ ? 'ar' : 'en');
+    // Apply active language
+    const activeLang = storedLang || (inTR ? 'tr' : inIQ ? 'ar' : 'en');
     applyLanguage(activeLang);
 
     // Update footer entity
