@@ -1,16 +1,22 @@
-﻿/**
- * form.js — Tammuz Dental
+/**
+ * form.js — Tammuz Medical
  * Quote request modal: open/close, form validation, Formspree submission.
  *
- * SETUP: Replace YOUR_FORMSPREE_ID below with your Formspree form ID.
- * Get a free ID at https://formspree.io (50 submissions/month free).
- * Example: if your endpoint is https://formspree.io/f/xabc1234, set:
- *   FORMSPREE_ENDPOINT = 'https://formspree.io/f/xabc1234'
+ * Formspree endpoint: https://formspree.io/f/mjgdwdpp
+ * Make sure the form in your Formspree dashboard is set to deliver to info@tammuzmedical.com
  */
 
 'use strict';
 
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mjgdwdpp';
+
+/** Pull region/language from localStorage for every submission */
+function getSubmissionMeta() {
+  const region = localStorage.getItem('tmz_region') || 'unknown';
+  const lang   = localStorage.getItem('tmz_lang')   || 'en';
+  const regionLabel = region === 'tr' ? '🇹🇷 Turkey' : region === 'iq' ? '🇮🇶 Iraq' : 'Unknown';
+  return { region: regionLabel, language: lang, page: window.location.href };
+}
 
 /* ============================================================
    MODAL STATE
@@ -186,14 +192,18 @@ if (quoteForm) {
       formMessage.textContent = '';
     }
 
+    const meta = getSubmissionMeta();
     const formData = {
-      name:    getField('field-name')?.value.trim(),
-      company: getField('field-company')?.value.trim(),
-      email:   getField('field-email')?.value.trim(),
-      phone:   getField('field-phone')?.value.trim(),
-      notes:   getField('field-notes')?.value.trim(),
-      product: modalProductRef?.textContent?.trim() || 'General Inquiry',
-      _subject: `B2B Quote Request — ${getField('field-company')?.value.trim()}`,
+      name:     getField('field-name')?.value.trim(),
+      company:  getField('field-company')?.value.trim(),
+      email:    getField('field-email')?.value.trim(),
+      phone:    getField('field-phone')?.value.trim(),
+      notes:    getField('field-notes')?.value.trim(),
+      product:  modalProductRef?.textContent?.trim() || 'General Inquiry',
+      region:   meta.region,
+      language: meta.language,
+      _replyto: getField('field-email')?.value.trim(),
+      _subject: `[${meta.region}] B2B Quote — ${getField('field-company')?.value.trim()}`,
     };
 
     try {
@@ -265,13 +275,17 @@ if (contactForm) {
 
     const contactMessage = document.getElementById('contact-form-message');
 
+    const meta = getSubmissionMeta();
     const formData = {
-      name:    contactForm.querySelector('#cf-name')?.value.trim(),
-      company: contactForm.querySelector('#cf-company')?.value.trim(),
-      email:   contactForm.querySelector('#cf-email')?.value.trim(),
-      phone:   contactForm.querySelector('#cf-phone')?.value.trim(),
-      notes:   contactForm.querySelector('#cf-notes')?.value.trim(),
-      _subject: `B2B Quote Request — ${contactForm.querySelector('#cf-company')?.value.trim()}`,
+      name:     contactForm.querySelector('#cf-name')?.value.trim(),
+      company:  contactForm.querySelector('#cf-company')?.value.trim(),
+      email:    contactForm.querySelector('#cf-email')?.value.trim(),
+      phone:    contactForm.querySelector('#cf-phone')?.value.trim(),
+      notes:    contactForm.querySelector('#cf-notes')?.value.trim(),
+      region:   meta.region,
+      language: meta.language,
+      _replyto: contactForm.querySelector('#cf-email')?.value.trim(),
+      _subject: `[${meta.region}] B2B Quote — ${contactForm.querySelector('#cf-company')?.value.trim()}`,
     };
 
     try {
