@@ -1348,8 +1348,6 @@ body.gate-open { overflow: hidden; }
   width: auto;
   object-fit: contain;
   margin-bottom: 1.25rem;
-  /* Dark logo on white card — fine since logo has transparent bg */
-  filter: brightness(0) saturate(100%);
 }
 
 .region-gate__title {
@@ -1378,45 +1376,105 @@ body.gate-open { overflow: hidden; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
-  padding: 1.25rem 1rem;
-  border: 1.5px solid #e2e8f0;
+  justify-content: flex-end;
+  gap: 0;
+  padding: 0;
+  border: 2.5px solid transparent;
   border-radius: 14px;
-  background: #f8fafc;
+  overflow: hidden;
   cursor: pointer;
-  transition: border-color 0.18s, background 0.18s, box-shadow 0.18s, transform 0.15s;
+  transition: border-color 0.18s, box-shadow 0.18s, transform 0.15s;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
+  min-height: 140px;
+  position: relative;
+}
+
+/* Turkey button — solid red flag */
+#region-btn-tr {
+  background: #E30A17;
+  border-color: #E30A17;
+}
+
+/* Turkey: white crescent + star as large decorative element */
+#region-btn-tr::before {
+  content: '☽★';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -62%);
+  font-size: 2.6rem;
+  color: rgba(255, 255, 255, 0.30);
+  letter-spacing: -6px;
+  pointer-events: none;
+  line-height: 1;
+}
+
+/* Iraq button — red / white / black tricolor */
+#region-btn-iq {
+  background: linear-gradient(
+    to bottom,
+    #CE1126 0%, #CE1126 33.33%,
+    #FFFFFF 33.33%, #FFFFFF 66.66%,
+    #000000 66.66%, #000000 100%
+  );
+  border-color: #CE1126;
+}
+
+/* Iraq: Allahu Akbar text watermark in green */
+#region-btn-iq::before {
+  content: 'الله أكبر';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.1rem;
+  color: rgba(0, 122, 61, 0.55);
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: serif;
 }
 
 .region-btn:hover {
-  border-color: #3b82f6;
-  background: #eff6ff;
-  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.15);
-  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+  transform: translateY(-3px);
+  border-color: rgba(0,0,0,0.35);
 }
 
 .region-btn:active {
   transform: translateY(0);
-  background: #dbeafe;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
 }
 
-.region-btn__flag {
-  font-size: 2.2rem;
-  line-height: 1;
+/* Text label bar at the bottom of each flag button */
+.region-btn__label {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.52);
+  backdrop-filter: blur(4px);
+  padding: 0.55rem 0.75rem 0.6rem;
+  text-align: center;
 }
 
 .region-btn__name {
-  font-size: 1rem;
+  display: block;
+  font-size: 0.95rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #ffffff;
+  line-height: 1.2;
 }
 
 .region-btn__sub {
-  font-size: 0.75rem;
-  color: #94a3b8;
+  display: block;
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.7);
   font-weight: 400;
+  margin-top: 1px;
 }
+
+/* Hide the old emoji span — label div replaces it */
+.region-btn__flag { display: none; }
 
 .region-gate__footer {
   margin-top: 1.25rem;
@@ -1427,6 +1485,7 @@ body.gate-open { overflow: hidden; }
 @media (max-width: 380px) {
   .region-gate__options { grid-template-columns: 1fr; }
   .region-gate__card { padding: 2rem 1.25rem; }
+  .region-btn { min-height: 110px; }
 }
 
 /* --------------------------------------------------------------------------
