@@ -569,10 +569,10 @@
 }
 
 .product-card__watermark img {
-  height: 12px;
+  height: 22px;
   width: auto;
   object-fit: contain;
-  opacity: 0.9;
+  opacity: 0.92;
 }
 
 .product-card__body {
@@ -1560,3 +1560,80 @@ body.gate-open { overflow: hidden; }
 }
 
 .footer__entity-badge strong { color: rgba(255,255,255,0.65); }
+
+/* ============================================================
+   PAGINATION
+   ============================================================ */
+#catalog-pagination {
+  margin-top: var(--space-10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination__btn {
+  min-width: 40px;
+  height: 40px;
+  padding: 0 var(--space-3);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: white;
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination__btn:hover:not([disabled]) {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: rgba(14, 165, 233, 0.06);
+}
+
+.pagination__btn--active {
+  background: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
+  color: white !important;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(14, 165, 233, 0.35);
+}
+
+.pagination__btn--nav {
+  padding: 0 var(--space-4);
+  font-weight: 600;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.pagination__btn[disabled] {
+  opacity: 0.35;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.pagination__ellipsis {
+  color: var(--color-text-light);
+  font-size: var(--text-sm);
+  padding: 0 var(--space-1);
+  user-select: none;
+}
+
+.pagination__info {
+  font-size: var(--text-sm);
+  color: var(--color-text-light);
+  text-align: center;
+}

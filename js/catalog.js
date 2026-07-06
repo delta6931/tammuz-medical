@@ -2,9 +2,12 @@
  * catalog.js — Tammuz Dental
  * Fetches product data, renders product cards, handles category filtering,
  * and pre-populates the quote modal with selected product info.
+ * Includes pagination: 50 products per page.
  */
 
 'use strict';
+
+const PRODUCTS_PER_PAGE = 50;
 
 /* ============================================================
    PRODUCT CARD TEMPLATE
@@ -16,16 +19,16 @@ function createProductCard(product) {
 
   // Category color map
   const categoryColors = {
-    impression:  '#079992', // Teal/green
-    restorative: '#38ada9', // Teal
-    auxiliary:   '#78e08f', // Greenish
-    diagnostic:  '#3c6382', // Slate blue
-    surgery:     '#b71540', // Crimson/red
-    periodontal: '#0a3d62', // Deep blue
-    orthodontic: '#60a3bc', // Light blue
-    trays:       '#82ccdd', // Sky blue
-    laboratory:  '#0c2461', // Dark Navy
-    devices:     '#f6b93b', // Warm Gold
+    impression:  '#079992',
+    restorative: '#38ada9',
+    auxiliary:   '#78e08f',
+    diagnostic:  '#3c6382',
+    surgery:     '#b71540',
+    periodontal: '#0a3d62',
+    orthodontic: '#60a3bc',
+    trays:       '#82ccdd',
+    laboratory:  '#0c2461',
+    devices:     '#f6b93b',
   };
   const categoryBg = categoryColors[product.category] || '#2a4558';
 
@@ -34,7 +37,7 @@ function createProductCard(product) {
     .map(s => `<li style="font-size:var(--text-xs);color:var(--color-text-light);margin-bottom:4px;">• ${s}</li>`)
     .join('');
 
-  // Get base path for resolving asset paths correctly in subdirectories (/tr/, /iq/)
+  // Get base path for resolving asset paths correctly in subdirectories (/tr/, /ar/)
   const basePath = document.documentElement.dataset.basePath || '';
 
   // Determine image HTML
@@ -48,7 +51,6 @@ function createProductCard(product) {
   `;
 
   if (product.images && product.images.length > 1) {
-    // Has multiple images for slider
     imageHTML = `
       <div class="product-card__slider">
         <img src="${basePath}${product.images[0]}" alt="${product.name} - View 1" class="product-card__img slider-img-1" loading="lazy" />
@@ -56,7 +58,6 @@ function createProductCard(product) {
       </div>
     `;
   } else if (product.image) {
-    // Has single image
     imageHTML = `<img src="${basePath}${product.image}" alt="${product.name}" class="product-card__img" loading="lazy" />`;
   }
 
@@ -118,13 +119,104 @@ function renderSkeletons(container, count = 6) {
 }
 
 /* ============================================================
+   PAGINATION RENDERER
+   ============================================================ */
+function renderPagination(filteredProducts, currentPage, container, observer) {
+  const totalPages = Math.ceil(filteredProducts.length / PRODUCTS_PER_PAGE);
+  const start = (currentPage - 1) * PRODUCTS_PER_PAGE;
+  const pageProducts = filteredProducts.slice(start, start + PRODUCTS_PER_PAGE);
+
+  // Clear and render current page
+  container.innerHTML = '';
+  pageProducts.forEach((product, index) => {
+    const card = createProductCard(product);
+    card.classList.add(`reveal-delay-${Math.min((index % 6) + 1, 6)}`);
+    container.appendChild(card);
+  });
+
+  // Re-observe for reveal animations
+  container.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // Attach quote modal triggers
+  container.querySelectorAll('[data-quote-trigger]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      window.openQuoteModal({ id: btn.dataset.productId, name: btn.dataset.productName });
+    });
+  });
+
+  // Scroll to top of grid smoothly
+  container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+  // Render pagination controls
+  let paginationEl = document.getElementById('catalog-pagination');
+  if (!paginationEl) {
+    paginationEl = document.createElement('div');
+    paginationEl.id = 'catalog-pagination';
+    container.parentNode.insertBefore(paginationEl, container.nextSibling);
+  }
+
+  if (totalPages <= 1) {
+    paginationEl.innerHTML = '';
+    return;
+  }
+
+  // Build page buttons
+  let pageButtons = '';
+  for (let p = 1; p <= totalPages; p++) {
+    // Show first, last, current ±2, and ellipsis
+    if (p === 1 || p === totalPages || (p >= currentPage - 2 && p <= currentPage + 2)) {
+      pageButtons += `
+        <button class="pagination__btn ${p === currentPage ? 'pagination__btn--active' : ''}"
+                data-page="${p}" aria-label="Page ${p}" ${p === currentPage ? 'aria-current="page"' : ''}>
+          ${p}
+        </button>`;
+    } else if (p === currentPage - 3 || p === currentPage + 3) {
+      pageButtons += `<span class="pagination__ellipsis">…</span>`;
+    }
+  }
+
+  paginationEl.innerHTML = `
+    <div class="pagination">
+      <button class="pagination__btn pagination__btn--nav" data-page="${currentPage - 1}"
+              ${currentPage === 1 ? 'disabled' : ''} aria-label="Previous page">
+        ← Prev
+      </button>
+      ${pageButtons}
+      <button class="pagination__btn pagination__btn--nav" data-page="${currentPage + 1}"
+              ${currentPage === totalPages ? 'disabled' : ''} aria-label="Next page">
+        Next →
+      </button>
+    </div>
+    <p class="pagination__info">
+      Showing ${start + 1}–${Math.min(start + PRODUCTS_PER_PAGE, filteredProducts.length)}
+      of ${filteredProducts.length} products
+    </p>
+  `;
+
+  // Bind pagination button clicks
+  paginationEl.querySelectorAll('.pagination__btn:not([disabled])').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const nextPage = parseInt(btn.dataset.page);
+      if (!isNaN(nextPage) && nextPage !== currentPage) {
+        renderPagination(filteredProducts, nextPage, container, observer);
+      }
+    });
+  });
+}
+
+/* ============================================================
    FILTER LOGIC
    ============================================================ */
-function initFilters(products, container) {
+function initFilters(allProducts, container, observer) {
   const filterBar = document.getElementById('filter-bar');
   if (!filterBar) return;
 
   let currentFilter = 'all';
+  let currentPage = 1;
+
+  const getFiltered = () => currentFilter === 'all'
+    ? allProducts
+    : allProducts.filter(p => p.category === currentFilter);
 
   filterBar.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -132,24 +224,14 @@ function initFilters(products, container) {
       if (cat === currentFilter) return;
 
       currentFilter = cat;
+      currentPage = 1;
 
       // Update active state
       filterBar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
-      // Filter cards
-      const cards = container.querySelectorAll('.product-card');
-      cards.forEach(card => {
-        const match = cat === 'all' || card.dataset.category === cat;
-        card.style.display = match ? '' : 'none';
-      });
-
-      // Re-trigger reveal for newly shown cards
-      cards.forEach(card => {
-        if (card.style.display !== 'none') {
-          card.classList.add('revealed');
-        }
-      });
+      // Re-render with new filter + reset to page 1
+      renderPagination(getFiltered(), currentPage, container, observer);
     });
   });
 }
@@ -161,25 +243,32 @@ async function initCatalog() {
   const container = document.getElementById('product-grid');
   if (!container) return;
 
-  // Show skeletons
   const skeletonCount = parseInt(container.dataset.skeletons || '6');
   renderSkeletons(container, skeletonCount);
 
+  // Shared IntersectionObserver for reveal animations
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('revealed');
+          observer.unobserve(e.target);
+        }
+      });
+    },
+    { threshold: 0.10, rootMargin: '0px 0px -30px 0px' }
+  );
+
   try {
-    // Determine base path (works both locally and on GitHub Pages/Netlify)
     const basePath = document.documentElement.dataset.basePath || '';
     const res = await fetch(`${basePath}/products/data.json`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const products = await res.json();
 
-    // Clear skeletons
     container.innerHTML = '';
 
     if (!products.length) {
-      container.innerHTML = `
-        <div class="empty-state">
-          <p class="empty-state__text">No products found.</p>
-        </div>`;
+      container.innerHTML = `<div class="empty-state"><p class="empty-state__text">No products found.</p></div>`;
       return;
     }
 
@@ -190,41 +279,11 @@ async function initCatalog() {
       return bHasImg - aHasImg;
     });
 
-    // Render cards
-    sorted.forEach((product, index) => {
-      const card = createProductCard(product);
-      // Stagger reveal delays
-      const delayClass = `reveal-delay-${Math.min((index % 6) + 1, 6)}`;
-      card.classList.add(delayClass);
-      container.appendChild(card);
-    });
+    // Render first page
+    renderPagination(sorted, 1, container, observer);
 
-    // Init filters
-    initFilters(products, container);
-
-    // Re-run scroll reveal for newly added elements
-    const revealEls = container.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(e => {
-          if (e.isIntersecting) {
-            e.target.classList.add('revealed');
-            observer.unobserve(e.target);
-          }
-        });
-      },
-      { threshold: 0.10, rootMargin: '0px 0px -30px 0px' }
-    );
-    revealEls.forEach(el => observer.observe(el));
-
-    // Attach quote button listeners
-    container.querySelectorAll('[data-quote-trigger]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const productId   = btn.dataset.productId;
-        const productName = btn.dataset.productName;
-        window.openQuoteModal({ id: productId, name: productName });
-      });
-    });
+    // Init filters (they will call renderPagination internally)
+    initFilters(sorted, container, observer);
 
   } catch (err) {
     console.error('Failed to load products:', err);
@@ -254,21 +313,18 @@ async function initFeaturedProducts() {
 
     container.innerHTML = '';
 
-    // Sort: products with images first
     const sorted = [...products].sort((a, b) => {
       const aHasImg = !!(a.image || (a.images && a.images.length));
       const bHasImg = !!(b.image || (b.images && b.images.length));
       return bHasImg - aHasImg;
     });
 
-    // Show first 6 products as featured (images-first order)
     sorted.slice(0, 6).forEach((product, index) => {
       const card = createProductCard(product);
       card.classList.add(`reveal-delay-${Math.min(index + 1, 6)}`);
       container.appendChild(card);
     });
 
-    // Reveal observer
     const observer = new IntersectionObserver(
       entries => entries.forEach(e => {
         if (e.isIntersecting) {
@@ -280,13 +336,9 @@ async function initFeaturedProducts() {
     );
     container.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-    // Attach quote modal triggers
     container.querySelectorAll('[data-quote-trigger]').forEach(btn => {
       btn.addEventListener('click', () => {
-        window.openQuoteModal({
-          id: btn.dataset.productId,
-          name: btn.dataset.productName
-        });
+        window.openQuoteModal({ id: btn.dataset.productId, name: btn.dataset.productName });
       });
     });
 
