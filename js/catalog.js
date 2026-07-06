@@ -64,9 +64,6 @@ function createProductCard(product) {
   card.innerHTML = `
     <div class="product-card__image-wrap">
       ${imageHTML}
-      <div class="product-card__watermark">
-        <img src="${basePath}assets/images/asadental_brand_logo.png" alt="Asa Dental Authorized" />
-      </div>
       <span class="product-card__category-badge" style="background-color:rgba(${hexToRgb(categoryBg)}, 0.85)">
         ${product.category_label}
       </span>
