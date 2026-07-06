@@ -551,6 +551,30 @@
   border: 1px solid rgba(125, 211, 255, 0.30);
 }
 
+.product-card__watermark {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  z-index: 2;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(4px);
+  border-radius: var(--radius-sm);
+  padding: 4px var(--space-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.product-card__watermark img {
+  height: 12px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.9;
+}
+
 .product-card__body {
   padding: var(--space-5) var(--space-6);
   display: flex;
