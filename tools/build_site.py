@@ -124,6 +124,16 @@ LANGUAGES = {
             'Page Not Found': 'Sayfa Bulunamadı',
             'The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.': 'Aradığınız sayfa kaldırılmış, adı değiştirilmiş veya geçici olarak kullanım dışı kalmış olabilir.',
             'Back to Homepage': 'Ana Sayfaya Dön',
+
+            # Brand partner section
+            'Authorized Distributor': 'Yetkili Distribütör',
+            'Italian Precision &amp; European Excellence': 'İtalyan Hassasiyeti &amp; Avrupa Mükemmelliği',
+            'We are proud to supply the medical community with premium instruments from <strong>Asa Dental</strong>, the global leader in dental instrumentation manufactured exclusively in Italy. For over 60 years, Asa Dental has embodied European craftsmanship, blending historical Tuscan artisanship with state-of-the-art automation.': 'Seçkin İtalyan işçiliğinin adresi olan <strong>Asa Dental</strong> dental el aletlerini hekimlerimizle buluşturmaktan gurur duyuyoruz. 60 yılı aşkın süredir Asa Dental, Toskana\'nın köklü el sanatı kültürünü modern teknolojiyle harmanlayarak Avrupa kalitesini temsil etmektedir.',
+            'Every instrument is forged from medical-grade European stainless steel, ensuring unmatched corrosion resistance, tactile sensitivity, and long-term durability. We guarantee 100% genuine Italian products for clinics and distributors who refuse to compromise on clinical outcomes.': 'Her bir alet, hekimlerimize üstün korozyon direnci, hassas dokunma duyusu ve uzun ömürlü kullanım sunmak adına tıbbi sınıf yüksek kaliteli Avrupa paslanmaz çeliğinden üretilmiştir. Klinik sonuçlardan ve kaliteden ödün vermek istemeyen klinikler ile distribütörler için %100 orijinal İtalyan ürünlerini garanti ediyoruz.',
+            'Mission &amp; Vision': 'Misyon &amp; Vizyon',
+            '"Make People Smile" by delivering safe, innovative, and ergonomically perfect tools that doctors trust daily.': 'Hekimlerin her gün güvenle kullandığı güvenli, yenilikçi ve ergonomik açıdan kusursuz aletler sunarak insanları gülümsetmek ("Make People Smile").',
+            '100% Made in Italy': '%100 İtalyan Malı',
+            'Every tool is fully engineered, manufactured, and packaged in Italy under strict European Medical Device regulations (MDR).': 'Her alet, sıkı Avrupa Tıbbi Cihaz yönetmelikleri (MDR) kapsamında tamamen İtalya\'da tasarlanmış, üretilmiş ve paketlenmiştir.',
         }
     },
     'ar': {
@@ -226,6 +236,16 @@ LANGUAGES = {
             'Page Not Found': 'الصفحة غير موجودة',
             'The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.': 'الصفحة التي تبحث عنها ربما تم حذفها، أو تغير اسمها، أو غير متاحة مؤقتاً.',
             'Back to Homepage': 'العودة للصفحة الرئيسية',
+
+            # Brand partner section
+            'Authorized Distributor': 'موزع معتمد',
+            'Italian Precision &amp; European Excellence': 'دقة إيطالية وتميز أوروبي',
+            'We are proud to supply the medical community with premium instruments from <strong>Asa Dental</strong>, the global leader in dental instrumentation manufactured exclusively in Italy. For over 60 years, Asa Dental has embodied European craftsmanship, blending historical Tuscan artisanship with state-of-the-art automation.': 'نفخر بتزويد الأوساط الطبية بأدوات طب أسنان متميزة من إنتاج شركة <strong>Asa Dental</strong>، الرائدة عالمياً في تصنيع أدوات الأسنان حصرياً في إيطاليا. على مدار أكثر من 60 عاماً، جسّدت الشركة الحرفية الأوروبية الفاخرة، ودمجت بين مهارة التصنيع التقليدية في توسكانا والتكنولوجيا المؤتمتة الحديثة.',
+            'Every instrument is forged from medical-grade European stainless steel, ensuring unmatched corrosion resistance, tactile sensitivity, and long-term durability. We guarantee 100% genuine Italian products for clinics and distributors who refuse to compromise on clinical outcomes.': 'تُصنع جميع الأدوات من الفولاذ المقاوم للصدأ (الستانلس ستيل) الأوروبي المخصص للأغراض الطبية، مما يضمن مقاومة منقطعة النظير للصدأ والاهتراء، وتوفير دقة لمسية عالية ومتانة تدوم طويلاً. نحن نضمن منتجات إيطالية أصلية 100% للعيادات والموزعين الذين لا يقبلون بأقل من التميز.',
+            'Mission &amp; Vision': 'الرسالة والرؤية',
+            '"Make People Smile" by delivering safe, innovative, and ergonomically perfect tools that doctors trust daily.': '"رسم الابتسامة على وجوه الناس" من خلال تقديم أدوات آمنة ومبتكرة ومصممة هندسياً بشكل مريح يثق بها الأطباء يومياً.',
+            '100% Made in Italy': 'صنع في إيطاليا 100%',
+            'Every tool is fully engineered, manufactured, and packaged in Italy under strict European Medical Device regulations (MDR).': 'تم تصميم وتصنيع وتعبئة كل أداة بالكامل في إيطاليا بموجب لوائح الأجهزة الطبية الأوروبية الصارمة (MDR).',
         }
     }
 }
