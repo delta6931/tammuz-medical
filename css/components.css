@@ -318,6 +318,7 @@ html[lang="ar"] .slideshow-wrapper[data-lang="ar"] {
   object-fit: cover;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+  transform: scale(1.01);
   z-index: 1;
 }
 
@@ -692,7 +693,7 @@ html[lang="ar"] .slideshow-wrapper[data-lang="ar"] {
 }
 
 @media (max-width: 480px) {
-  .product-grid { grid-template-columns: 1fr; }
+  .product-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
 }
 
 /* --------------------------------------------------------------------------
