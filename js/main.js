@@ -115,3 +115,27 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     window.scrollTo({ top, behavior: 'smooth' });
   });
 });
+
+/* ============================================================
+   HERO SLIDESHOW
+   ============================================================ */
+(function initHeroSlideshow() {
+  const slideshowWrappers = document.querySelectorAll('.slideshow-wrapper');
+  if (!slideshowWrappers.length) return;
+
+  // Run a separate interval for each visible wrapper (though only one is visible via CSS)
+  slideshowWrappers.forEach(wrapper => {
+    const slides = wrapper.querySelectorAll('.slideshow-slide');
+    if (slides.length <= 1) return;
+
+    let currentIndex = 0;
+    setInterval(() => {
+      // Hide current
+      slides[currentIndex].classList.remove('active');
+      // Increment
+      currentIndex = (currentIndex + 1) % slides.length;
+      // Show next
+      slides[currentIndex].classList.add('active');
+    }, 4000); // Change slide every 4 seconds
+  });
+})();
