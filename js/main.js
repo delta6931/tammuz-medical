@@ -123,19 +123,28 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   const slideshowWrappers = document.querySelectorAll('.slideshow-wrapper');
   if (!slideshowWrappers.length) return;
 
-  // Run a separate interval for each visible wrapper (though only one is visible via CSS)
   slideshowWrappers.forEach(wrapper => {
     const slides = wrapper.querySelectorAll('.slideshow-slide');
     if (slides.length <= 1) return;
 
     let currentIndex = 0;
+
     setInterval(() => {
-      // Hide current
-      slides[currentIndex].classList.remove('active');
-      // Increment
+      const current = slides[currentIndex];
+
+      // Add exiting class to slide it out to the left
+      current.classList.add('exiting');
+
+      // After animation, remove both classes and reset
+      setTimeout(() => {
+        current.classList.remove('active', 'exiting');
+      }, 900);
+
+      // Advance index
       currentIndex = (currentIndex + 1) % slides.length;
-      // Show next
+
+      // Bring next slide in from the right
       slides[currentIndex].classList.add('active');
-    }, 4000); // Change slide every 4 seconds
+    }, 4500);
   });
 })();
