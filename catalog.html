@@ -38,12 +38,20 @@
       </a>
 
       <ul class="nav__menu" role="list">
-        <li><a href="index.html" class="nav__link" style="color:var(--color-text-mid);">Home</a></li>
-        <li><a href="catalog.html" class="nav__link" style="color:var(--color-text-mid);" aria-current="page">Catalog</a></li>
-        <li><a href="contact.html" class="nav__link" style="color:var(--color-text-mid);">Contact</a></li>
+        <li><a href="index.html" class="nav__link" style="color:var(--color-text-mid);" data-i18n="nav.home">Home</a></li>
+        <li><a href="catalog.html" class="nav__link" style="color:var(--color-text-mid);" aria-current="page" data-i18n="nav.catalog">Catalog</a></li>
+        <li><a href="contact.html" class="nav__link" style="color:var(--color-text-mid);" data-i18n="nav.contact">Contact</a></li>
+        <li>
+          <!-- Language Switcher -->
+          <div class="lang-switcher" role="group" aria-label="Language selector">
+            <button class="lang-btn" data-lang-btn="en" onclick="switchLang('en')" aria-label="Switch to English">EN</button>
+            <button class="lang-btn" data-lang-btn="tr" onclick="switchLang('tr')" aria-label="Dile geç: Türkçe">TR</button>
+            <button class="lang-btn" data-lang-btn="ar" onclick="switchLang('ar')" aria-label="التبديل إلى العربية">AR</button>
+          </div>
+        </li>
         <li>
           <button class="btn btn-primary btn-sm nav__cta" data-open-modal id="nav-quote-btn" aria-label="Request a B2B quote">
-            Request Quote
+            <span data-i18n="nav.quote">Request Quote</span>
           </button>
         </li>
       </ul>
