@@ -152,69 +152,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 /* ============================================================
-   HERO SLIDESHOW
-   ============================================================ */
-(function initHeroSlideshow() {
-  const slideshowWrappers = document.querySelectorAll('.slideshow-wrapper');
-  if (!slideshowWrappers.length) return;
-
-  const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-
-  slideshowWrappers.forEach(wrapper => {
-    const slides = wrapper.querySelectorAll('.slideshow-slide');
-    if (slides.length <= 1) return;
-
-    let currentIndex = 0;
-    let timer = null;
-
-    const showNextSlide = () => {
-      const current = slides[currentIndex];
-
-      current.classList.add('exiting');
-
-      setTimeout(() => {
-        current.classList.remove('active', 'exiting');
-      }, 900);
-
-      currentIndex = (currentIndex + 1) % slides.length;
-      slides[currentIndex].classList.add('active');
-    };
-
-    const stop = () => {
-      if (!timer) return;
-      clearInterval(timer);
-      timer = null;
-    };
-
-    const start = () => {
-      if (timer || reducedMotionQuery.matches) return;
-      timer = setInterval(showNextSlide, 4500);
-    };
-
-    wrapper.addEventListener('mouseenter', stop);
-    wrapper.addEventListener('mouseleave', start);
-    wrapper.addEventListener('focusin', stop);
-    wrapper.addEventListener('focusout', start);
-    document.addEventListener('visibilitychange', () => {
-      if (document.hidden) stop();
-      else start();
-    });
-    const handleMotionPreferenceChange = event => {
-      if (event.matches) stop();
-      else start();
-    };
-
-    if (reducedMotionQuery.addEventListener) {
-      reducedMotionQuery.addEventListener('change', handleMotionPreferenceChange);
-    } else if (reducedMotionQuery.addListener) {
-      reducedMotionQuery.addListener(handleMotionPreferenceChange);
-    }
-
-    start();
-  });
-})();
-
-/* ============================================================
    WHATSAPP CONTACT SHORTCUTS
    ============================================================ */
 (function initWhatsAppShortcuts() {

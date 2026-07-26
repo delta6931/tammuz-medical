@@ -41,6 +41,12 @@
   --color-border:      #d0e6f2;
   --color-border-dark: #b8d4e3;
 
+  /* Contact channel colors */
+  --color-whatsapp-500: #25D366;
+  --color-whatsapp-600: #1ebe5d;
+  --color-whatsapp-700: #128C7E;
+  --color-whatsapp-soft: rgba(37, 211, 102, 0.10);
+
   /* Sky blue accent for focus rings, shimmer */
   --color-accent-sky:  #7dd3ff;
 

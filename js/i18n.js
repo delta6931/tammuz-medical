@@ -11,6 +11,7 @@ window.i18n = {
     /* Navigation */
     'nav.home':    'Home',
     'nav.catalog': 'Catalog',
+    'nav.manufacturers': 'Verified Manufacturers',
     'nav.contact': 'Contact',
     'nav.quote':   'Request Quote',
 
@@ -86,6 +87,7 @@ window.i18n = {
     /* Navigation */
     'nav.home':    'Ana Sayfa',
     'nav.catalog': 'Katalog',
+    'nav.manufacturers': 'Onaylı Üreticiler',
     'nav.contact': 'İletişim',
     'nav.quote':   'Teklif İste',
 
@@ -161,6 +163,7 @@ window.i18n = {
     /* Navigation */
     'nav.home':    'الرئيسية',
     'nav.catalog': 'الكتالوج',
+    'nav.manufacturers': 'المصنعون الموثقون',
     'nav.contact': 'تواصل معنا',
     'nav.quote':   'طلب عرض سعر',
 
