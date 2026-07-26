@@ -7,6 +7,35 @@
 'use strict';
 
 const PRODUCTS_PER_PAGE = 50;
+const WHATSAPP_NUMBER = '905338877740';
+
+function getQuoteButtonLabel(kind = 'product') {
+  const lang = document.documentElement.lang || 'en';
+  if (lang === 'tr') return kind === 'kit' ? 'Kit için WhatsApp' : 'WhatsApp Teklif';
+  if (lang === 'ar') return kind === 'kit' ? 'طلب الطقم عبر واتساب' : 'طلب عبر واتساب';
+  return kind === 'kit' ? 'WhatsApp Kit Quote' : 'WhatsApp Quote';
+}
+
+function getContactNote() {
+  const lang = document.documentElement.lang || 'en';
+  if (lang === 'tr') return 'WhatsApp: +90 533 887 77 40';
+  if (lang === 'ar') return 'واتساب: +90 533 887 77 40';
+  return 'WhatsApp: +90 533 887 77 40';
+}
+
+function openProductWhatsAppQuote(productName) {
+  const lang = document.documentElement.lang || 'en';
+  let message;
+  if (lang === 'tr') {
+    message = `Merhaba Tammuz Medical, şu ürün için fiyat ve stok bilgisi almak istiyorum: ${productName}`;
+  } else if (lang === 'ar') {
+    message = `مرحبا Tammuz Medical، أريد معرفة السعر والتوفر لهذا المنتج: ${productName}`;
+  } else {
+    message = `Hello Tammuz Medical, I would like pricing and availability for: ${productName}`;
+  }
+
+  window.location.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+}
 
 /* ============================================================
    UTILITY: Hex to RGB
@@ -145,9 +174,11 @@ function createProductCard(product, options = {}) {
         data-product-id="${product.id}"
         data-product-name="${product.name}"
         data-has-variants="${product.type === 'merged' ? 'true' : 'false'}"
-        aria-label="Request B2B quote for ${product.name}"
+        aria-label="Request quote on WhatsApp for ${product.name}"
         id="quote-btn-${product.id}"
-      >Request B2B Quote</button>
+        type="button"
+      >${getQuoteButtonLabel()}</button>
+      <p class="product-card__contact-note">${getContactNote()}</p>
     </div>
   `;
 
@@ -171,7 +202,7 @@ function createProductCard(product, options = {}) {
         const code = activeChip ? activeChip.dataset.code : (sel ? sel.value : '');
         if (code) name += ` \u2014 ${code}`;
       }
-      window.openQuoteModal({ id: product.id, name });
+      openProductWhatsAppQuote(name);
     });
   }
 
@@ -248,9 +279,11 @@ function createBundleCard(product) {
         data-quote-trigger
         data-product-id="${product.id}"
         data-product-name="${product.name}"
-        aria-label="Request quote for ${product.name}"
+        aria-label="Request quote on WhatsApp for ${product.name}"
         id="quote-btn-${product.id}"
-      >Request Kit Quote</button>
+        type="button"
+      >${getQuoteButtonLabel('kit')}</button>
+      <p class="product-card__contact-note">${getContactNote()}</p>
     </div>
   `;
 
@@ -268,7 +301,7 @@ function createBundleCard(product) {
   const quoteBtn = card.querySelector('[data-quote-trigger]');
   if (quoteBtn) {
     quoteBtn.addEventListener('click', () => {
-      window.openQuoteModal({ id: quoteBtn.dataset.productId, name: quoteBtn.dataset.productName });
+      openProductWhatsAppQuote(quoteBtn.dataset.productName);
     });
   }
 

@@ -16,14 +16,14 @@ window.i18n = {
 
     /* Hero */
     'hero.title':    'Premium Medical & Dental Supplies',
-    'hero.subtitle': 'B2B sourcing for clinics, hospitals and distributors across Turkey and Iraq.',
+    'hero.subtitle': 'Sourcing for clinics, hospitals, distributors and supply partners across Turkey and Iraq.',
     'hero.cta.catalog': 'Browse Catalog',
     'hero.cta.quote':   'Get a Quote',
 
     /* Trust strip */
     'trust.sourcing': 'Global Sourcing Network',
-    'trust.verified': 'B2B Verified Partners Only',
-    'trust.samples':  'Sample Orders Available',
+    'trust.verified': 'Verified Supplier Network',
+    'trust.samples':  'Direct WhatsApp Support',
     'trust.moq':      'Flexible MOQ & Pricing',
 
     /* Section headings */
@@ -34,15 +34,15 @@ window.i18n = {
     /* Why us */
     'why.sourcing.title': 'Global Sourcing',
     'why.sourcing.text':  'We source from certified manufacturers in Italy, Germany, China and beyond.',
-    'why.samples.title':  'Sample Before Commit',
-    'why.samples.text':   'Request product samples before placing bulk orders.',
+    'why.samples.title':  'Fast Sourcing Support',
+    'why.samples.text':   'Send your product needs and we will help with availability and sourcing options.',
     'why.pricing.title':  'Flexible Pricing',
     'why.pricing.text':   'MOQ tailored to your clinic or distribution business.',
     'why.support.title':  'Dedicated Support',
     'why.support.text':   'Multilingual team available via WhatsApp, email, or video call.',
 
     /* Quote modal */
-    'modal.title':     'Request B2B Quote',
+    'modal.title':     'Request a Quote',
     'modal.subtitle':  'Our team will respond within 24 hours.',
     'modal.name':      'Full Name',
     'modal.company':   'Clinic / Company',
@@ -50,12 +50,12 @@ window.i18n = {
     'modal.phone':     'Phone Number',
     'modal.notes':     'Requested Materials & Quantities',
     'modal.submit':    'Send Quote Request',
-    'modal.note':      'By submitting this form, you confirm this is a B2B enquiry. We do not process consumer/retail orders.',
+    'modal.note':      'Submit your enquiry and our team will respond with the next practical step.',
     'modal.enquiring': 'Enquiring about',
 
     /* Footer */
-    'footer.tagline': 'Premium medical & dental supplies for B2B professionals. Sample before you commit.',
-    'footer.quote':   'Request B2B Quote',
+    'footer.tagline': 'Premium medical & dental supplies for clinics, distributors and sourcing partners.',
+    'footer.quote':   'WhatsApp Us',
     'footer.nav':     'Navigation',
     'footer.contact': 'Contact',
 
@@ -67,7 +67,7 @@ window.i18n = {
 
     /* Contact page */
     'contact.hero.title':    'Get in Touch',
-    'contact.hero.subtitle': 'Our B2B team responds within 24 hours.',
+    'contact.hero.subtitle': 'Our team responds quickly with pricing, stock and sourcing support.',
     'contact.form.title':    'Send a Message',
 
     /* Region gate */
@@ -91,14 +91,14 @@ window.i18n = {
 
     /* Hero */
     'hero.title':    'Premium Tıbbi ve Diş Malzemeleri',
-    'hero.subtitle': 'Türkiye\'deki klinikler, hastaneler ve distribütörler için B2B tedarik.',
+    'hero.subtitle': 'Türkiye\'deki klinikler, hastaneler, distribütörler ve tedarik ortakları için kaynak sağlama.',
     'hero.cta.catalog': 'Kataloğa Göz At',
     'hero.cta.quote':   'Teklif Al',
 
     /* Trust strip */
     'trust.sourcing': 'Global Tedarik Ağı',
-    'trust.verified': 'Yalnızca B2B Doğrulanmış Ortaklar',
-    'trust.samples':  'Numune Siparişi Mevcut',
+    'trust.verified': 'Doğrulanmış Tedarik Ağı',
+    'trust.samples':  'Doğrudan WhatsApp Desteği',
     'trust.moq':      'Esnek MOQ ve Fiyatlandırma',
 
     /* Section headings */
@@ -109,15 +109,15 @@ window.i18n = {
     /* Why us */
     'why.sourcing.title': 'Global Tedarik',
     'why.sourcing.text':  'İtalya, Almanya, Çin ve daha fazlasındaki sertifikalı üreticilerden tedarik ediyoruz.',
-    'why.samples.title':  'Taahhüt Öncesi Numune',
-    'why.samples.text':   'Toplu sipariş vermeden önce ürün numunesi talep edin.',
+    'why.samples.title':  'Hızlı Tedarik Desteği',
+    'why.samples.text':   'Ürün ihtiyacınızı gönderin; stok ve tedarik seçenekleriyle yardımcı olalım.',
     'why.pricing.title':  'Esnek Fiyatlandırma',
     'why.pricing.text':   'Kliniğinize veya dağıtım işletmenize göre uyarlanmış MOQ.',
     'why.support.title':  'Özel Destek',
     'why.support.text':   'WhatsApp, e-posta veya video görüşmesi ile çok dilli ekibimiz hizmetinizdedir.',
 
     /* Quote modal */
-    'modal.title':     'B2B Teklif İste',
+    'modal.title':     'Teklif İste',
     'modal.subtitle':  'Ekibimiz 24 saat içinde yanıt verecektir.',
     'modal.name':      'Ad Soyad',
     'modal.company':   'Klinik / Şirket',
@@ -125,12 +125,12 @@ window.i18n = {
     'modal.phone':     'Telefon Numarası',
     'modal.notes':     'Talep Edilen Malzemeler ve Miktarlar',
     'modal.submit':    'Teklif Talebini Gönder',
-    'modal.note':      'Bu formu göndererek bunun bir B2B talebi olduğunu onaylıyorsunuz. Tüketici/perakende siparişleri işlemiyoruz.',
+    'modal.note':      'Talebinizi gönderin; ekibimiz size en uygun sonraki adımla dönüş yapsın.',
     'modal.enquiring': 'Hakkında soru soruyorsunuz',
 
     /* Footer */
-    'footer.tagline': 'B2B profesyonelleri için premium tıbbi ve diş malzemeleri. Taahhüt etmeden önce numune isteyin.',
-    'footer.quote':   'B2B Teklif İste',
+    'footer.tagline': 'Klinikler, distribütörler ve tedarik ortakları için premium tıbbi ve diş malzemeleri.',
+    'footer.quote':   'WhatsApp\'tan Yazın',
     'footer.nav':     'Navigasyon',
     'footer.contact': 'İletişim',
 
@@ -142,7 +142,7 @@ window.i18n = {
 
     /* Contact page */
     'contact.hero.title':    'İletişime Geçin',
-    'contact.hero.subtitle': 'B2B ekibimiz 24 saat içinde yanıt verir.',
+    'contact.hero.subtitle': 'Ekibimiz fiyat, stok ve tedarik desteği için hızlı dönüş yapar.',
     'contact.form.title':    'Mesaj Gönder',
 
     /* Region gate */
@@ -166,14 +166,14 @@ window.i18n = {
 
     /* Hero */
     'hero.title':    'مستلزمات طبية وأسنان فاخرة',
-    'hero.subtitle': 'توريد B2B للعيادات والمستشفيات والموزعين في العراق وتركيا.',
+    'hero.subtitle': 'توريد للعيادات والمستشفيات والموزعين وشركاء التوريد في العراق وتركيا.',
     'hero.cta.catalog': 'تصفح الكتالوج',
     'hero.cta.quote':   'احصل على عرض سعر',
 
     /* Trust strip */
     'trust.sourcing': 'شبكة توريد عالمية',
-    'trust.verified': 'شركاء B2B موثقون فقط',
-    'trust.samples':  'طلبات عينات متاحة',
+    'trust.verified': 'شبكة موردين موثوقة',
+    'trust.samples':  'دعم مباشر عبر واتساب',
     'trust.moq':      'كميات وأسعار مرنة',
 
     /* Section headings */
@@ -184,15 +184,15 @@ window.i18n = {
     /* Why us */
     'why.sourcing.title': 'توريد عالمي',
     'why.sourcing.text':  'نوفر من مصنّعين معتمدين في إيطاليا وألمانيا والصين وغيرها.',
-    'why.samples.title':  'عيّن قبل الالتزام',
-    'why.samples.text':   'اطلب عينات المنتجات قبل تقديم طلبات بالجملة.',
+    'why.samples.title':  'دعم توريد سريع',
+    'why.samples.text':   'أرسل احتياجاتك وسنساعدك في التوفر وخيارات التوريد.',
     'why.pricing.title':  'أسعار مرنة',
     'why.pricing.text':   'الحد الأدنى للطلب مُصمَّم خصيصاً لعيادتك أو توزيعك.',
     'why.support.title':  'دعم مخصص',
     'why.support.text':   'فريقنا متعدد اللغات متاح عبر واتساب والبريد الإلكتروني ومكالمات الفيديو.',
 
     /* Quote modal */
-    'modal.title':     'طلب عرض سعر B2B',
+    'modal.title':     'طلب عرض سعر',
     'modal.subtitle':  'سيرد فريقنا خلال 24 ساعة.',
     'modal.name':      'الاسم الكامل',
     'modal.company':   'العيادة / الشركة',
@@ -200,12 +200,12 @@ window.i18n = {
     'modal.phone':     'رقم الهاتف',
     'modal.notes':     'المواد والكميات المطلوبة',
     'modal.submit':    'إرسال طلب عرض السعر',
-    'modal.note':      'بتقديم هذا النموذج، تؤكد أن هذا استفسار B2B. لا نعالج طلبات المستهلكين أو التجزئة.',
+    'modal.note':      'أرسل استفسارك وسيرد فريقنا بالخطوة العملية التالية.',
     'modal.enquiring': 'الاستفسار عن',
 
     /* Footer */
-    'footer.tagline': 'مستلزمات طبية وأسنان فاخرة للمحترفين في مجال B2B. جرّب العينات قبل الالتزام.',
-    'footer.quote':   'طلب عرض سعر B2B',
+    'footer.tagline': 'مستلزمات طبية وأسنان فاخرة للعيادات والموزعين وشركاء التوريد.',
+    'footer.quote':   'تواصل عبر واتساب',
     'footer.nav':     'التنقل',
     'footer.contact': 'تواصل معنا',
 
@@ -217,7 +217,7 @@ window.i18n = {
 
     /* Contact page */
     'contact.hero.title':    'تواصل معنا',
-    'contact.hero.subtitle': 'يرد فريق B2B لدينا خلال 24 ساعة.',
+    'contact.hero.subtitle': 'يرد فريقنا بسرعة مع دعم الأسعار والتوفر والتوريد.',
     'contact.form.title':    'أرسل رسالة',
 
     /* Region gate */

@@ -134,6 +134,7 @@ html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   font-size: 16px;
+  overflow-x: clip;
 }
 
 body {
@@ -145,7 +146,16 @@ body {
   background-color: var(--surface-page);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+@supports not (overflow-x: clip) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
 }
 
 img, video {
@@ -222,6 +232,7 @@ p {
    4. LAYOUT UTILITIES
    -------------------------------------------------------------------------- */
 .container {
+  width: 100%;
   max-width: var(--container-max);
   margin-inline: auto;
   padding-inline: var(--container-padding);
