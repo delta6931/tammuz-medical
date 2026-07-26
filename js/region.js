@@ -4,7 +4,7 @@
  *
  * Gate behaviour:
  *   - Remember the visitor's first region choice and redirect root visits.
- *   - Redirection leads to /tr/ (Turkey/Turkish) or /ar/ (Iraq/Arabic).
+ *   - Redirection leads to /tr/ (Turkey/Turkish), /ar/ (Iraq/Arabic), or / (NA/English).
  */
 (function () {
   'use strict';
@@ -14,7 +14,7 @@
   const STORAGE_COUNT  = 'tmz_pick_count';
   const REMEMBER_AFTER = 1;
 
-  const REGION_LANG_MAP = { tr: 'tr', ar: 'ar' };
+  const REGION_LANG_MAP = { tr: 'tr', ar: 'ar', na: 'en' };
 
   // ── 1. Detect location ──────────────────────────────────────────────────
   const path  = window.location.pathname;
@@ -28,7 +28,7 @@
   const storedCount  = parseInt(localStorage.getItem(STORAGE_COUNT) || '0', 10);
 
   // ── 2. Root Redirect ────────────────────────────────────────────────────
-  if (inRoot && storedLang && storedCount >= REMEMBER_AFTER) {
+  if (inRoot && storedLang && storedLang !== 'en' && storedCount >= REMEMBER_AFTER) {
     const filename = path.split('/').pop() || 'index.html';
     if (filename.endsWith('.html') || filename === 'index.html') {
       window.location.replace('/' + storedLang + '/' + filename);
@@ -58,7 +58,12 @@
     localStorage.setItem(STORAGE_LANG, REGION_LANG_MAP[region]);
     localStorage.setItem(STORAGE_COUNT, String(REMEMBER_AFTER));
 
-    // Redirect to the correct language subfolder
+    // Redirect to the correct language location
+    if (region === 'na') {
+      window.location.href = '/';
+      return;
+    }
+
     const destFolder = region === 'tr' ? 'tr' : 'ar';
     window.location.href = '/' + destFolder + '/';
   }
@@ -66,7 +71,7 @@
   // Fallback for root pages switcher buttons (which use onclick="switchLang('...')")
   window.switchLang = function (lang) {
     const filename = path.split('/').pop() || 'index.html';
-    window.location.href = '/' + lang + '/' + filename;
+    window.location.href = lang === 'en' ? '/' + filename : '/' + lang + '/' + filename;
   };
 
   // ── 4. DOM Initialization ───────────────────────────────────────────────
@@ -74,8 +79,10 @@
     // Hook region buttons (only exist on root index.html)
     const btnTR = document.getElementById('region-btn-tr');
     const btnIQ = document.getElementById('region-btn-iq'); // Iraq button
+    const btnNA = document.getElementById('region-btn-na'); // Outside Turkey/Iraq button
     if (btnTR) btnTR.addEventListener('click', () => chooseRegion('tr'));
     if (btnIQ) btnIQ.addEventListener('click', () => chooseRegion('ar')); // Go to /ar/
+    if (btnNA) btnNA.addEventListener('click', () => chooseRegion('na')); // Stay on English root
 
     // Show gate on root unless remember threshold met
     if (inRoot && !(storedRegion && storedCount >= REMEMBER_AFTER)) {

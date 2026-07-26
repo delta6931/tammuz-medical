@@ -73,11 +73,13 @@ window.i18n = {
 
     /* Region gate */
     'gate.title':    'Select Your Region',
-    'gate.subtitle': 'We operate in two countries — choose yours for the best experience.',
+    'gate.subtitle': 'Choose your region for the best language and support experience.',
     'gate.tr':       'Turkey',
     'gate.iq':       'Iraq',
+    'gate.na':       'NA / Other',
     'gate.tr.sub':   'Türkiye operasyonları',
     'gate.iq.sub':   'العمليات في العراق',
+    'gate.na.sub':   'English website',
   },
 
   // ── TURKISH ───────────────────────────────────────────────────────────────
@@ -149,11 +151,13 @@ window.i18n = {
 
     /* Region gate */
     'gate.title':    'Bölgenizi Seçin',
-    'gate.subtitle': 'İki ülkede faaliyet gösteriyoruz — en iyi deneyim için kendinizinkini seçin.',
+    'gate.subtitle': 'En iyi dil ve destek deneyimi için bölgenizi seçin.',
     'gate.tr':       'Türkiye',
     'gate.iq':       'Irak',
+    'gate.na':       'NA / Diğer',
     'gate.tr.sub':   'Türkiye operasyonları',
     'gate.iq.sub':   'Irak operasyonları',
+    'gate.na.sub':   'İngilizce web sitesi',
   },
 
   // ── ARABIC ────────────────────────────────────────────────────────────────
@@ -225,11 +229,13 @@ window.i18n = {
 
     /* Region gate */
     'gate.title':    'اختر منطقتك',
-    'gate.subtitle': 'نعمل في بلدين — اختر بلدك للحصول على أفضل تجربة.',
+    'gate.subtitle': 'اختر منطقتك للحصول على أفضل تجربة لغة ودعم.',
     'gate.tr':       'تركيا',
     'gate.iq':       'العراق',
+    'gate.na':       'NA / أخرى',
     'gate.tr.sub':   'Türkiye operasyonları',
     'gate.iq.sub':   'العمليات في العراق',
+    'gate.na.sub':   'الموقع الإنجليزي',
   },
 
 };
