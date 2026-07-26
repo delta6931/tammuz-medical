@@ -123,28 +123,58 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   const slideshowWrappers = document.querySelectorAll('.slideshow-wrapper');
   if (!slideshowWrappers.length) return;
 
+  const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+
   slideshowWrappers.forEach(wrapper => {
     const slides = wrapper.querySelectorAll('.slideshow-slide');
     if (slides.length <= 1) return;
 
     let currentIndex = 0;
+    let timer = null;
 
-    setInterval(() => {
+    const showNextSlide = () => {
       const current = slides[currentIndex];
 
-      // Add exiting class to slide it out to the left
       current.classList.add('exiting');
 
-      // After animation, remove both classes and reset
       setTimeout(() => {
         current.classList.remove('active', 'exiting');
       }, 900);
 
-      // Advance index
       currentIndex = (currentIndex + 1) % slides.length;
-
-      // Bring next slide in from the right
       slides[currentIndex].classList.add('active');
-    }, 4500);
+    };
+
+    const stop = () => {
+      if (!timer) return;
+      clearInterval(timer);
+      timer = null;
+    };
+
+    const start = () => {
+      if (timer || reducedMotionQuery.matches) return;
+      timer = setInterval(showNextSlide, 4500);
+    };
+
+    wrapper.addEventListener('mouseenter', stop);
+    wrapper.addEventListener('mouseleave', start);
+    wrapper.addEventListener('focusin', stop);
+    wrapper.addEventListener('focusout', start);
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) stop();
+      else start();
+    });
+    const handleMotionPreferenceChange = event => {
+      if (event.matches) stop();
+      else start();
+    };
+
+    if (reducedMotionQuery.addEventListener) {
+      reducedMotionQuery.addEventListener('change', handleMotionPreferenceChange);
+    } else if (reducedMotionQuery.addListener) {
+      reducedMotionQuery.addListener(handleMotionPreferenceChange);
+    }
+
+    start();
   });
 })();

@@ -3,8 +3,7 @@
  * Handles: region gate redirections, localStorage preference storage.
  *
  * Gate behaviour:
- *   - Show the gate on EVERY visit to root, UNLESS the visitor has chosen
- *     the same region 5+ times in a row.
+ *   - Remember the visitor's first region choice and redirect root visits.
  *   - Redirection leads to /tr/ (Turkey/Turkish) or /ar/ (Iraq/Arabic).
  */
 (function () {
@@ -13,7 +12,7 @@
   const STORAGE_REGION = 'tmz_region';
   const STORAGE_LANG   = 'tmz_lang';
   const STORAGE_COUNT  = 'tmz_pick_count';
-  const REMEMBER_AFTER = 5;
+  const REMEMBER_AFTER = 1;
 
   const REGION_LANG_MAP = { tr: 'tr', ar: 'ar' };
 
@@ -55,19 +54,13 @@
   }
 
   function chooseRegion(region) {
-    const prevRegion = localStorage.getItem(STORAGE_REGION);
-    const prevCount  = parseInt(localStorage.getItem(STORAGE_COUNT) || '0', 10);
-    const newCount   = (prevRegion === region) ? prevCount + 1 : 1;
-
     localStorage.setItem(STORAGE_REGION, region);
     localStorage.setItem(STORAGE_LANG, REGION_LANG_MAP[region]);
-    localStorage.setItem(STORAGE_COUNT, String(newCount));
+    localStorage.setItem(STORAGE_COUNT, String(REMEMBER_AFTER));
 
-    hideGate();
-    
     // Redirect to the correct language subfolder
     const destFolder = region === 'tr' ? 'tr' : 'ar';
-    setTimeout(() => { window.location.href = '/' + destFolder + '/'; }, 320);
+    window.location.href = '/' + destFolder + '/';
   }
 
   // Fallback for root pages switcher buttons (which use onclick="switchLang('...')")

@@ -100,9 +100,10 @@ function buildVariantSelector(product) {
 /* ============================================================
    STANDARD & MERGED PRODUCT CARD
    ============================================================ */
-function createProductCard(product) {
+function createProductCard(product, options = {}) {
+  const compact = !!options.compact;
   const card = document.createElement('article');
-  card.className = 'product-card reveal';
+  card.className = `product-card${compact ? ' product-card--compact' : ''} reveal`;
   card.dataset.category = product.category;
 
   const categoryBg = getCategoryBg(product.category);
@@ -116,6 +117,14 @@ function createProductCard(product) {
   const variantHTML = product.type === 'merged' ? buildVariantSelector(product) : '';
   const priceHTML   = product.price_display
     ? `<span class="product-card__price">${product.price_display}</span>` : '';
+  const detailHTML = compact
+    ? priceHTML
+    : `
+      ${variantHTML}
+      <ul style="margin-top:var(--space-2);padding:0;list-style:none;">${specsHTML}</ul>
+      ${priceHTML}
+      <p class="product-card__unit">${product.unit || '1 Unit'}</p>
+    `;
 
   card.innerHTML = `
     <div class="product-card__image-wrap">
@@ -127,10 +136,7 @@ function createProductCard(product) {
     <div class="product-card__body">
       <h3 class="product-card__name">${product.name}</h3>
       <p class="product-card__desc">${product.description}</p>
-      ${variantHTML}
-      <ul style="margin-top:var(--space-2);padding:0;list-style:none;">${specsHTML}</ul>
-      ${priceHTML}
-      <p class="product-card__unit">${product.unit || '1 Unit'}</p>
+      ${detailHTML}
     </div>
     <div class="product-card__footer">
       <button
@@ -272,9 +278,9 @@ function createBundleCard(product) {
 /* ============================================================
    CARD FACTORY
    ============================================================ */
-function createCard(product) {
+function createCard(product, options = {}) {
   if (product.type === 'bundle') return createBundleCard(product);
-  return createProductCard(product);
+  return createProductCard(product, options);
 }
 
 /* ============================================================
@@ -472,7 +478,7 @@ async function initFeaturedProducts() {
       });
 
     sorted.slice(0, 6).forEach((product, index) => {
-      const card = createCard(product);
+      const card = createCard(product, { compact: true });
       card.classList.add(`reveal-delay-${Math.min(index + 1, 6)}`);
       container.appendChild(card);
     });
