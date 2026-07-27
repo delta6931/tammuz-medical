@@ -2,7 +2,7 @@ import os
 import re
 
 ROOT = r'C:\Users\garbarking\.gemini\antigravity\scratch\tammuz-dental'
-PAGES = ['index.html', 'catalog.html', 'contact.html', '404.html']
+PAGES = ['index.html', 'catalog.html', 'contact.html', '404.html', 'verified-manufacturers.html']
 
 LANGUAGES = {
     'en': {
