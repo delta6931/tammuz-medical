@@ -54,28 +54,23 @@
 }
 
 .hero__badge {
-  animation: heroFadeUp 0.7s ease both;
-  animation-delay: 0.2s;
+  animation: none;
 }
 
 .hero__headline {
-  animation: heroFadeUp 0.7s ease both;
-  animation-delay: 0.4s;
+  animation: none;
 }
 
 .hero__subheadline {
-  animation: heroFadeUp 0.7s ease both;
-  animation-delay: 0.55s;
+  animation: none;
 }
 
 .hero__actions {
-  animation: heroFadeUp 0.7s ease both;
-  animation-delay: 0.70s;
+  animation: none;
 }
 
 .hero__scroll-hint {
-  animation: heroFadeIn 1s ease both;
-  animation-delay: 1.2s;
+  animation: none;
 }
 
 /* --------------------------------------------------------------------------
