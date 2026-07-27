@@ -1922,6 +1922,177 @@ body.gate-open { overflow: hidden; }
 
 #filter-specialty:hover,
 #filter-specialty.active {
+  background: #082d49;
+  border-color: transparent;
+  color: white;
+}
+
+/* ============================================================
+   PERSISTENT FLOATING WHATSAPP WIDGET
+   ============================================================ */
+.whatsapp-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  color: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+  text-decoration: none;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+  animation: waPulse 3s ease-in-out infinite;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 14px 30px rgba(37, 211, 102, 0.55);
+  color: #ffffff;
+}
+
+.whatsapp-float__icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+@keyframes waPulse {
+  0%, 100% { box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4); }
+  50% { box-shadow: 0 12px 32px rgba(37, 211, 102, 0.7); }
+}
+
+@media (max-width: 576px) {
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+    padding: 12px;
+    border-radius: 50%;
+  }
+  .whatsapp-float__text {
+    display: none;
+  }
+}
+
+/* ============================================================
+   TRUST & QUALITY SHOWCASE
+   ============================================================ */
+.trust-showcase {
+  background: linear-gradient(180deg, var(--color-navy-950) 0%, var(--color-navy-900) 100%);
+  padding-block: var(--space-16);
+  border-top: 1px solid rgba(125, 211, 255, 0.12);
+  border-bottom: 1px solid rgba(125, 211, 255, 0.12);
+  color: #ffffff;
+}
+
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-6);
+  margin-top: var(--space-10);
+}
+
+.trust-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  text-align: center;
+  transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+}
+
+.trust-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(125, 211, 255, 0.3);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.trust-card__badge {
+  width: 54px;
+  height: 54px;
+  border-radius: var(--radius-lg);
+  background: rgba(125, 211, 255, 0.1);
+  color: var(--color-gold-400);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-4);
+}
+
+.trust-card__title {
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-bold);
+  color: #ffffff;
+  margin-bottom: var(--space-2);
+}
+
+.trust-card__desc {
+  font-size: var(--text-xs);
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ============================================================
+   CATALOG CATEGORY PILLS & MOQ BADGES
+   ============================================================ */
+.category-pills {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-8);
+}
+
+.category-pill {
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border);
+  background: var(--color-white);
+  color: var(--color-text-mid);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.category-pill:hover,
+.category-pill.active {
+  background: var(--color-navy-800);
+  border-color: var(--color-navy-800);
+  color: var(--color-white);
+}
+
+.moq-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.moq-badge--sample {
+  background: #e0f2fe;
+  color: #0369a1;
+  border: 1px solid #bae6fd;
+}
+
+.moq-badge--wholesale {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
   background: linear-gradient(135deg, #072d4a 0%, #154a6e 100%);
   transform: translateY(-1px);
 }

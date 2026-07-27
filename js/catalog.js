@@ -126,6 +126,10 @@ function createProductCard(product) {
     </div>
     <div class="product-card__body">
       <h3 class="product-card__name">${product.name}</h3>
+      <div class="moq-badges">
+        <span class="moq-badge moq-badge--sample">&#128077; Sample Available</span>
+        <span class="moq-badge moq-badge--wholesale">&#128230; Wholesale B2B</span>
+      </div>
       <p class="product-card__desc">${product.description}</p>
       ${variantHTML}
       <ul style="margin-top:var(--space-2);padding:0;list-style:none;">${specsHTML}</ul>
