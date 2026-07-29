@@ -1,6 +1,7 @@
 "use client";
 
-import { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useMemo, useState } from "react";
+import catalogItems from "../_data/asaCatalog.json";
 
 const WHATSAPP_URL = "https://wa.me/905338877740";
 const QUOTE_EMAIL = "info@tammuzmedical.com";
@@ -26,6 +27,23 @@ const products = [
   { category: "Ideal Periotomi", code: "0280-2R", title: "Root elevator #2 straight", image: "/assets/products/0280-2R.jpeg", alt: "ASA Dental straight root elevator, item 0280-2R" },
   { category: "Impression trays", code: "2800-L4", title: "Full arch lower impression tray #4, M", image: "/assets/products/2800-L4.jpeg", alt: "ASA Dental lower full arch impression tray, item 2800-L4" },
 ] as const;
+
+const categoryTiles = [
+  ["AsaOne disposables", "AsaOne", "/assets/categories/asaone.jpeg"],
+  ["Diagnostic", "Diagnostic", "/assets/categories/diagnostic.jpeg"],
+  ["Oral Surgery", "Oral surgery", "/assets/categories/oral-surgery.jpeg"],
+  ["Extractive Surgery", "Extractive surgery", "/assets/categories/extractive-surgery.jpeg"],
+  ["Implant Surgery", "Implant surgery", "/assets/categories/implant-surgery.jpeg"],
+  ["Restorative", "Restorative", "/assets/categories/restorative.jpeg"],
+  ["Periodontal", "Periodontal", "/assets/categories/periodontal.jpeg"],
+  ["Orthodontic", "Orthodontic", "/assets/categories/orthodontic.jpeg"],
+  ["Instrument cassettes and trays", "Cassettes & trays", "/assets/categories/cassettes.jpeg"],
+  ["Ideal Periotomi", "Ideal Periotomi", "/assets/categories/periotomi.jpeg"],
+  ["Impression Trays", "Impression trays", "/assets/categories/impression-trays.jpeg"],
+  ["Laboratory instruments", "Laboratory", "/assets/categories/laboratory.jpeg"],
+] as const;
+
+const productThumbnails: Record<string, string> = Object.fromEntries(products.map(product => [product.code, product.image]));
 
 /** Shared site shell with all live contact, navigation, and language controls. */
 export function SitePage({ page = "home" }: { page?: PageKind }) {
@@ -53,7 +71,7 @@ export function SitePage({ page = "home" }: { page?: PageKind }) {
     </header>
     <main>{page === "home" ? <Home country={country} /> : page === "catalog" ? <Catalog /> : page === "manufacturers" ? <Manufacturers /> : <Contact />}</main>
     <Footer />
-    <a className="wa" href={WHATSAPP_URL} target="_blank" rel="noreferrer" aria-label="Chat with Tammuz Global Medical on WhatsApp">WA <span>WhatsApp</span></a>
+    <a className="wa" href={WHATSAPP_URL} target="_blank" rel="noreferrer" aria-label="Chat with Tammuz Global Medical on WhatsApp"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt=""/> <span>WhatsApp</span></a>
   </>;
 }
 
@@ -89,7 +107,31 @@ function Quote() {
 }
 
 function PageHero({ eyebrow, title, text }: { eyebrow: string; title: string; text: string }) { return <section className="page-hero"><Eyebrow>{eyebrow}</Eyebrow><h1>{title}</h1><p>{text}</p></section>; }
-function Catalog() { return <><PageHero eyebrow="Browse the ASA Dental portfolio" title="A considered catalog for modern dental practices." text="Explore selected product families with real ASA Dental item references. Request availability and distributor pricing directly from our team."/><section className="section"><div className="filters"><b>All categories</b><span>Instruments</span><span>Restorative</span><span>Periodontal</span><span>Implantology</span><span>Consumables</span></div><Products /><div className="note"><p>Need another ASA Dental reference?</p><a className="button primary" href="#quote">Request a product list →</a></div></section><Quote/></>; }
+function Catalog() { return <><PageHero eyebrow="Browse the ASA Dental portfolio" title="Find the right instrument, faster." text="Search the complete ASA Dental product list by item code or product name, or start with a clinical category."/><CatalogBrowser /><Quote/></>; }
+
+/** Full product-browser interface. Pricing remains deliberately excluded from the public catalog. */
+function CatalogBrowser() {
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("All ASA Dental products");
+  const [page, setPage] = useState(1);
+  const pageSize = 24;
+  const filtered = useMemo(() => {
+    const needle = query.trim().toLowerCase();
+    return catalogItems.filter(item => (category === "All ASA Dental products" || item.category === category) && (!needle || item.code.toLowerCase().includes(needle) || item.name.toLowerCase().includes(needle)));
+  }, [category, query]);
+  const maxPage = Math.max(1, Math.ceil(filtered.length / pageSize));
+  const visible = filtered.slice((page - 1) * pageSize, page * pageSize);
+  function selectCategory(nextCategory: string) { setCategory(nextCategory); setPage(1); }
+  function updateSearch(value: string) { setQuery(value); setPage(1); }
+  return <section className="catalog-browser section">
+    <div className="catalog-search"><label htmlFor="product-search">Search ASA Dental catalog</label><input id="product-search" value={query} onChange={event => updateSearch(event.target.value)} placeholder="Search by item code or product name"/><span>{catalogItems.length.toLocaleString()} product references</span></div>
+    <div className="category-grid" aria-label="ASA Dental product categories">{categoryTiles.map(([key, label, image]) => <button key={key} className={category === key ? "category-card selected" : "category-card"} onClick={() => selectCategory(key)}><img src={image} alt={`${label} ASA Dental product category`}/><b>{label}</b></button>)}</div>
+    <div className="catalog-results-head"><div><p className="eyebrow"><span/> Catalog results</p><h2>{category === "All ASA Dental products" ? "All ASA Dental products" : category}</h2></div><button className="catalog-reset" onClick={() => { setQuery(""); selectCategory("All ASA Dental products"); }}>Reset filters</button></div>
+    <p className="catalog-count">Showing {visible.length} of {filtered.length.toLocaleString()} matching references. Prices are available on request.</p>
+    <div className="catalog-results">{visible.map(item => <article className="catalog-item" key={`${item.code}-${item.name}`}><div className="catalog-item-image">{productThumbnails[item.code] ? <img src={productThumbnails[item.code]} alt={`ASA Dental ${item.name}, item ${item.code}`}/> : <span>ASA<br/>DENTAL</span>}</div><div><small>{item.category}</small><b>{item.code}</b><h3>{item.name}</h3><a href="#quote">Request a quote →</a></div></article>)}</div>
+    <div className="catalog-pagination"><button disabled={page === 1} onClick={() => setPage(current => current - 1)}>← Previous</button><span>Page {page} of {maxPage}</span><button disabled={page === maxPage} onClick={() => setPage(current => current + 1)}>Next →</button></div>
+  </section>;
+}
 function Manufacturers() { return <><PageHero eyebrow="Verified manufacturing" title="Manufacturing partnerships you can stand behind." text="We select suppliers with the technical discipline, quality systems and service orientation our market expects."/><section className="section manufacturer"><div className="asa manufacturer-asset"><img src="/assets/brand/asa-dental.png" alt="ASA Dental Make People Smile logo"/></div><div><Eyebrow>Featured partner</Eyebrow><h2>ASA Dental</h2><p className="large">Italian manufacturer of professional dental instruments and solutions, established on a tradition of precision and practical innovation.</p><div className="details"><p><b>Origin</b>Italy</p><p><b>Focus</b>Dental instruments &amp; equipment</p><p><b>Assurance</b>ISO 13485 / CE compliance</p></div></div></section><section className="section values"><div><Eyebrow>Our sourcing promise</Eyebrow><h2>Every partnership is checked against the same standard.</h2></div><div><p><b>01</b>Product quality that holds up in daily clinical use.</p><p><b>02</b>Clear technical information and supporting documentation.</p><p><b>03</b>Reliable supply relationships—not transactional listings.</p></div></section><Quote/></>; }
 function Contact() { return <><PageHero eyebrow="Contact Tammuz Global Medical" title="A direct route to the right supply solution." text="Whether you need product guidance, distributor pricing or a formal quote, our team is ready to help."/><section className="contact"><div><Eyebrow>Get in touch</Eyebrow><h2>Talk to our sourcing team.</h2><a href="tel:+905338877740">+90 533 887 77 40</a><a href={`mailto:${QUOTE_EMAIL}`}>{QUOTE_EMAIL}</a><a href={WHATSAPP_URL} target="_blank" rel="noreferrer">WhatsApp quick-chat ↗</a><p>Serving clinics, distributors and procurement teams in Turkey and Iraq.</p><div className="coverage"><b>Turkey</b><b>Iraq</b><small>Regional supply coverage</small></div></div><Quote/></section></>; }
 
