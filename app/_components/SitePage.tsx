@@ -2,6 +2,7 @@
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import catalogItems from "../_data/asaCatalog.json";
+import productImages from "../_data/productImages.json";
 import { Locale, LOCALES, translations } from "../_data/translations";
 
 const WHATSAPP_URL = "https://wa.me/905338877740";
@@ -44,7 +45,14 @@ const categoryTiles = [
   ["Laboratory instruments", "cat.laboratory", "/assets/categories/laboratory.jpeg"],
 ] as const;
 
-const productThumbnails: Record<string, string> = Object.fromEntries(products.map(product => [product.code, product.image]));
+// Generated from the manufacturer-supplied catalog media by product code.
+const productThumbnails: Record<string, string> = productImages;
+const categoryThumbnails: Record<string, string> = {};
+for (const item of catalogItems) {
+  if (!categoryThumbnails[item.category] && productThumbnails[item.code]) {
+    categoryThumbnails[item.category] = productThumbnails[item.code];
+  }
+}
 
 /**
  * Main SitePage Shell with complete React i18n integration.
@@ -491,23 +499,28 @@ function CatalogBrowser({ t }: ComponentWithT) {
         })}
       </p>
       <div className="catalog-results">
-        {visible.map(item => (
-          <article className="catalog-item" key={`${item.code}-${item.name}`}>
-            <div className="catalog-item-image">
-              {productThumbnails[item.code] ? (
-                <img src={productThumbnails[item.code]} alt={`AsaDental ${item.name}, item ${item.code}`} />
-              ) : (
-                <img className="catalog-logo" src="/assets/brand/asa-dental.png" alt="AsaDental" />
-              )}
-            </div>
-            <div>
-              <small>{translatedCategory(item.category, t)}</small>
-              <b>{item.code}</b>
-              <h3>{item.name}</h3>
-              <a href="#quote">{t("catalog.item_quote")}</a>
-            </div>
-          </article>
-        ))}
+        {visible.map(item => {
+          const exactImage = productThumbnails[item.code];
+          const displayImage = exactImage || categoryThumbnails[item.category];
+          return (
+            <article className="catalog-item" key={`${item.code}-${item.name}`}>
+              <div className="catalog-item-image">
+                <img
+                  src={displayImage}
+                  alt={exactImage
+                    ? `AsaDental ${item.name}, item ${item.code}`
+                    : `AsaDental ${translatedCategory(item.category, t)} product range`}
+                />
+              </div>
+              <div>
+                <small>{translatedCategory(item.category, t)}</small>
+                <b>{item.code}</b>
+                <h3>{item.name}</h3>
+                <a href="#quote">{t("catalog.item_quote")}</a>
+              </div>
+            </article>
+          );
+        })}
       </div>
       <div className="catalog-pagination">
         <button disabled={page === 1} onClick={() => setPage(current => current - 1)}>
