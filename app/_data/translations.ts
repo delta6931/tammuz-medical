@@ -43,6 +43,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "a11y.switch_language": "Switch language to {language}",
     "a11y.whatsapp": "Chat with Tammuz Global Medical on WhatsApp",
     "a11y.category_image": "{category} AsaDental product category",
+    "a11y.showcase_video": "AsaDental manufacturing and product showcase",
 
     /* Hero Section */
     "hero.eyebrow": "European medical supply, locally delivered",
@@ -213,6 +214,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "a11y.switch_language": "Dili {language} olarak değiştir",
     "a11y.whatsapp": "Tammuz Global Medical ile WhatsApp üzerinden iletişime geç",
     "a11y.category_image": "{category} AsaDental ürün kategorisi",
+    "a11y.showcase_video": "AsaDental üretim ve ürün tanıtım videosu",
 
     /* Hero Section */
     "hero.eyebrow": "Avrupa medikal tedariki, yerel hizmet",
@@ -383,6 +385,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "a11y.switch_language": "تغيير اللغة إلى {language}",
     "a11y.whatsapp": "تواصل مع Tammuz Global Medical عبر واتساب",
     "a11y.category_image": "فئة منتجات AsaDental: {category}",
+    "a11y.showcase_video": "فيديو تعريفي بتصنيع ومنتجات AsaDental",
 
     /* Hero Section */
     "hero.eyebrow": "توريد طبي أوروبي بخدمة محلية",
@@ -551,6 +554,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "a11y.switch_language": "Ziman biguherîne bo {language}",
     "a11y.whatsapp": "Bi Tammuz Global Medical re li WhatsAppê biaxive",
     "a11y.category_image": "Kategoriya berhemên AsaDental: {category}",
+    "a11y.showcase_video": "Vîdyoya danasîna hilberîn û berhemên AsaDental",
     "hero.eyebrow": "Dabînkirina bijîjkî ya Ewropî bi xizmeta herêmî",
     "hero.h1": "Premium Dental Supplies for Turkish Clinics & Distributors",
     "hero.lede": "Tammuz Global Medical klînîk, belavker û tîmên kirînê li {country} bi hilberînerên Ewropî yên bijartî re girêdide.",

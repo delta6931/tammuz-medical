@@ -243,7 +243,17 @@ function Home({ country, t }: { country: string; t: ComponentWithT["t"] }) {
 
     <section className="story">
       <div className="italy italy-photo">
-        <img src="/assets/brand/asa-factory.png" alt="AsaDental manufacturing facility in Italy" />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster="/assets/brand/asa-factory.png"
+          aria-label={t("a11y.showcase_video")}
+        >
+          <source src="/assets/videos/asadental-showcase.mp4" type="video/mp4" />
+        </video>
       </div>
       <div className="story-copy">
         <img className="asa-story-logo" src="/assets/brand/asa-dental.png" alt="AsaDental logo" />
