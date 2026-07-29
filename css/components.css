@@ -2052,59 +2052,6 @@ body.gate-open { overflow: hidden; }
 }
 
 /* ============================================================
-   FLOATING WHATSAPP CONTACT
-   ============================================================ */
-.floating-whatsapp {
-  position: fixed;
-  right: max(var(--space-5), env(safe-area-inset-right));
-  bottom: max(var(--space-5), env(safe-area-inset-bottom));
-  z-index: 1200;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 58px;
-  height: 58px;
-  border-radius: var(--radius-full);
-  background: #25D366;
-  color: var(--color-white);
-  box-shadow: 0 14px 34px rgba(37, 211, 102, 0.35);
-  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
-}
-
-.floating-whatsapp:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 18px 42px rgba(37, 211, 102, 0.42);
-}
-
-.floating-whatsapp svg {
-  width: 30px;
-  height: 30px;
-}
-
-@media (max-width: 600px) {
-  .floating-whatsapp {
-    right: max(var(--space-4), env(safe-area-inset-right));
-    bottom: max(var(--space-4), env(safe-area-inset-bottom));
-    width: 54px;
-    height: 54px;
-  }
-}
-
-/* Specialty Kits filter button styling */
-#filter-specialty {
-  background: linear-gradient(135deg, #0a3d62 0%, #1e5f8c 100%);
-  color: white;
-  border-color: transparent;
-}
-
-#filter-specialty:hover,
-#filter-specialty.active {
-  background: #082d49;
-  border-color: transparent;
-  color: white;
-}
-
-/* ============================================================
    PERSISTENT FLOATING WHATSAPP WIDGET
    ============================================================ */
 .whatsapp-float {
@@ -2160,14 +2107,27 @@ body.gate-open { overflow: hidden; }
 }
 
 /* ============================================================
-   TRUST & QUALITY SHOWCASE
+   TRUST & QUALITY SHOWCASE (High Contrast Dark Background)
    ============================================================ */
 .trust-showcase {
-  background: linear-gradient(180deg, var(--color-navy-950) 0%, var(--color-navy-900) 100%);
+  background-color: #0b1a2c !important;
+  background-image: linear-gradient(180deg, #071320 0%, #0d223a 100%) !important;
   padding-block: var(--space-16);
-  border-top: 1px solid rgba(125, 211, 255, 0.12);
-  border-bottom: 1px solid rgba(125, 211, 255, 0.12);
-  color: #ffffff;
+  border-top: 1px solid rgba(125, 211, 255, 0.15);
+  border-bottom: 1px solid rgba(125, 211, 255, 0.15);
+  color: #ffffff !important;
+}
+
+.trust-showcase .section-title {
+  color: #ffffff !important;
+}
+
+.trust-showcase .section-eyebrow {
+  color: #5eead4 !important;
+}
+
+.trust-showcase .section-subtitle {
+  color: #94a3b8 !important;
 }
 
 .trust-grid {
@@ -2178,8 +2138,8 @@ body.gate-open { overflow: hidden; }
 }
 
 .trust-card {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
   border-radius: var(--radius-xl);
   padding: var(--space-6);
   text-align: center;
@@ -2188,16 +2148,16 @@ body.gate-open { overflow: hidden; }
 
 .trust-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(125, 211, 255, 0.3);
-  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(125, 211, 255, 0.4) !important;
+  background: rgba(255, 255, 255, 0.09) !important;
 }
 
 .trust-card__badge {
   width: 54px;
   height: 54px;
   border-radius: var(--radius-lg);
-  background: rgba(125, 211, 255, 0.1);
-  color: var(--color-gold-400);
+  background: rgba(125, 211, 255, 0.15);
+  color: #f59e0b;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2207,13 +2167,13 @@ body.gate-open { overflow: hidden; }
 .trust-card__title {
   font-size: var(--text-base);
   font-weight: var(--font-weight-bold);
-  color: #ffffff;
+  color: #ffffff !important;
   margin-bottom: var(--space-2);
 }
 
 .trust-card__desc {
   font-size: var(--text-xs);
-  color: rgba(255, 255, 255, 0.65);
+  color: #cbd5e1 !important;
   line-height: 1.5;
   margin: 0;
 }
