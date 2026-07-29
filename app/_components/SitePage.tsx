@@ -125,7 +125,6 @@ export function SitePage({ page = "home" }: { page?: PageKind }) {
   );
 
   return <>
-    <div className="announcement">{t("announcement")}</div>
     <header className="site-header">
       <a className="brand brand-logo" href="/index.html" aria-label={t("a11y.home")}>
         <img src="/assets/brand/tammuz-global-medical.png" alt="Tammuz Global Medical logo" />
@@ -228,10 +227,9 @@ function Home({ country, t }: { country: string; t: ComponentWithT["t"] }) {
         </div>
       </div>
       <div className="hero-art hero-showcase">
-        <img className="hero-showcase-image" src="/assets/hero-instrument-collage.png" alt="AsaDental Italian surgical and dental instrument collection" />
+        <img className="hero-showcase-image" src="/assets/hero-instrument-collage.png" alt="European dental and surgical instrument collection supplied by Tammuz Global Medical" />
         <div className="hero-showcase-mark">
-          {/* Requirement 9: AsaDental spelling */}
-          <img src="/assets/brand/asa-dental.png" alt="AsaDental logo" />
+          <img src="/assets/brand/tammuz-global-medical.png" alt="Tammuz Global Medical logo" />
           <span>{t("hero.showcase_title")}<br />{t("hero.showcase_sub")}</span>
         </div>
       </div>

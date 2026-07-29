@@ -29,7 +29,7 @@ export const LOCALES: Record<Locale, LocaleConfig> = {
 export const translations: Record<Locale, Record<string, string>> = {
   EN: {
     /* Announcement Bar */
-    announcement: "Official AsaDental supply partner for Turkey & Iraq",
+    announcement: "European medical supply for Turkey & Iraq",
 
     /* Navigation */
     "nav.home": "Home",
@@ -45,19 +45,19 @@ export const translations: Record<Locale, Record<string, string>> = {
     "a11y.category_image": "{category} AsaDental product category",
 
     /* Hero Section */
-    "hero.eyebrow": "Italian dental expertise, locally supplied",
+    "hero.eyebrow": "European medical supply, locally delivered",
     "hero.h1": "Premium Dental Supplies for Turkish Clinics & Distributors",
-    "hero.lede": "Tammuz Global Medical is a trusted B2B partner for clinics, distributors and procurement teams across {country}. Source quality-led AsaDental products with a clear, responsive supply process.",
+    "hero.lede": "Tammuz Global Medical connects clinics, distributors and procurement teams across {country} with carefully selected European dental and medical manufacturers, responsive product guidance and a dependable supply process.",
     "hero.chat_wa": "Chat on WhatsApp ↗",
     "hero.view_catalog": "View Full Catalog ↓",
     "hero.stat1_num": "2,959",
-    "hero.stat1_label": "AsaDental references available",
+    "hero.stat1_label": "Catalog references available",
     "hero.stat2_num": "2",
     "hero.stat2_label": "Regional operating markets",
     "hero.stat3_num": "1:1",
     "hero.stat3_label": "Dedicated account support",
-    "hero.showcase_title": "Professional instruments",
-    "hero.showcase_sub": "Made in Italy",
+    "hero.showcase_title": "European manufacturing",
+    "hero.showcase_sub": "Regional B2B supply",
 
     /* Trust Bar */
     "trust.title": "Built on verifiable standards",
@@ -67,17 +67,17 @@ export const translations: Record<Locale, Record<string, string>> = {
     "trust.psi": "Pre-Shipment<br/>Inspection",
 
     /* Featured Section */
-    "featured.eyebrow": "Selected from the AsaDental portfolio",
+    "featured.eyebrow": "Selected from our current portfolio",
     "featured.title": "Featured dental instruments",
     "featured.link": "Explore full catalog",
     "featured.quote_btn": "Request a quote →",
 
     /* Story / Manufacturing Partner Section */
-    "story.eyebrow": "Our manufacturing partner",
+    "story.eyebrow": "Featured manufacturing partner",
     "story.title": "Italian craft, built for everyday clinical precision.",
     "story.p1": "AsaDental combines technical expertise and Italian manufacturing tradition to create instruments that feel balanced in the hand and perform reliably in practice.",
-    "story.p2": "We bring its professional portfolio closer to buyers in Turkey and Iraq—with product guidance that makes confident selection straightforward.",
-    "story.link": "Meet AsaDental →",
+    "story.p2": "AsaDental is the first European manufacturer featured in our growing portfolio. We support buyers in Turkey and Iraq with clear product guidance and dependable regional supply.",
+    "story.link": "View verified manufacturers →",
 
     /* Sourcing Process Section */
     "sourcing.eyebrow": "The Tammuz approach",
@@ -199,7 +199,7 @@ export const translations: Record<Locale, Record<string, string>> = {
 
   TR: {
     /* Announcement Bar */
-    announcement: "Türkiye & Irak resmi AsaDental tedarik ortağı",
+    announcement: "Türkiye ve Irak için Avrupa menşeli medikal tedarik",
 
     /* Navigation */
     "nav.home": "Ana Sayfa",
@@ -215,19 +215,19 @@ export const translations: Record<Locale, Record<string, string>> = {
     "a11y.category_image": "{category} AsaDental ürün kategorisi",
 
     /* Hero Section */
-    "hero.eyebrow": "İtalyan dental uzmanlığı, yerel tedarik gücü",
+    "hero.eyebrow": "Avrupa medikal tedariki, yerel hizmet",
     "hero.h1": "Türkiye'deki Klinikler ve Distribütörler için Premium Dental Ürünler",
-    "hero.lede": "Tammuz Global Medical, {country} genelindeki klinikler, distribütörler ve satın alma ekipleri için güvenilir bir B2B ortağıdır. Kalite odaklı AsaDental ürünlerini net ve hızlı bir tedarik süreciyle temin edin.",
+    "hero.lede": "Tammuz Global Medical, {country} genelindeki klinikleri, distribütörleri ve satın alma ekiplerini özenle seçilmiş Avrupalı dental ve medikal üreticilerle buluşturur; hızlı ürün danışmanlığı ve güvenilir bir tedarik süreci sunar.",
     "hero.chat_wa": "WhatsApp'ta Görüşün ↗",
     "hero.view_catalog": "Tüm Kataloğu Görüntüle ↓",
     "hero.stat1_num": "2.959",
-    "hero.stat1_label": "Mevcut AsaDental ürün referansı",
+    "hero.stat1_label": "Mevcut katalog referansı",
     "hero.stat2_num": "2",
     "hero.stat2_label": "Bölgesel faaliyet pazarı",
     "hero.stat3_num": "1:1",
     "hero.stat3_label": "Özel müşteri desteği",
-    "hero.showcase_title": "Profesyonel El Aletleri",
-    "hero.showcase_sub": "İtalyan Üretimi",
+    "hero.showcase_title": "Avrupalı üreticiler",
+    "hero.showcase_sub": "Bölgesel B2B tedarik",
 
     /* Trust Bar */
     "trust.title": "Doğrulanabilir standartlar üzerine kurulu",
@@ -237,17 +237,17 @@ export const translations: Record<Locale, Record<string, string>> = {
     "trust.psi": "Sevkiyat Öncesi<br/>Muayene",
 
     /* Featured Section */
-    "featured.eyebrow": "AsaDental portföyünden seçilenler",
+    "featured.eyebrow": "Mevcut portföyümüzden seçilenler",
     "featured.title": "Öne çıkan dental el aletleri",
     "featured.link": "Tüm kataloğu keşfedin",
     "featured.quote_btn": "Teklif isteyin →",
 
     /* Story / Manufacturing Partner Section */
-    "story.eyebrow": "Üretim ortağımız",
+    "story.eyebrow": "Öne çıkan üretim ortağı",
     "story.title": "Klinik hassasiyet için tasarlanmış İtalyan işçiliği.",
     "story.p1": "AsaDental, elde mükemmel dengelenen ve pratikte güvenle çalışan aletler üretmek için teknik uzmanlığı İtalyan imalat geleneğiyle birleştirir.",
-    "story.p2": "Gelişmiş ürün rehberliği ile AsaDental'in profesyonel portföyünü Türkiye ve Irak'taki alıcılara ulaştırıyoruz.",
-    "story.link": "AsaDental ile Tanışın →",
+    "story.p2": "AsaDental, büyüyen portföyümüzde öne çıkardığımız ilk Avrupalı üreticidir. Türkiye ve Irak'taki alıcılara net ürün rehberliği ve güvenilir bölgesel tedarik sunuyoruz.",
+    "story.link": "Onaylı üreticileri görüntüleyin →",
 
     /* Sourcing Process Section */
     "sourcing.eyebrow": "Tammuz yaklaşımı",
@@ -369,7 +369,7 @@ export const translations: Record<Locale, Record<string, string>> = {
 
   AR: {
     /* Announcement Bar */
-    announcement: "شريك التوريد المعتمد لشركة AsaDental في العراق وتركيا",
+    announcement: "توريد طبي أوروبي لتركيا والعراق",
 
     /* Navigation */
     "nav.home": "الرئيسية",
@@ -385,19 +385,19 @@ export const translations: Record<Locale, Record<string, string>> = {
     "a11y.category_image": "فئة منتجات AsaDental: {category}",
 
     /* Hero Section */
-    "hero.eyebrow": "خبرة أسنان إيطالية، متوفرة محلياً",
+    "hero.eyebrow": "توريد طبي أوروبي بخدمة محلية",
     "hero.h1": "مستلزمات طب أسنان متميزة للعيادات والموزعين في تركيا",
-    "hero.lede": "Tammuz Global Medical هي الشريك الموثوق B2B للعيادات والموزعين وفرق الشراء في {country}. احصل على منتجات AsaDental عالية الجودة بخطوات توريد واضحة وسريعة.",
+    "hero.lede": "تربط Tammuz Global Medical العيادات والموزعين وفرق المشتريات في {country} بمصنّعين أوروبيين مختارين بعناية لمنتجات طب الأسنان والمستلزمات الطبية، مع إرشاد سريع للمنتجات وعملية توريد موثوقة.",
     "hero.chat_wa": "دردشة عبر واتساب ↗",
     "hero.view_catalog": "عرض الكتالوج بالكامل ↓",
     "hero.stat1_num": "2,959",
-    "hero.stat1_label": "منتج معتمد من AsaDental",
+    "hero.stat1_label": "مرجع متاح في الكتالوج",
     "hero.stat2_num": "2",
     "hero.stat2_label": "سوق إقليمي رئيسي",
     "hero.stat3_num": "1:1",
     "hero.stat3_label": "دعم مباشر مخصص",
-    "hero.showcase_title": "أدوات جراحية احترافية",
-    "hero.showcase_sub": "صنعت في إيطاليا",
+    "hero.showcase_title": "تصنيع أوروبي",
+    "hero.showcase_sub": "توريد إقليمي للشركات",
 
     /* Trust Bar */
     "trust.title": "مبنية على معايير موثوقة ومفحوصة",
@@ -407,17 +407,17 @@ export const translations: Record<Locale, Record<string, string>> = {
     "trust.psi": "فحص قبل الشحن<br/>معتمد",
 
     /* Featured Section */
-    "featured.eyebrow": "مجموعة مختارة من منتجات AsaDental",
+    "featured.eyebrow": "مختارات من مجموعتنا الحالية",
     "featured.title": "أدوات أسنان جراحية مميزة",
     "featured.link": "استكشف الكتالوج الكامل",
     "featured.quote_btn": "طلب عرض سعر →",
 
     /* Story / Manufacturing Partner Section */
-    "story.eyebrow": "شريكنا التصنيعي",
+    "story.eyebrow": "شريك تصنيع مميز",
     "story.title": "صناعة إيطالية دقيقة مصممة للاستخدام السريري اليومي.",
     "story.p1": "تجمع AsaDental بين الخبرة التقنية والتقاليد التصنيعية الإيطالية لإنتاج أدوات متوازنة في اليد وتعمل بموثوقية عالية في العيادات.",
-    "story.p2": "نقرب منتجاتها الاحترافية للمشترين في العراق وتركيا مع تقديم إرشادات تقنية تضمن اختياراً واثقاً.",
-    "story.link": "تعرف على AsaDental →",
+    "story.p2": "AsaDental هي أول شركة أوروبية مصنّعة نعرضها ضمن مجموعتنا المتنامية. ندعم المشترين في تركيا والعراق بإرشاد واضح للمنتجات وتوريد إقليمي موثوق.",
+    "story.link": "عرض الشركات المصنّعة المعتمدة →",
 
     /* Sourcing Process Section */
     "sourcing.eyebrow": "نهج Tammuz",
@@ -539,7 +539,7 @@ export const translations: Record<Locale, Record<string, string>> = {
 
   KU: {
     /* Kurdish dictionary structure ready for future enablement */
-    announcement: "Hevparê fermî ê AsaDental li Tirkiye u Iraqê",
+    announcement: "Dabînkirina bijîjkî ya Ewropî ji bo Tirkiye û Iraqê",
     "nav.home": "Mala hewşê",
     "nav.catalog": "Katalog",
     "nav.manufacturers": "Hilberîner",
@@ -551,33 +551,33 @@ export const translations: Record<Locale, Record<string, string>> = {
     "a11y.switch_language": "Ziman biguherîne bo {language}",
     "a11y.whatsapp": "Bi Tammuz Global Medical re li WhatsAppê biaxive",
     "a11y.category_image": "Kategoriya berhemên AsaDental: {category}",
-    "hero.eyebrow": "Mahrata îtalyanî ya diranan",
+    "hero.eyebrow": "Dabînkirina bijîjkî ya Ewropî bi xizmeta herêmî",
     "hero.h1": "Premium Dental Supplies for Turkish Clinics & Distributors",
-    "hero.lede": "Tammuz Global Medical hevparê ewle ê B2B ye ji bo klînîk u belavkeran di {country} de.",
+    "hero.lede": "Tammuz Global Medical klînîk, belavker û tîmên kirînê li {country} bi hilberînerên Ewropî yên bijartî re girêdide.",
     "hero.chat_wa": "Axaftina WhatsApp ↗",
     "hero.view_catalog": "Kataloga giştî bibîne ↓",
     "hero.stat1_num": "2,959",
-    "hero.stat1_label": "Berhemên AsaDental yên amade",
+    "hero.stat1_label": "Referansên katalogê yên amade",
     "hero.stat2_num": "2",
     "hero.stat2_label": "Bazarên herêmî",
     "hero.stat3_num": "1:1",
     "hero.stat3_label": "Pştgiriya rasterast",
-    "hero.showcase_title": "Amûrên profesyonel",
-    "hero.showcase_sub": "Çêkirina Îtalyayê",
+    "hero.showcase_title": "Hilberîna Ewropî",
+    "hero.showcase_sub": "Dabînkirina B2B ya herêmî",
     "trust.title": "Li ser standardên pejirandî hatî avakirin",
     "trust.iso": "ISO 13485<br/>Sertîfîka",
     "trust.ce": "CE Mark<br/>Pêkhatî",
     "trust.partner": "AsaDental<br/>Hevpar",
     "trust.psi": "Kontrol<br/>Beriya şandinê",
-    "featured.eyebrow": "Ji portföya AsaDental",
+    "featured.eyebrow": "Ji portföya me ya heyî",
     "featured.title": "Amûrên diranan yên berçav",
     "featured.link": "Katalogê bibîne",
     "featured.quote_btn": "Daxwaza bihayê →",
-    "story.eyebrow": "Hevparê me ê hilberînê",
+    "story.eyebrow": "Hevparê hilberînê yê berçav",
     "story.title": "Zanista îtalyanî ji bo klînîkê.",
     "story.p1": "AsaDental teknîk u kevneşopiya îtalyanî tîne holê.",
-    "story.p2": "Em portföya wê ya profesyonel nêzî alicaran dikin.",
-    "story.link": "AsaDental bibîne →",
+    "story.p2": "AsaDental yekem hilberînerê Ewropî ye ku di portföya me ya mezinbûyî de tê nîşandan.",
+    "story.link": "Hilberînerên pejirandî bibîne →",
     "sourcing.eyebrow": "Nêzîkatiya Tammuz",
     "sourcing.title": "Dabînkirin olana herî hêsan e.",
     "sourcing.lede": "Ji lîsteyê heta kontrolê em proseya dabînkirinê zelal dikin.",
