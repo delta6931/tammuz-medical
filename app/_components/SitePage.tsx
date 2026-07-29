@@ -411,24 +411,10 @@ function Quote({ t }: ComponentWithT) {
   );
 }
 
-function PageHero({ eyebrow, title, text }: { eyebrow: string; title: string; text: string }) {
-  return (
-    <section className="page-hero">
-      <Eyebrow>{eyebrow}</Eyebrow>
-      <h1>{title}</h1>
-      <p>{text}</p>
-    </section>
-  );
-}
-
 function Catalog({ t }: ComponentWithT) {
   return (
     <>
-      <PageHero
-        eyebrow={t("catalog.hero_eyebrow")}
-        title={t("catalog.hero_title")}
-        text={t("catalog.hero_text")}
-      />
+      <h1 className="sr-only">{t("catalog.hero_title")}</h1>
       <CatalogBrowser t={t} />
       <Quote t={t} />
     </>
@@ -543,11 +529,7 @@ function CatalogBrowser({ t }: ComponentWithT) {
 function Manufacturers({ t }: ComponentWithT) {
   return (
     <>
-      <PageHero
-        eyebrow={t("mfr.hero_eyebrow")}
-        title={t("mfr.hero_title")}
-        text={t("mfr.hero_text")}
-      />
+      <h1 className="sr-only">{t("mfr.hero_title")}</h1>
       <section className="section manufacturer">
         <div className="asa manufacturer-asset">
           <img src="/assets/brand/asa-dental.png" alt="AsaDental Make People Smile logo" />
@@ -582,11 +564,7 @@ function Manufacturers({ t }: ComponentWithT) {
 function Contact({ t }: ComponentWithT) {
   return (
     <>
-      <PageHero
-        eyebrow={t("contact.hero_eyebrow")}
-        title={t("contact.hero_title")}
-        text={t("contact.hero_text")}
-      />
+      <h1 className="sr-only">{t("contact.hero_title")}</h1>
       <section className="contact">
         <div>
           <Eyebrow>{t("contact.eyebrow")}</Eyebrow>
