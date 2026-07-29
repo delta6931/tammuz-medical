@@ -298,10 +298,6 @@ function Trust({ t }: ComponentWithT) {
       <div>
         <p><b>ISO</b><span dangerouslySetInnerHTML={{ __html: t("trust.iso") }} /></p>
         <p><b>CE</b><span dangerouslySetInnerHTML={{ __html: t("trust.ce") }} /></p>
-        <p className="trust-partner">
-          <img src="/assets/brand/asa-dental.png" alt="AsaDental logo" />
-          <span dangerouslySetInnerHTML={{ __html: t("trust.partner") }} />
-        </p>
         <p><b>✓</b><span dangerouslySetInnerHTML={{ __html: t("trust.psi") }} /></p>
       </div>
     </section>
