@@ -11,3 +11,89 @@
 
 /* Full-bleed surface and asset treatment: remove the framed page edges and JPEG white mats. */
 .site-header,.hero,.trust,.section,.story,.quote,.page-hero,.contact,footer{max-width:none;width:100%}.products img,.category-card img,.catalog-item-image img{background:transparent;mix-blend-mode:multiply}.products img{padding:16px}.category-card img{mix-blend-mode:multiply}.asa-story-logo{background:transparent;padding:0}.manufacturer-asset{background:transparent;box-shadow:none}.trust-partner img{width:68px;height:28px;object-fit:contain;mix-blend-mode:multiply}.trust-partner{gap:8px!important}.trust-partner span{font-size:10px;line-height:1.3}.hero-showcase{position:relative;min-height:590px;overflow:hidden;background:#0c2b38}.hero-showcase:before{display:none}.hero-showcase-image{width:100%;height:100%;min-height:590px;object-fit:cover;object-position:center}.hero-showcase-mark{position:absolute;left:32px;bottom:30px;display:flex;align-items:center;gap:15px;padding:12px 16px;background:rgba(239,243,238,.92);box-shadow:0 12px 28px rgba(4,26,35,.22)}.hero-showcase-mark img{width:118px;height:auto}.hero-showcase-mark span{padding-left:15px;border-left:1px solid rgba(12,43,56,.22);color:var(--navy);font-size:9px;font-weight:700;line-height:1.45;letter-spacing:.8px;text-transform:uppercase}.catalog-logo{width:75%!important;height:auto!important;mix-blend-mode:multiply}@media(max-width:650px){.hero-showcase,.hero-showcase-image{min-height:360px}.hero-showcase-mark{left:20px;right:20px;bottom:20px}.hero-showcase-mark img{width:100px}}
+
+/* RTL (Right-to-Left) layout support for Arabic locale */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .announcement {
+  text-align: center;
+}
+
+[dir="rtl"] .site-header {
+  flex-direction: row;
+}
+
+[dir="rtl"] .nav {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+[dir="rtl"] .tools {
+  border-left: 0;
+  border-right: 1px solid var(--line);
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+[dir="rtl"] .tools span {
+  border-left: 0;
+  border-right: 1px solid var(--line);
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+[dir="rtl"] .eyebrow span {
+  margin: 0 0 2px 8px;
+}
+
+[dir="rtl"] .trust h3 {
+  text-align: right;
+}
+
+[dir="rtl"] .trust p {
+  border-left: 0;
+  border-right: 1px solid #c8d2cb;
+}
+
+[dir="rtl"] .processes article:nth-child(odd) {
+  border-right: 0;
+  border-left: 1px solid var(--line);
+}
+
+[dir="rtl"] .hero-showcase-mark {
+  left: auto;
+  right: 32px;
+}
+
+[dir="rtl"] .hero-showcase-mark span {
+  padding-left: 0;
+  padding-right: 15px;
+  border-left: 0;
+  border-right: 1px solid rgba(12,43,56,.22);
+}
+
+[dir="rtl"] .wa {
+  right: auto;
+  left: 24px;
+}
+
+[dir="rtl"] .category-card {
+  text-align: right;
+}
+
+[dir="rtl"] .category-card img {
+  right: auto;
+  left: -8%;
+  object-position: left bottom;
+}
+
+[dir="rtl"] .details p {
+  padding: 15px 0 0 12px;
+}
+
+[dir="rtl"] .values b {
+  margin-right: 0;
+  margin-left: 25px;
+}
