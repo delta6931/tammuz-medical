@@ -1,14 +1,16 @@
 "use client";
 
+/* Exact .html routes and transparent catalog assets are intentional requirements. */
+/* eslint-disable @next/next/no-html-link-for-pages, @next/next/no-img-element, react-hooks/set-state-in-effect */
+
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import catalogItems from "../_data/asaCatalog.json";
 import productImages from "../_data/productImages.json";
 import { Locale, LOCALES, translations } from "../_data/translations";
 
 const WHATSAPP_URL = "https://wa.me/905338877740";
-const QUOTE_EMAIL = "info@tammuzmedical.com";
 
-type PageKind = "home" | "catalog" | "manufacturers" | "contact";
+type PageKind = "home" | "catalog" | "manufacturers" | "contact" | "not-found";
 
 const navigation = [
   ["nav.home", "/index.html", "home"],
@@ -178,6 +180,8 @@ export function SitePage({ page = "home" }: { page?: PageKind }) {
         <Catalog t={t} />
       ) : page === "manufacturers" ? (
         <Manufacturers t={t} />
+      ) : page === "not-found" ? (
+        <NotFound t={t} />
       ) : (
         <Contact t={t} />
       )}
@@ -190,7 +194,7 @@ export function SitePage({ page = "home" }: { page?: PageKind }) {
       rel="noreferrer"
       aria-label={t("a11y.whatsapp")}
     >
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="" />
+      <img src="/assets/brand/whatsapp.png" alt="" />
       <span>{t("wa.label")}</span>
     </a>
   </>;
@@ -347,27 +351,39 @@ function Heading({ eyebrow, title, link }: { eyebrow: string; title: string; lin
   );
 }
 
-/** Quote handling opens a pre-addressed email without exposing a third-party form provider. */
+/** Quote requests post to the server and are delivered without leaving the page. */
 function Quote({ t }: ComponentWithT) {
-  const [sent, setSent] = useState(false);
+  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [formStartedAt] = useState(() => Date.now());
 
-  function submit(event: FormEvent<HTMLFormElement>) {
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const values = new FormData(event.currentTarget);
-    const subject = `Quote request — ${values.get("company") || values.get("name")}`;
-    const body = [
-      "New quote request from tammuzmedical.com",
-      "",
-      `Name: ${values.get("name")}`,
-      `Company / clinic: ${values.get("company")}`,
-      `Email: ${values.get("email")}`,
-      `Country: ${values.get("country")}`,
-      "",
-      "Requirement:",
-      String(values.get("requirement")),
-    ].join("\n");
-    window.location.href = `mailto:${QUOTE_EMAIL}?${new URLSearchParams({ subject, body }).toString()}`;
-    setSent(true);
+    const form = event.currentTarget;
+    const values = new FormData(form);
+    setStatus("submitting");
+
+    try {
+      const response = await fetch("/api/quote", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: values.get("name"),
+          company: values.get("company"),
+          email: values.get("email"),
+          country: values.get("country"),
+          requirement: values.get("requirement"),
+          website: values.get("website"),
+          formStartedAt,
+          requestId: crypto.randomUUID(),
+        }),
+      });
+
+      if (!response.ok) throw new Error("Quote submission failed");
+      form.reset();
+      setStatus("success");
+    } catch {
+      setStatus("error");
+    }
   }
 
   return (
@@ -380,6 +396,10 @@ function Quote({ t }: ComponentWithT) {
         <a href={WHATSAPP_URL} target="_blank" rel="noreferrer">{t("quote.wa_link")}</a>
       </div>
       <form onSubmit={submit}>
+        <label className="form-honeypot" aria-hidden="true">
+          Website
+          <input name="website" tabIndex={-1} autoComplete="off" />
+        </label>
         <div className="form-row">
           <label>
             {t("quote.label_name")}
@@ -408,8 +428,13 @@ function Quote({ t }: ComponentWithT) {
           {t("quote.label_requirement")}
           <textarea required name="requirement" rows={4} placeholder={t("quote.placeholder_requirement")} />
         </label>
-        <button className="button primary">{t("quote.submit_btn")}</button>
-        {sent && <p className="success">{t("quote.success")}</p>}
+        <button className="button primary" disabled={status === "submitting"}>
+          {status === "submitting" ? t("quote.sending") : t("quote.submit_btn")}
+        </button>
+        <div className="form-status" aria-live="polite">
+          {status === "success" && <p className="success">{t("quote.delivered")}</p>}
+          {status === "error" && <p className="form-error">{t("quote.error")}</p>}
+        </div>
       </form>
     </section>
   );
@@ -591,6 +616,20 @@ function Contact({ t }: ComponentWithT) {
         <Quote t={t} />
       </section>
     </>
+  );
+}
+
+function NotFound({ t }: ComponentWithT) {
+  return (
+    <section className="not-found">
+      <Eyebrow>{t("notfound.eyebrow")}</Eyebrow>
+      <h1>{t("notfound.title")}</h1>
+      <p>{t("notfound.text")}</p>
+      <div className="buttons">
+        <a className="button primary" href="/index.html">{t("notfound.home")}</a>
+        <a className="button" href="/catalog.html">{t("notfound.catalog")}</a>
+      </div>
+    </section>
   );
 }
 

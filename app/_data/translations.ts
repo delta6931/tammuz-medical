@@ -196,6 +196,14 @@ export const translations: Record<Locale, Record<string, string>> = {
     "country.turkey": "Turkey",
     "country.iraq": "Iraq",
     "country.other": "Other",
+    "quote.sending": "Sending…",
+    "quote.delivered": "Thank you. Your quote request has been sent directly to our team.",
+    "quote.error": "We could not send your request. Please try again or contact us on WhatsApp.",
+    "notfound.eyebrow": "Page not found",
+    "notfound.title": "This page is not in our catalog.",
+    "notfound.text": "The link may be outdated or the address may have been entered incorrectly.",
+    "notfound.home": "Return home",
+    "notfound.catalog": "Browse catalog",
   },
 
   TR: {
@@ -367,6 +375,14 @@ export const translations: Record<Locale, Record<string, string>> = {
     "country.turkey": "Türkiye",
     "country.iraq": "Irak",
     "country.other": "Diğer",
+    "quote.sending": "Gönderiliyor…",
+    "quote.delivered": "Teşekkürler. Teklif talebiniz doğrudan ekibimize gönderildi.",
+    "quote.error": "Talebiniz gönderilemedi. Lütfen tekrar deneyin veya WhatsApp üzerinden bize ulaşın.",
+    "notfound.eyebrow": "Sayfa bulunamadı",
+    "notfound.title": "Bu sayfa kataloğumuzda yok.",
+    "notfound.text": "Bağlantı güncel olmayabilir veya adres yanlış yazılmış olabilir.",
+    "notfound.home": "Ana sayfaya dön",
+    "notfound.catalog": "Kataloğa göz at",
   },
 
   AR: {
@@ -538,6 +554,14 @@ export const translations: Record<Locale, Record<string, string>> = {
     "country.turkey": "تركيا",
     "country.iraq": "العراق",
     "country.other": "أخرى",
+    "quote.sending": "جارٍ الإرسال…",
+    "quote.delivered": "شكرًا لك. تم إرسال طلب عرض السعر مباشرةً إلى فريقنا.",
+    "quote.error": "تعذر إرسال طلبك. يرجى المحاولة مرة أخرى أو التواصل معنا عبر واتساب.",
+    "notfound.eyebrow": "الصفحة غير موجودة",
+    "notfound.title": "هذه الصفحة غير موجودة في كتالوجنا.",
+    "notfound.text": "قد يكون الرابط قديمًا أو ربما تمت كتابة العنوان بشكل غير صحيح.",
+    "notfound.home": "العودة إلى الصفحة الرئيسية",
+    "notfound.catalog": "تصفح الكتالوج",
   },
 
   KU: {
@@ -681,5 +705,13 @@ export const translations: Record<Locale, Record<string, string>> = {
     "country.turkey": "Tirkiye",
     "country.iraq": "Iraq",
     "country.other": "Yên din",
+    "quote.sending": "Tê şandin…",
+    "quote.delivered": "Spas. Daxwaza bihayê we rasterast ji tîma me re hat şandin.",
+    "quote.error": "Daxwaza we nehat şandin. Ji kerema xwe dîsa biceribînin an bi WhatsAppê têkilî daynin.",
+    "notfound.eyebrow": "Rûpel nehat dîtin",
+    "notfound.title": "Ev rûpel di kataloga me de tune ye.",
+    "notfound.text": "Dibe ku girêdan kevn be an navnîşan şaş hatibe nivîsandin.",
+    "notfound.home": "Vegere malê",
+    "notfound.catalog": "Katalogê bibîne",
   },
 };
