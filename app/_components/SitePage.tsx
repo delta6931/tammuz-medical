@@ -9,6 +9,7 @@ import productImages from "../_data/productImages.json";
 import { Locale, LOCALES, translations } from "../_data/translations";
 
 const WHATSAPP_URL = "https://wa.me/905338877740";
+const QUOTE_EMAIL = "info@tammuzmedical.com";
 
 type PageKind = "home" | "catalog" | "manufacturers" | "contact" | "not-found";
 

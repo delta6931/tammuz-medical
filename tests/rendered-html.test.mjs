@@ -47,6 +47,7 @@ test("server-renders every required public route with its canonical URL", async 
       route,
     );
     assert.match(html, /info@tammuzmedical\.com/);
+    assert.match(html, /mailto:info@tammuzmedical\.com/);
     assert.match(html, /\+90 533 887 77 40/);
     assert.match(html, /Demozi Kozmetik ve Makina Dış Ticaret Ltd\. Şti\./);
     assert.doesNotMatch(html, /upload\.wikimedia\.org/);
