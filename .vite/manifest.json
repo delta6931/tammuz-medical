@@ -1,0 +1,78 @@
+{
+  "_catalog-C5qiQtc8.js": {
+    "file": "assets/catalog-C5qiQtc8.js",
+    "name": "catalog"
+  },
+  "_framework-CXnKph_e.js": {
+    "file": "assets/framework-CXnKph_e.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js"
+    ]
+  },
+  "_rolldown-runtime-S-ySWqyJ.js": {
+    "file": "assets/rolldown-runtime-S-ySWqyJ.js",
+    "name": "rolldown-runtime"
+  },
+  "app/_components/Analytics.tsx": {
+    "file": "assets/Analytics-C3yH4hpP.js",
+    "name": "Analytics",
+    "src": "app/_components/Analytics.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/_components/ForcepsSelector.tsx": {
+    "file": "assets/ForcepsSelector-gD76smO8.js",
+    "name": "ForcepsSelector",
+    "src": "app/_components/ForcepsSelector.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_catalog-C5qiQtc8.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/_components/SitePage.tsx": {
+    "file": "assets/SitePage-VTqHzQ3X.js",
+    "name": "SitePage",
+    "src": "app/_components/SitePage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "app/_components/Analytics.tsx",
+      "_catalog-C5qiQtc8.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "assets/layout-segment-context-Dj8k_mp5.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "assets/index-DxAN0hKT.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-CXnKph_e.js"
+    ],
+    "dynamicImports": [
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "virtual:vinext-app-browser-entry",
+      "app/_components/Analytics.tsx",
+      "app/_components/SitePage.tsx",
+      "app/_components/ForcepsSelector.tsx"
+    ]
+  }
+}
