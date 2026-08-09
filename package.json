@@ -7,14 +7,17 @@
   },
   "scripts": {
     "dev": "vinext dev",
+    "prebuild": "node scripts/build-forceps-tool-data.mjs && node scripts/build-forceps-product-data.mjs && node scripts/generate-seo-files.mjs",
     "build": "vinext build",
-    "export:pages": "npm run build && node scripts/export-cloudflare-pages.mjs dist/pages",
+    "export:pages": "npm run build && node scripts/export-cloudflare-pages.mjs dist/pages && node scripts/audit-cloudflare-output.mjs dist/pages",
     "start": "vinext start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@fontsource-variable/noto-sans-arabic": "^5.3.0",
     "drizzle-orm": "0.45.2",
     "next": "16.2.6",
     "react": "19.2.6",

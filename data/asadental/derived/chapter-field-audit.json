@@ -1,0 +1,324 @@
+{
+  "method": "Full-text regex scan of all non-Extractive-Surgery 2025 chapter PDFs using the keyword families declared in scripts/build_asadental_forceps_sample.py. Counts are discovery signals, not per-SKU coverage, and require layout-aware extraction before publication.",
+  "chapters": [
+    {
+      "chapter": 1,
+      "chapterName": "AsaOne",
+      "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_1_-_AsaOne.pdf",
+      "pdfPages": 10,
+      "fieldSignals": {
+        "length": {
+          "termOccurrences": 52,
+          "pagesWithTerm": 5
+        },
+        "material": {
+          "termOccurrences": 8,
+          "pagesWithTerm": 6
+        },
+        "pattern": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        },
+        "sterilization": {
+          "termOccurrences": 5,
+          "pagesWithTerm": 3
+        },
+        "singleUse": {
+          "termOccurrences": 3,
+          "pagesWithTerm": 2
+        }
+      },
+      "scopeAssessment": "Dimensions are frequent; material and reprocessing facts are present for selected product families; disposable/single-use wording is limited."
+    },
+    {
+      "chapter": 2,
+      "chapterName": "Diagnostics",
+      "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_2_-_Diagnostics.pdf",
+      "pdfPages": 13,
+      "fieldSignals": {
+        "length": {
+          "termOccurrences": 57,
+          "pagesWithTerm": 5
+        },
+        "material": {
+          "termOccurrences": 14,
+          "pagesWithTerm": 3
+        },
+        "pattern": {
+          "termOccurrences": 1,
+          "pagesWithTerm": 1
+        },
+        "sterilization": {
+          "termOccurrences": 2,
+          "pagesWithTerm": 1
+        },
+        "singleUse": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        }
+      },
+      "scopeAssessment": "Dimensions are concentrated in product tables; material occurs for several instrument types; single-use wording was not found."
+    },
+    {
+      "chapter": 3,
+      "chapterName": "Oral Surgery",
+      "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_3_-_Oral_Surgery.pdf",
+      "pdfPages": 24,
+      "fieldSignals": {
+        "length": {
+          "termOccurrences": 249,
+          "pagesWithTerm": 21
+        },
+        "material": {
+          "termOccurrences": 9,
+          "pagesWithTerm": 3
+        },
+        "pattern": {
+          "termOccurrences": 2,
+          "pagesWithTerm": 1
+        },
+        "sterilization": {
+          "termOccurrences": 1,
+          "pagesWithTerm": 1
+        },
+        "singleUse": {
+          "termOccurrences": 2,
+          "pagesWithTerm": 1
+        }
+      },
+      "scopeAssessment": "Length is broadly available. Material, pattern, sterilization and disposable facts exist only in selected sections."
+    },
+    {
+      "chapter": 5,
+      "chapterName": "Implant Surgery",
+      "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_5_-_Implant_Surgery.pdf",
+      "pdfPages": 21,
+      "fieldSignals": {
+        "length": {
+          "termOccurrences": 216,
+          "pagesWithTerm": 19
+        },
+        "material": {
+          "termOccurrences": 17,
+          "pagesWithTerm": 3
+        },
+        "pattern": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        },
+        "sterilization": {
+          "termOccurrences": 6,
+          "pagesWithTerm": 3
+        },
+        "singleUse": {
+          "termOccurrences": 2,
+          "pagesWithTerm": 2
+        }
+      },
+      "scopeAssessment": "Length is broadly available; material and reusable/disposable facts are limited to specific product groups."
+    },
+    {
+      "chapter": 6,
+      "chapterName": "Restorative",
+      "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_6_-_Restorative.pdf",
+      "pdfPages": 27,
+      "fieldSignals": {
+        "length": {
+          "termOccurrences": 275,
+          "pagesWithTerm": 17
+        },
+        "material": {
+          "termOccurrences": 35,
+          "pagesWithTerm": 9
+        },
+        "pattern": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        },
+        "sterilization": {
+          "termOccurrences": 2,
+          "pagesWithTerm": 2
+        },
+        "singleUse": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        }
+      },
+      "scopeAssessment": "Length is common and material is partial; explicit sterilization wording is sparse; single-use wording was not found."
+    },
+    {
+      "chapter": 7,
+      "chapterName": "Endodontics",
+      "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_7_-_Endodontics.pdf",
+      "pdfPages": 10,
+      "fieldSignals": {
+        "length": {
+          "termOccurrences": 15,
+          "pagesWithTerm": 6
+        },
+        "material": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        },
+        "pattern": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        },
+        "sterilization": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        },
+        "singleUse": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        }
+      },
+      "scopeAssessment": "Some dimensions are available, but the five requested technical field families are otherwise absent from extracted text."
+    },
+    {
+      "chapter": 8,
+      "chapterName": "Periodontal",
+      "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_8_-_Periodontal.pdf",
+      "pdfPages": 19,
+      "fieldSignals": {
+        "length": {
+          "termOccurrences": 120,
+          "pagesWithTerm": 10
+        },
+        "material": {
+          "termOccurrences": 14,
+          "pagesWithTerm": 2
+        },
+        "pattern": {
+          "termOccurrences": 4,
+          "pagesWithTerm": 2
+        },
+        "sterilization": {
+          "termOccurrences": 2,
+          "pagesWithTerm": 2
+        },
+        "singleUse": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        }
+      },
+      "scopeAssessment": "Length is common; material, named pattern and sterilization facts are present only in selected sections."
+    },
+    {
+      "chapter": 9,
+      "chapterName": "Orthodontics",
+      "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_9_-_Orthodontics.pdf",
+      "pdfPages": 19,
+      "fieldSignals": {
+        "length": {
+          "termOccurrences": 111,
+          "pagesWithTerm": 15
+        },
+        "material": {
+          "termOccurrences": 14,
+          "pagesWithTerm": 7
+        },
+        "pattern": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        },
+        "sterilization": {
+          "termOccurrences": 1,
+          "pagesWithTerm": 1
+        },
+        "singleUse": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        }
+      },
+      "scopeAssessment": "Dimensions are broadly available and material is partial. The lone sterilization term is contextual and requires item-level review before use."
+    },
+    {
+      "chapter": 10,
+      "chapterName": "Instrument Cassettes and Trays",
+      "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_10_-_Instrument_Cassettes_and_Trays.pdf",
+      "pdfPages": 11,
+      "fieldSignals": {
+        "length": {
+          "termOccurrences": 14,
+          "pagesWithTerm": 5
+        },
+        "material": {
+          "termOccurrences": 55,
+          "pagesWithTerm": 11
+        },
+        "pattern": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        },
+        "sterilization": {
+          "termOccurrences": 16,
+          "pagesWithTerm": 4
+        },
+        "singleUse": {
+          "termOccurrences": 1,
+          "pagesWithTerm": 1
+        }
+      },
+      "scopeAssessment": "Material is available throughout this chapter; sterilization compatibility is available for several systems; dimensions are partial."
+    },
+    {
+      "chapter": 11,
+      "chapterName": "Impression Trays",
+      "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_11_-_Impression_Trays.pdf",
+      "pdfPages": 25,
+      "fieldSignals": {
+        "length": {
+          "termOccurrences": 3,
+          "pagesWithTerm": 3
+        },
+        "material": {
+          "termOccurrences": 57,
+          "pagesWithTerm": 25
+        },
+        "pattern": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        },
+        "sterilization": {
+          "termOccurrences": 2,
+          "pagesWithTerm": 1
+        },
+        "singleUse": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        }
+      },
+      "scopeAssessment": "Material is consistently present; explicit dimensions and sterilization wording are rare; single-use wording was not found."
+    },
+    {
+      "chapter": 12,
+      "chapterName": "Laboratory Instruments",
+      "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_12_-_Laboratory_Instruments.pdf",
+      "pdfPages": 18,
+      "fieldSignals": {
+        "length": {
+          "termOccurrences": 97,
+          "pagesWithTerm": 11
+        },
+        "material": {
+          "termOccurrences": 16,
+          "pagesWithTerm": 7
+        },
+        "pattern": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        },
+        "sterilization": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        },
+        "singleUse": {
+          "termOccurrences": 0,
+          "pagesWithTerm": 0
+        }
+      },
+      "scopeAssessment": "Length and material are available for subsets; sterilization and single-use wording were not found."
+    }
+  ]
+}

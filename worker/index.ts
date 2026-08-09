@@ -25,8 +25,12 @@ type QuoteRequest = {
   name: string;
   company: string;
   email: string;
+  phone: string;
   country: string;
+  preferredContact: string;
   requirement: string;
+  products: Array<{ code: string; name: string; quantity: number }>;
+  consent: boolean;
   website?: string;
   requestId?: string;
 };
@@ -92,8 +96,16 @@ async function handleQuoteRequest(request: Request, env: Env): Promise<Response>
     name: clean(submitted.name, 120),
     company: clean(submitted.company, 160),
     email: clean(submitted.email, 254).toLowerCase(),
+    phone: clean(submitted.phone, 80),
     country: clean(submitted.country, 80),
+    preferredContact: clean(submitted.preferredContact, 30),
     requirement: clean(submitted.requirement, 5_000),
+    products: Array.isArray(submitted.products) ? submitted.products.slice(0, 100).map(product => ({
+      code: clean(product?.code, 80),
+      name: clean(product?.name, 300),
+      quantity: Math.max(1, Math.min(9_999, Number(product?.quantity) || 1)),
+    })).filter(product => product.code && product.name) : [],
+    consent: submitted.consent === true,
     requestId: clean(submitted.requestId, 80),
   };
 
@@ -102,7 +114,8 @@ async function handleQuoteRequest(request: Request, env: Env): Promise<Response>
     !quote.company ||
     !EMAIL_PATTERN.test(quote.email) ||
     !quote.country ||
-    !quote.requirement
+    !quote.requirement ||
+    !quote.consent
   ) {
     return json({ ok: false, error: "Please complete every required field" }, 400);
   }
@@ -119,7 +132,12 @@ async function handleQuoteRequest(request: Request, env: Env): Promise<Response>
     `Name: ${quote.name}`,
     `Company / clinic: ${quote.company}`,
     `Email: ${quote.email}`,
+    `Phone / WhatsApp: ${quote.phone || "Not provided"}`,
+    `Preferred contact: ${quote.preferredContact || "Email"}`,
     `Country: ${quote.country}`,
+    "",
+    "Selected products:",
+    ...(quote.products.length ? quote.products.map(product => `${product.quantity} × ${product.code} — ${product.name}`) : ["None selected in the catalog"]),
     "",
     "Requirement:",
     quote.requirement,
@@ -129,7 +147,11 @@ async function handleQuoteRequest(request: Request, env: Env): Promise<Response>
     <p><strong>Name:</strong> ${escapeHtml(quote.name)}</p>
     <p><strong>Company / clinic:</strong> ${escapeHtml(quote.company)}</p>
     <p><strong>Email:</strong> ${escapeHtml(quote.email)}</p>
+    <p><strong>Phone / WhatsApp:</strong> ${escapeHtml(quote.phone || "Not provided")}</p>
+    <p><strong>Preferred contact:</strong> ${escapeHtml(quote.preferredContact || "Email")}</p>
     <p><strong>Country:</strong> ${escapeHtml(quote.country)}</p>
+    <h2>Selected products</h2>
+    <ul>${(quote.products.length ? quote.products : [{ code: "—", name: "None selected in the catalog", quantity: 1 }]).map(product => `<li>${product.quantity} × <strong>${escapeHtml(product.code)}</strong> — ${escapeHtml(product.name)}</li>`).join("")}</ul>
     <h2>Requirement</h2>
     <p>${escapeHtml(quote.requirement).replace(/\n/g, "<br/>")}</p>
   `;

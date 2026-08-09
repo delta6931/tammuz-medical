@@ -1,0 +1,3254 @@
+{
+  "generatedFrom": "data/asadental/derived/forceps-enriched.json",
+  "recordCount": 186,
+  "contractVersion": 1,
+  "records": [
+    {
+      "sku": "0100-1",
+      "name": "Extracting forcep with non slip jaws # 1",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": 173
+    },
+    {
+      "sku": "0100-2",
+      "name": "Extracting forcep non slip jaws # 2",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-3",
+      "name": "Extracting forcep non slip jaws # 3",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": 172
+    },
+    {
+      "sku": "0100-4",
+      "name": "Extracting forcep non slip jaws # 4",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-7",
+      "name": "Extracting forcep non slip jaws # 7",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-8",
+      "name": "Extracting forcep non slip jaws # 8",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-13",
+      "name": "Extracting forcep non slip jaws # 13",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-17",
+      "name": "Extracting forcep non slip jaws # 17",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-18",
+      "name": "Extracting forcep non slip jaws # 18",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-18A",
+      "name": "Extracting forcep non slip jaws # 18A",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-19",
+      "name": "Extracting forcep non slip jaws # 19",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-20",
+      "name": "Extracting forcep non slip jaws # 20",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-21",
+      "name": "Extracting forcep non slip jaws # 21",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": 161
+    },
+    {
+      "sku": "0100-22",
+      "name": "Extracting forcep non slip jaws # 22",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": 150
+    },
+    {
+      "sku": "0100-22L",
+      "name": "Extracting forcep # 22L Routurier",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars",
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-22R",
+      "name": "Extracting forcep # 22R Routurier",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars",
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-23",
+      "name": "Extracting forcep non slip jaws # 23",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-24",
+      "name": "Extracting forcep non slip jaws # 24",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-29",
+      "name": "Extracting forcep non slip jaws # 29",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": 173
+    },
+    {
+      "sku": "0100-29N",
+      "name": "Extracting forcep non slip jaws # 29N",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-30",
+      "name": "Extracting forcep non slip jaws # 30",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-31",
+      "name": "Extracting forcep non slip jaws # 31",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-33",
+      "name": "Extracting forcep non slip jaws # 33",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": 152
+    },
+    {
+      "sku": "0100-33A",
+      "name": "Extracting forcep non slip jaws # 33A",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": 152
+    },
+    {
+      "sku": "0100-33L",
+      "name": "Extracting forcep non slip jaws # 33L",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-38A",
+      "name": "Extracting forcep non slip jaws # 38A",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-41",
+      "name": "Extracting forcep non slip jaws # 41",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-43A",
+      "name": "Extracting forcep non slip jaws # 43A",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-44",
+      "name": "Extracting forcep non slip jaws # 44",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-45",
+      "name": "Extracting forcep non slip jaws # 45",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-46",
+      "name": "Extracting forcep non slip jaws # 46",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-46L",
+      "name": "Extracting forcep non slip jaws # 46L",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-48",
+      "name": "Extracting forcep non slip jaws # 48",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-49",
+      "name": "Extracting forcep non slip jaws # 49",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-51",
+      "name": "Extracting forcep non slip jaws # 51",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-51A",
+      "name": "Extracting forcep non slip jaws # 51A",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-51L",
+      "name": "Extracting forcep non slip jaws # 51L",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-51LX",
+      "name": "Extracting forcep non slip jaws # 51Lx",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-52",
+      "name": "Extracting forcep non slip jaws # 52",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-54",
+      "name": "Extracting forcep non slip jaws # 54",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-55",
+      "name": "Extracting forcep non slip jaws # 55",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-56",
+      "name": "Extracting forcep non slip jaws # 56",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-59",
+      "name": "Extracting forcep non slip jaws # 59",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-59L",
+      "name": "Extracting forcep non slip jaws # 59L",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-60",
+      "name": "Extracting forcep non slip jaws # 60",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-65L",
+      "name": "Extracting forcep non slip jaws # 65L",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": 169
+    },
+    {
+      "sku": "0100-65R",
+      "name": "Extracting forcep non slip jaws # 65R",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": 169
+    },
+    {
+      "sku": "0100-66L",
+      "name": "Extracting forcep non slip jaws # 66L",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-66R",
+      "name": "Extracting forcep non slip jaws # 66R",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-67",
+      "name": "Extracting forcep non slip jaws # 67",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-67/L",
+      "name": "Extracting forcep non slip jaws #67-1/2L",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-67/R",
+      "name": "Extracting forcep non slip jaws #67-1/2R",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-67A",
+      "name": "Extracting forcep non slip jaws # 67A",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-68",
+      "name": "Extracting forcep non slip jaws # 68",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-73",
+      "name": "Extracting forcep non slip jaws # 73",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-74",
+      "name": "Extracting forcep non slip jaws # 74",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-74M",
+      "name": "Extracting forcep non slip jaws # 74M",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower",
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": null,
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-74N",
+      "name": "Extracting forcep non slip jaws # 74N",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-75",
+      "name": "Extracting forcep non slip jaws # 75",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-79",
+      "name": "Extracting forcep non slip jaws # 79",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-79A",
+      "name": "Extracting forcep non slip jaws # 79A",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-79C",
+      "name": "Extracting forcep non slip jaws # 79C",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-86/L",
+      "name": "Extracting forcep non slip jaws #86-1/2L",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": 175
+    },
+    {
+      "sku": "0100-86/R",
+      "name": "Extracting forcep non slip jaws #86-1/2R",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": 175
+    },
+    {
+      "sku": "0100-86C",
+      "name": "Extracting forcep non slip jaws # 86C",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-86W",
+      "name": "Extracting forcep non slip jaws # 86W",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-87",
+      "name": "Extracting forcep non slip jaws # 87",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-89",
+      "name": "Extracting forcep non slip jaws # 89",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-90",
+      "name": "Extracting forcep non slip jaws # 90",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-99",
+      "name": "Extracting forcep non slip jaws # 99",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-107",
+      "name": "Extracting forcep non slip jaws # 107",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": 166
+    },
+    {
+      "sku": "0100-121",
+      "name": "Extracting forcep non slip jaws # 121",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": 180
+    },
+    {
+      "sku": "0100-145",
+      "name": "Extracting forcep non slip jaws # 145",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-151/",
+      "name": "Extracting forcep non slip jaws #151 1/2",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": 195
+    },
+    {
+      "sku": "0100-166",
+      "name": "Extracting forcep non slip jaws # 166",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars",
+        "premolars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": null,
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": 171
+    },
+    {
+      "sku": "0100-167",
+      "name": "Extracting forcep non slip jaws # 167",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars",
+        "premolars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": null,
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": 158
+    },
+    {
+      "sku": "0100-168",
+      "name": "Extracting forcep non slip jaws # 168",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-169",
+      "name": "Extracting forcep non slip jaws # 169",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": null,
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": 158
+    },
+    {
+      "sku": "0100-346",
+      "name": "Extracting forcep non slip jaws # 346",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": 183
+    },
+    {
+      "sku": "0100-349",
+      "name": "Extracting forcep non slip jaws # 349",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": null,
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0100-359",
+      "name": "Extracting forcep non slip jaws # 359",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": null,
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0101-1",
+      "name": "Root splinter forcep Witzel",
+      "subcategory": "extracting_forceps_roots",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0101-2",
+      "name": "Root splinter forcep Witzel",
+      "subcategory": "extracting_forceps_roots",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0102-1",
+      "name": "Root splinter forcep Stieglitz",
+      "subcategory": "root_and_splinter_forceps",
+      "arches": [],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": null,
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0102-2",
+      "name": "Root splinter forcep Stieglitz",
+      "subcategory": "root_and_splinter_forceps",
+      "arches": [
+        "lower",
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": null,
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0104-1",
+      "name": "Extracting forcep nn slip jaws # 1 Mead",
+      "subcategory": "extracting_forceps_mead_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0104-2",
+      "name": "Extracting forcep nn slip jaws # 2 Mead",
+      "subcategory": "extracting_forceps_mead_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0104-3",
+      "name": "Extracting forcep nn slip jaws # 3 Mead",
+      "subcategory": "extracting_forceps_mead_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0104-4",
+      "name": "Extracting forcep nn slip jaws # 4 Mead",
+      "subcategory": "extracting_forceps_mead_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0110-13S",
+      "name": "Extracting forcep for children # 13S",
+      "subcategory": "extracting_forceps_children",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0110-22S",
+      "name": "Extracting forcep for children # 22S",
+      "subcategory": "extracting_forceps_children",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0110-30S",
+      "name": "Extracting forcep for children # 30S",
+      "subcategory": "extracting_forceps_children",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0110-33S",
+      "name": "Extracting forcep for children # 33S",
+      "subcategory": "extracting_forceps_children",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0110-37",
+      "name": "Extracting forcep for children # 37",
+      "subcategory": "extracting_forceps_children",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0110-38",
+      "name": "Extracting forcep for children # 38",
+      "subcategory": "extracting_forceps_children",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0110-39",
+      "name": "Extracting forcep for children # 39",
+      "subcategory": "extracting_forceps_children",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0110-39L",
+      "name": "Extracting forcep for children # 39L",
+      "subcategory": "extracting_forceps_children",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0110-39R",
+      "name": "Extracting forcep for children # 39R",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0110-51S",
+      "name": "Extracting forcep for children # 51S",
+      "subcategory": "extracting_forceps_children",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0112-1",
+      "name": "Extracting forcep for children # 1 Klein",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0112-2",
+      "name": "Extracting forcep for children # 2 Klein",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0112-3",
+      "name": "Extracting forcep for children # 3 Klein",
+      "subcategory": "extracting_forceps_standard",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": 128
+    },
+    {
+      "sku": "0112-4",
+      "name": "Extracting forcep for children # 4 Klein",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0112-5",
+      "name": "Extracting forcep for children # 5 Klein",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0112-6",
+      "name": "Extracting forcep for children # 6 Klein",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0112-7",
+      "name": "Extracting forcep for children # 7 Klein",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": true,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-5",
+      "name": "Extracting forcep American pattern # 5",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-6",
+      "name": "Extracting forcep American pattern # 6",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-10S",
+      "name": "Extracting forcep American pattern # 10S",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-16",
+      "name": "Extracting forcep American pattern # 16",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-17",
+      "name": "Extracting forcep American pattern # 17",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-18L",
+      "name": "Extracting forcep American # 18L",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-18R",
+      "name": "Extracting forcep American # 18R",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-23",
+      "name": "Extracting forcep American pattern # 23",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-53L",
+      "name": "Extracting forcep American pattern # 53L",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-53R",
+      "name": "Extracting forcep American pattern # 53R",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-65",
+      "name": "Extracting forcep American pattern # 65",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-69",
+      "name": "Extracting forcep American pattern # 69",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "lower",
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": null,
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-88L",
+      "name": "Extracting forcep American pattern # 88L",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-88R",
+      "name": "Extracting forcep American pattern # 88R",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-101",
+      "name": "Extracting forcep American pattern # 101",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "children": true,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-150",
+      "name": "Extracting forcep American pattern # 150",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-150S",
+      "name": "Extracting forcep American pattern #150S",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "children": true,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-151",
+      "name": "Extracting forcep American pattern # 151",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-151S",
+      "name": "Extracting forcep American # 151S",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "children": true,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0120-222",
+      "name": "Extracting forcep American pattern # 222",
+      "subcategory": "extracting_forceps_american_pattern",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-1",
+      "name": "Extracting forcep anatomic handle # 1",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-2",
+      "name": "Extracting forcep anatomic handle # 2",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-4",
+      "name": "Extracting forcep anatomic handle # 4",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-7",
+      "name": "Extracting forcep anatomic handle # 7",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-13",
+      "name": "Extracting forcep anatomic handle # 13",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-17",
+      "name": "Extracting forcep anatomic handle # 17",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-18",
+      "name": "Extracting forcep anatomic handle # 18",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-21",
+      "name": "Extracting forcep anatomic handle # 21",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-22",
+      "name": "Extracting forcep anatomic handle # 22",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-33",
+      "name": "Extracting forcep anatomic handle # 33",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-45",
+      "name": "Extracting forcep anatomic handle # 45",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-51A",
+      "name": "Extracting forcep anatomic handle # 51A",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-67A",
+      "name": "Extracting forcep anatomic handle # 67A",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-74",
+      "name": "Extracting forcep anatomic handle # 74",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-79",
+      "name": "Extracting forcep anatomic handle # 79",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-86C",
+      "name": "Extracting forcep anatomic handle # 86C",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-89",
+      "name": "Extracting forcep anatomic handle # 89",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-90",
+      "name": "Extracting forcep anatomic handle # 90",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-145",
+      "name": "Extracting forcep anatomic handle # 145",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-151/",
+      "name": "Extracting F. anatomic handle # 151 1/2",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-349",
+      "name": "Extracting forcep anatomic handle # 349",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "0130-359",
+      "name": "Extracting forcep anatomic handle # 359",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "standard",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-5",
+      "name": "AsaLady extracting forcep # 5 PHYSICK",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-6",
+      "name": "AsaLady extracting forcep # 6",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-10S",
+      "name": "AsaLady extracting forcep # 10S",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-16",
+      "name": "AsaLady extracting forcep # 16",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-17",
+      "name": "AsaLady extracting forcep # 17",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-18L",
+      "name": "AsaLady extracting forcep # 18L HARRIS",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-18R",
+      "name": "AsaLady extracting forcep # 18R HARRIS",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-23",
+      "name": "AsaLady extracting forcep # 23",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-53L",
+      "name": "AsaLady extracting forcep # 53L",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-53R",
+      "name": "AsaLady extracting forcep # 53R",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-65",
+      "name": "AsaLady extracting forcep # 65",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-69",
+      "name": "AsaLady extracting forcep # 69 TOMES",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "lower",
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": null,
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-88L",
+      "name": "AsaLady extracting forcep # 88L NEVIUS",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-88R",
+      "name": "AsaLady extracting forcep # 88R NEVIUS",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-101",
+      "name": "AsaLady extracting forcep # 101 HULL",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "children": true,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-150",
+      "name": "AsaLady extracting forcep # 150 CRYER",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-150S",
+      "name": "AsaLady extracting forcep # 150S CRYER",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "children": true,
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-151",
+      "name": "AsaLady extracting forcep # 151 CRYER",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars",
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-151S",
+      "name": "AsaLady extracting forcep # 151S CRYER",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "children": true,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0121-222",
+      "name": "AsaLady extracting forcep # 222",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-1",
+      "name": "AsaLady extracting forcep - # 1",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-2",
+      "name": "AsaLady extracting forcep # 2",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-4",
+      "name": "AsaLady extracting forcep # 4",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-7",
+      "name": "AsaLady extracting forcep # 7",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-13",
+      "name": "AsaLady extracting forcep # 13",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-17",
+      "name": "AsaLady extracting forcep # 17",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-18",
+      "name": "AsaLady extracting forcep # 18",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-21",
+      "name": "AsaLady extracting forcep # 21",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-22",
+      "name": "AsaLady extracting forcep # 22",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-33",
+      "name": "AsaLady extracting forcep # 33",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-45",
+      "name": "AsaLady extracting forcep # 45",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-51A",
+      "name": "AsaLady extracting forcep # 51A",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-67A",
+      "name": "AsaLady extracting forcep # 67A",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-74",
+      "name": "AsaLady extracting forcep # 74",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-79",
+      "name": "AsaLady extracting forcep # 79",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": null,
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-86C",
+      "name": "AsaLady extracting forcep # 86C",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": null,
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-145",
+      "name": "AsaLady extracting forcep # 145",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": null,
+      "beaksAtRest": "closed",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    },
+    {
+      "sku": "W0160-151/",
+      "name": "AsaLady extracting forcep # 151 1/2",
+      "subcategory": "extracting_forceps_asalady",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "children": false,
+      "serration": null,
+      "beaksAtRest": "open",
+      "handleVariant": "asalady",
+      "lengthMm": null
+    }
+  ]
+}

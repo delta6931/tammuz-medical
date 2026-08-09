@@ -1,0 +1,5 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Manufacturer-confirmed overall-length corrections. Keep this file small and evidence-backed; the incremental applicator updates only matching records.",
+  "overrides": {}
+}

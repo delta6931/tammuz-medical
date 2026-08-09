@@ -1,0 +1,1555 @@
+{
+  "sampleCount": 20,
+  "recordsWithMismatch": 13,
+  "totalMismatches": 14,
+  "mismatchesByField": {
+    "clinical.toothGroups": 1,
+    "design.tipSerration": 1,
+    "dimensions.overallLengthMm.value": 12
+  },
+  "lengthResolutionSummary": {
+    "exactMatches": 2,
+    "withinNominalRounding": 6,
+    "unresolvedMarkedUnknown": 12
+  },
+  "authorityDecision": "Catalogue geometry establishes the correct nominal code/length association. Where the official precise length agrees within 2.5 mm, the official value is stored. Larger conflicts are unknown; neither source is published.",
+  "copyWeightingPolicy": "Future copy must lead with anatomical application, side, patient group, resolved length and named pattern. Near-constant material and reprocessing facts are specifications, not description themes.",
+  "geometryAudit": {
+    "matrixCodeCount": 186,
+    "xAlignedDetailCodeCount": 186,
+    "matrixAndDetailCodeSetsMatch": true,
+    "sampleAlignmentSummary": {
+      "maximumXCenterDelta": 0.006317,
+      "minimumVerticalGap": 0.863953,
+      "maximumVerticalGap": 0.864014,
+      "visuallyCheckedPdfPages": [
+        3,
+        4,
+        5,
+        7,
+        9,
+        11,
+        16,
+        20
+      ],
+      "visualCheckResult": "All 20 rendered captions agree with the coordinate-derived code/length pairs."
+    },
+    "sampleGeometry": {
+      "0100-1": {
+        "pdfPage": 3,
+        "catalogueNominalLengthMm": 175.0,
+        "codeBBox": [
+          149.642,
+          753.561,
+          179.182,
+          764.199
+        ],
+        "lengthBBox": [
+          149.219,
+          742.059,
+          179.603,
+          752.697
+        ],
+        "codeXCenter": 164.412,
+        "lengthXCenter": 164.411,
+        "xCenterDelta": 0.001343,
+        "verticalGap": 0.863953
+      },
+      "0100-2": {
+        "pdfPage": 3,
+        "catalogueNominalLengthMm": 170.0,
+        "codeBBox": [
+          464.093,
+          332.091,
+          495.433,
+          342.729
+        ],
+        "lengthBBox": [
+          468.251,
+          320.589,
+          491.282,
+          331.227
+        ],
+        "codeXCenter": 479.763,
+        "lengthXCenter": 479.766,
+        "xCenterDelta": 0.003143,
+        "verticalGap": 0.864014
+      },
+      "0100-4": {
+        "pdfPage": 3,
+        "catalogueNominalLengthMm": 155.0,
+        "codeBBox": [
+          463.769,
+          538.569,
+          495.744,
+          549.207
+        ],
+        "lengthBBox": [
+          463.769,
+          527.067,
+          495.755,
+          537.705
+        ],
+        "codeXCenter": 479.756,
+        "lengthXCenter": 479.762,
+        "xCenterDelta": 0.005417,
+        "verticalGap": 0.864014
+      },
+      "0100-8": {
+        "pdfPage": 3,
+        "catalogueNominalLengthMm": 160.0,
+        "codeBBox": [
+          463.976,
+          753.588,
+          495.535,
+          764.226
+        ],
+        "lengthBBox": [
+          467.9,
+          742.086,
+          491.624,
+          752.724
+        ],
+        "codeXCenter": 479.755,
+        "lengthXCenter": 479.762,
+        "xCenterDelta": 0.006317,
+        "verticalGap": 0.863953
+      },
+      "0100-17": {
+        "pdfPage": 3,
+        "catalogueNominalLengthMm": 160.0,
+        "codeBBox": [
+          1072.052,
+          332.145,
+          1106.382,
+          342.783
+        ],
+        "lengthBBox": [
+          1077.353,
+          320.643,
+          1101.077,
+          331.281
+        ],
+        "codeXCenter": 1089.217,
+        "lengthXCenter": 1089.215,
+        "xCenterDelta": 0.002197,
+        "verticalGap": 0.864014
+      },
+      "0100-18": {
+        "pdfPage": 3,
+        "catalogueNominalLengthMm": 165.0,
+        "codeBBox": [
+          945.503,
+          538.596,
+          980.638,
+          549.234
+        ],
+        "lengthBBox": [
+          947.132,
+          527.094,
+          979.019,
+          537.732
+        ],
+        "codeXCenter": 963.07,
+        "lengthXCenter": 963.075,
+        "xCenterDelta": 0.004974,
+        "verticalGap": 0.864014
+      },
+      "0100-20": {
+        "pdfPage": 3,
+        "catalogueNominalLengthMm": 160.0,
+        "codeBBox": [
+          944.45,
+          753.633,
+          981.691,
+          764.271
+        ],
+        "lengthBBox": [
+          951.208,
+          742.131,
+          974.932,
+          752.769
+        ],
+        "codeXCenter": 963.07,
+        "lengthXCenter": 963.07,
+        "xCenterDelta": 0.000397,
+        "verticalGap": 0.863953
+      },
+      "0100-22L": {
+        "pdfPage": 4,
+        "catalogueNominalLengthMm": 175.0,
+        "codeBBox": [
+          437.566,
+          722.196,
+          479.935,
+          732.834
+        ],
+        "lengthBBox": [
+          443.56,
+          710.694,
+          473.944,
+          721.332
+        ],
+        "codeXCenter": 458.751,
+        "lengthXCenter": 458.752,
+        "xCenterDelta": 0.001312,
+        "verticalGap": 0.864014
+      },
+      "0100-22R": {
+        "pdfPage": 4,
+        "catalogueNominalLengthMm": 175.0,
+        "codeBBox": [
+          709.852,
+          722.178,
+          753.796,
+          732.816
+        ],
+        "lengthBBox": [
+          716.629,
+          710.676,
+          747.013,
+          721.314
+        ],
+        "codeXCenter": 731.824,
+        "lengthXCenter": 731.821,
+        "xCenterDelta": 0.003143,
+        "verticalGap": 0.864014
+      },
+      "0100-29": {
+        "pdfPage": 4,
+        "catalogueNominalLengthMm": 175.0,
+        "codeBBox": [
+          1049.714,
+          514.44,
+          1086.685,
+          525.078
+        ],
+        "lengthBBox": [
+          1053.008,
+          502.938,
+          1083.392,
+          513.576
+        ],
+        "codeXCenter": 1068.2,
+        "lengthXCenter": 1068.2,
+        "xCenterDelta": 0.000366,
+        "verticalGap": 0.864014
+      },
+      "0100-43A": {
+        "pdfPage": 5,
+        "catalogueNominalLengthMm": 165.0,
+        "codeBBox": [
+          731.231,
+          753.3,
+          774.484,
+          763.938
+        ],
+        "lengthBBox": [
+          736.91,
+          741.798,
+          768.797,
+          752.436
+        ],
+        "codeXCenter": 752.857,
+        "lengthXCenter": 752.854,
+        "xCenterDelta": 0.003571,
+        "verticalGap": 0.864014
+      },
+      "0100-65L": {
+        "pdfPage": 7,
+        "catalogueNominalLengthMm": 170.0,
+        "codeBBox": [
+          269.194,
+          476.424,
+          311.928,
+          487.062
+        ],
+        "lengthBBox": [
+          279.049,
+          464.922,
+          302.08,
+          475.56
+        ],
+        "codeXCenter": 290.561,
+        "lengthXCenter": 290.564,
+        "xCenterDelta": 0.003601,
+        "verticalGap": 0.864014
+      },
+      "0100-65R": {
+        "pdfPage": 7,
+        "catalogueNominalLengthMm": 170.0,
+        "codeBBox": [
+          268.402,
+          685.08,
+          312.711,
+          695.718
+        ],
+        "lengthBBox": [
+          279.04,
+          673.578,
+          302.071,
+          684.216
+        ],
+        "codeXCenter": 290.556,
+        "lengthXCenter": 290.555,
+        "xCenterDelta": 0.0009,
+        "verticalGap": 0.864014
+      },
+      "0100-86/L": {
+        "pdfPage": 9,
+        "catalogueNominalLengthMm": 175.0,
+        "codeBBox": [
+          99.015,
+          698.059,
+          145.705,
+          708.697
+        ],
+        "lengthBBox": [
+          107.169,
+          686.557,
+          137.553,
+          697.195
+        ],
+        "codeXCenter": 122.36,
+        "lengthXCenter": 122.361,
+        "xCenterDelta": 0.000896,
+        "verticalGap": 0.863953
+      },
+      "0100-86/R": {
+        "pdfPage": 9,
+        "catalogueNominalLengthMm": 175.0,
+        "codeBBox": [
+          266.339,
+          698.059,
+          314.604,
+          708.697
+        ],
+        "lengthBBox": [
+          275.276,
+          686.557,
+          305.66,
+          697.195
+        ],
+        "codeXCenter": 290.471,
+        "lengthXCenter": 290.468,
+        "xCenterDelta": 0.003571,
+        "verticalGap": 0.863953
+      },
+      "0100-166": {
+        "pdfPage": 9,
+        "catalogueNominalLengthMm": 170.0,
+        "codeBBox": [
+          1047.782,
+          697.519,
+          1088.643,
+          708.157
+        ],
+        "lengthBBox": [
+          1056.692,
+          686.017,
+          1079.723,
+          696.655
+        ],
+        "codeXCenter": 1068.212,
+        "lengthXCenter": 1068.207,
+        "xCenterDelta": 0.004883,
+        "verticalGap": 0.863953
+      },
+      "W0160-1": {
+        "pdfPage": 11,
+        "catalogueNominalLengthMm": 160.0,
+        "codeBBox": [
+          755.3,
+          754.038,
+          792.427,
+          764.676
+        ],
+        "lengthBBox": [
+          761.996,
+          742.536,
+          785.72,
+          753.174
+        ],
+        "codeXCenter": 773.864,
+        "lengthXCenter": 773.858,
+        "xCenterDelta": 0.005402,
+        "verticalGap": 0.864014
+      },
+      "W0121-18L": {
+        "pdfPage": 16,
+        "catalogueNominalLengthMm": 160.0,
+        "codeBBox": [
+          141.351,
+          683.029,
+          187.469,
+          693.667
+        ],
+        "lengthBBox": [
+          152.547,
+          671.527,
+          176.271,
+          682.165
+        ],
+        "codeXCenter": 164.41,
+        "lengthXCenter": 164.409,
+        "xCenterDelta": 0.0009,
+        "verticalGap": 0.864014
+      },
+      "0110-39R": {
+        "pdfPage": 20,
+        "catalogueNominalLengthMm": 160.0,
+        "codeBBox": [
+          459.017,
+          535.59,
+          500.543,
+          546.228
+        ],
+        "lengthBBox": [
+          467.918,
+          524.088,
+          491.642,
+          534.726
+        ],
+        "codeXCenter": 479.78,
+        "lengthXCenter": 479.78,
+        "xCenterDelta": 0.000443,
+        "verticalGap": 0.864014
+      },
+      "0112-3": {
+        "pdfPage": 20,
+        "catalogueNominalLengthMm": 130.0,
+        "codeBBox": [
+          1075.088,
+          308.005,
+          1103.338,
+          318.643
+        ],
+        "lengthBBox": [
+          1077.509,
+          296.503,
+          1100.918,
+          307.141
+        ],
+        "codeXCenter": 1089.213,
+        "lengthXCenter": 1089.214,
+        "xCenterDelta": 0.000916,
+        "verticalGap": 0.864014
+      }
+    },
+    "serrationHeadingAudit": {
+      "forcepsCodeCount": 186,
+      "samePageSingleHeadingCount": 178,
+      "intraPageMultiSubheadingCount": 8,
+      "intraPageMultiSubheadingCodes": [
+        "0100-167",
+        "0100-169",
+        "0100-349",
+        "0100-359",
+        "W0160-145",
+        "W0160-151/",
+        "W0160-79",
+        "W0160-86C"
+      ],
+      "inheritsAcrossPhysicalPageOrColumnBreakCount": 0,
+      "resolvedSamePageAssignments": {
+        "serrated": 130,
+        "nonSerrated": 48
+      }
+    }
+  },
+  "records": [
+    {
+      "sku": "0100-1",
+      "officialUrl": "https://www.asadental.com/en/products/0100-1/",
+      "status": "matched_with_unavailable_fields",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 175.0,
+        "officialPreciseLengthMm": 173.0,
+        "officialTolerancePlusMinusMm": 3.0,
+        "absoluteDifferenceMm": 2.0,
+        "agreementToleranceMm": 2.5,
+        "status": "within_nominal_rounding_use_official_precise_value",
+        "resolvedValueMm": 173.0,
+        "geometry": {
+          "pdfPage": 3,
+          "catalogueNominalLengthMm": 175.0,
+          "codeBBox": [
+            149.642,
+            753.561,
+            179.182,
+            764.199
+          ],
+          "lengthBBox": [
+            149.219,
+            742.059,
+            179.603,
+            752.697
+          ],
+          "codeXCenter": 164.412,
+          "lengthXCenter": 164.411,
+          "xCenterDelta": 0.001343,
+          "verticalGap": 0.863953
+        }
+      },
+      "mismatches": [],
+      "resolvedDifferences": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "catalogueNominalValue": 175.0,
+          "officialPreciseValue": 173.0,
+          "differenceMm": 2.0,
+          "decision": "use_official_precise_value_within_nominal_rounding_tolerance"
+        }
+      ],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-2",
+      "officialUrl": "https://www.asadental.com/en/products/0100-2/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 170.0,
+        "officialPreciseLengthMm": 176.0,
+        "officialTolerancePlusMinusMm": null,
+        "absoluteDifferenceMm": 6.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 3,
+          "catalogueNominalLengthMm": 170.0,
+          "codeBBox": [
+            464.093,
+            332.091,
+            495.433,
+            342.729
+          ],
+          "lengthBBox": [
+            468.251,
+            320.589,
+            491.282,
+            331.227
+          ],
+          "codeXCenter": 479.763,
+          "lengthXCenter": 479.766,
+          "xCenterDelta": 0.003143,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 170.0,
+          "secondaryValue": 176.0,
+          "differenceMm": 6.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-4",
+      "officialUrl": "https://www.asadental.com/en/products/0100-4/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 155.0,
+        "officialPreciseLengthMm": 140.0,
+        "officialTolerancePlusMinusMm": 2.0,
+        "absoluteDifferenceMm": 15.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 3,
+          "catalogueNominalLengthMm": 155.0,
+          "codeBBox": [
+            463.769,
+            538.569,
+            495.744,
+            549.207
+          ],
+          "lengthBBox": [
+            463.769,
+            527.067,
+            495.755,
+            537.705
+          ],
+          "codeXCenter": 479.756,
+          "lengthXCenter": 479.762,
+          "xCenterDelta": 0.005417,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 155.0,
+          "secondaryValue": 140.0,
+          "differenceMm": 15.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-8",
+      "officialUrl": "https://www.asadental.com/en/products/0100-8/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 160.0,
+        "officialPreciseLengthMm": 165.0,
+        "officialTolerancePlusMinusMm": 3.0,
+        "absoluteDifferenceMm": 5.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 3,
+          "catalogueNominalLengthMm": 160.0,
+          "codeBBox": [
+            463.976,
+            753.588,
+            495.535,
+            764.226
+          ],
+          "lengthBBox": [
+            467.9,
+            742.086,
+            491.624,
+            752.724
+          ],
+          "codeXCenter": 479.755,
+          "lengthXCenter": 479.762,
+          "xCenterDelta": 0.006317,
+          "verticalGap": 0.863953
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 160.0,
+          "secondaryValue": 165.0,
+          "differenceMm": 5.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-17",
+      "officialUrl": "https://www.asadental.com/en/products/0100-17/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 160.0,
+        "officialPreciseLengthMm": 172.0,
+        "officialTolerancePlusMinusMm": 3.0,
+        "absoluteDifferenceMm": 12.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 3,
+          "catalogueNominalLengthMm": 160.0,
+          "codeBBox": [
+            1072.052,
+            332.145,
+            1106.382,
+            342.783
+          ],
+          "lengthBBox": [
+            1077.353,
+            320.643,
+            1101.077,
+            331.281
+          ],
+          "codeXCenter": 1089.217,
+          "lengthXCenter": 1089.215,
+          "xCenterDelta": 0.002197,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 160.0,
+          "secondaryValue": 172.0,
+          "differenceMm": 12.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest",
+        "clinical.sides"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-18",
+      "officialUrl": "https://www.asadental.com/en/products/0100-18/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 165.0,
+        "officialPreciseLengthMm": 172.0,
+        "officialTolerancePlusMinusMm": 3.0,
+        "absoluteDifferenceMm": 7.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 3,
+          "catalogueNominalLengthMm": 165.0,
+          "codeBBox": [
+            945.503,
+            538.596,
+            980.638,
+            549.234
+          ],
+          "lengthBBox": [
+            947.132,
+            527.094,
+            979.019,
+            537.732
+          ],
+          "codeXCenter": 963.07,
+          "lengthXCenter": 963.075,
+          "xCenterDelta": 0.004974,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 165.0,
+          "secondaryValue": 172.0,
+          "differenceMm": 7.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest",
+        "clinical.sides"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-20",
+      "officialUrl": "https://www.asadental.com/en/products/0100-20/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 160.0,
+        "officialPreciseLengthMm": 140.0,
+        "officialTolerancePlusMinusMm": 2.0,
+        "absoluteDifferenceMm": 20.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 3,
+          "catalogueNominalLengthMm": 160.0,
+          "codeBBox": [
+            944.45,
+            753.633,
+            981.691,
+            764.271
+          ],
+          "lengthBBox": [
+            951.208,
+            742.131,
+            974.932,
+            752.769
+          ],
+          "codeXCenter": 963.07,
+          "lengthXCenter": 963.07,
+          "xCenterDelta": 0.000397,
+          "verticalGap": 0.863953
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 160.0,
+          "secondaryValue": 140.0,
+          "differenceMm": 20.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-22L",
+      "officialUrl": "https://www.asadental.com/en/products/0100-22l/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 175.0,
+        "officialPreciseLengthMm": 180.0,
+        "officialTolerancePlusMinusMm": null,
+        "absoluteDifferenceMm": 5.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 4,
+          "catalogueNominalLengthMm": 175.0,
+          "codeBBox": [
+            437.566,
+            722.196,
+            479.935,
+            732.834
+          ],
+          "lengthBBox": [
+            443.56,
+            710.694,
+            473.944,
+            721.332
+          ],
+          "codeXCenter": 458.751,
+          "lengthXCenter": 458.752,
+          "xCenterDelta": 0.001312,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 175.0,
+          "secondaryValue": 180.0,
+          "differenceMm": 5.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-22R",
+      "officialUrl": "https://www.asadental.com/en/products/0100-22r/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 175.0,
+        "officialPreciseLengthMm": 180.0,
+        "officialTolerancePlusMinusMm": null,
+        "absoluteDifferenceMm": 5.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 4,
+          "catalogueNominalLengthMm": 175.0,
+          "codeBBox": [
+            709.852,
+            722.178,
+            753.796,
+            732.816
+          ],
+          "lengthBBox": [
+            716.629,
+            710.676,
+            747.013,
+            721.314
+          ],
+          "codeXCenter": 731.824,
+          "lengthXCenter": 731.821,
+          "xCenterDelta": 0.003143,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 175.0,
+          "secondaryValue": 180.0,
+          "differenceMm": 5.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-29",
+      "officialUrl": "https://www.asadental.com/en/products/0100-29/",
+      "status": "matched_with_unavailable_fields",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 175.0,
+        "officialPreciseLengthMm": 173.0,
+        "officialTolerancePlusMinusMm": null,
+        "absoluteDifferenceMm": 2.0,
+        "agreementToleranceMm": 2.5,
+        "status": "within_nominal_rounding_use_official_precise_value",
+        "resolvedValueMm": 173.0,
+        "geometry": {
+          "pdfPage": 4,
+          "catalogueNominalLengthMm": 175.0,
+          "codeBBox": [
+            1049.714,
+            514.44,
+            1086.685,
+            525.078
+          ],
+          "lengthBBox": [
+            1053.008,
+            502.938,
+            1083.392,
+            513.576
+          ],
+          "codeXCenter": 1068.2,
+          "lengthXCenter": 1068.2,
+          "xCenterDelta": 0.000366,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [],
+      "resolvedDifferences": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "catalogueNominalValue": 175.0,
+          "officialPreciseValue": 173.0,
+          "differenceMm": 2.0,
+          "decision": "use_official_precise_value_within_nominal_rounding_tolerance"
+        }
+      ],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-43A",
+      "officialUrl": "https://www.asadental.com/en/products/0100-43a/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 165.0,
+        "officialPreciseLengthMm": 172.0,
+        "officialTolerancePlusMinusMm": 3.0,
+        "absoluteDifferenceMm": 7.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 5,
+          "catalogueNominalLengthMm": 165.0,
+          "codeBBox": [
+            731.231,
+            753.3,
+            774.484,
+            763.938
+          ],
+          "lengthBBox": [
+            736.91,
+            741.798,
+            768.797,
+            752.436
+          ],
+          "codeXCenter": 752.857,
+          "lengthXCenter": 752.854,
+          "xCenterDelta": 0.003571,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 165.0,
+          "secondaryValue": 172.0,
+          "differenceMm": 7.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-65L",
+      "officialUrl": "https://www.asadental.com/en/products/0100-65l/",
+      "status": "matched_with_unavailable_fields",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 170.0,
+        "officialPreciseLengthMm": 169.0,
+        "officialTolerancePlusMinusMm": null,
+        "absoluteDifferenceMm": 1.0,
+        "agreementToleranceMm": 2.5,
+        "status": "within_nominal_rounding_use_official_precise_value",
+        "resolvedValueMm": 169.0,
+        "geometry": {
+          "pdfPage": 7,
+          "catalogueNominalLengthMm": 170.0,
+          "codeBBox": [
+            269.194,
+            476.424,
+            311.928,
+            487.062
+          ],
+          "lengthBBox": [
+            279.049,
+            464.922,
+            302.08,
+            475.56
+          ],
+          "codeXCenter": 290.561,
+          "lengthXCenter": 290.564,
+          "xCenterDelta": 0.003601,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [],
+      "resolvedDifferences": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "catalogueNominalValue": 170.0,
+          "officialPreciseValue": 169.0,
+          "differenceMm": 1.0,
+          "decision": "use_official_precise_value_within_nominal_rounding_tolerance"
+        }
+      ],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-65R",
+      "officialUrl": "https://www.asadental.com/en/products/0100-65r/",
+      "status": "matched_with_unavailable_fields",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 170.0,
+        "officialPreciseLengthMm": 169.0,
+        "officialTolerancePlusMinusMm": null,
+        "absoluteDifferenceMm": 1.0,
+        "agreementToleranceMm": 2.5,
+        "status": "within_nominal_rounding_use_official_precise_value",
+        "resolvedValueMm": 169.0,
+        "geometry": {
+          "pdfPage": 7,
+          "catalogueNominalLengthMm": 170.0,
+          "codeBBox": [
+            268.402,
+            685.08,
+            312.711,
+            695.718
+          ],
+          "lengthBBox": [
+            279.04,
+            673.578,
+            302.071,
+            684.216
+          ],
+          "codeXCenter": 290.556,
+          "lengthXCenter": 290.555,
+          "xCenterDelta": 0.0009,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [],
+      "resolvedDifferences": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "catalogueNominalValue": 170.0,
+          "officialPreciseValue": 169.0,
+          "differenceMm": 1.0,
+          "decision": "use_official_precise_value_within_nominal_rounding_tolerance"
+        }
+      ],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-86/L",
+      "officialUrl": "https://www.asadental.com/en/products/0100-86l/",
+      "status": "matched_with_unavailable_fields",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 175.0,
+        "officialPreciseLengthMm": 175.0,
+        "officialTolerancePlusMinusMm": null,
+        "absoluteDifferenceMm": 0.0,
+        "agreementToleranceMm": 2.5,
+        "status": "exact_match_use_official_precise_value",
+        "resolvedValueMm": 175.0,
+        "geometry": {
+          "pdfPage": 9,
+          "catalogueNominalLengthMm": 175.0,
+          "codeBBox": [
+            99.015,
+            698.059,
+            145.705,
+            708.697
+          ],
+          "lengthBBox": [
+            107.169,
+            686.557,
+            137.553,
+            697.195
+          ],
+          "codeXCenter": 122.36,
+          "lengthXCenter": 122.361,
+          "xCenterDelta": 0.000896,
+          "verticalGap": 0.863953
+        }
+      },
+      "mismatches": [],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest",
+        "design.tipSerration"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-86/R",
+      "officialUrl": "https://www.asadental.com/en/products/0100-86r/",
+      "status": "matched_with_unavailable_fields",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 175.0,
+        "officialPreciseLengthMm": 175.0,
+        "officialTolerancePlusMinusMm": null,
+        "absoluteDifferenceMm": 0.0,
+        "agreementToleranceMm": 2.5,
+        "status": "exact_match_use_official_precise_value",
+        "resolvedValueMm": 175.0,
+        "geometry": {
+          "pdfPage": 9,
+          "catalogueNominalLengthMm": 175.0,
+          "codeBBox": [
+            266.339,
+            698.059,
+            314.604,
+            708.697
+          ],
+          "lengthBBox": [
+            275.276,
+            686.557,
+            305.66,
+            697.195
+          ],
+          "codeXCenter": 290.471,
+          "lengthXCenter": 290.468,
+          "xCenterDelta": 0.003571,
+          "verticalGap": 0.863953
+        }
+      },
+      "mismatches": [],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest",
+        "design.tipSerration"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0100-166",
+      "officialUrl": "https://www.asadental.com/en/products/0100-166/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 170.0,
+        "officialPreciseLengthMm": 171.0,
+        "officialTolerancePlusMinusMm": null,
+        "absoluteDifferenceMm": 1.0,
+        "agreementToleranceMm": 2.5,
+        "status": "within_nominal_rounding_use_official_precise_value",
+        "resolvedValueMm": 171.0,
+        "geometry": {
+          "pdfPage": 9,
+          "catalogueNominalLengthMm": 170.0,
+          "codeBBox": [
+            1047.782,
+            697.519,
+            1088.643,
+            708.157
+          ],
+          "lengthBBox": [
+            1056.692,
+            686.017,
+            1079.723,
+            696.655
+          ],
+          "codeXCenter": 1068.212,
+          "lengthXCenter": 1068.207,
+          "xCenterDelta": 0.004883,
+          "verticalGap": 0.863953
+        }
+      },
+      "mismatches": [
+        {
+          "field": "design.tipSerration",
+          "primaryValue": "non_serrated",
+          "secondaryValue": "serrated",
+          "decision": "mark_unknown_pending_manufacturer_confirmation"
+        },
+        {
+          "field": "clinical.toothGroups",
+          "primaryValue": [
+            "molars",
+            "premolars"
+          ],
+          "secondaryValue": [
+            "incisors_canines",
+            "molars",
+            "premolars"
+          ],
+          "decision": "retain_primary_catalogue_matrix_value"
+        }
+      ],
+      "resolvedDifferences": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "catalogueNominalValue": 170.0,
+          "officialPreciseValue": 171.0,
+          "differenceMm": 1.0,
+          "decision": "use_official_precise_value_within_nominal_rounding_tolerance"
+        }
+      ],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "W0160-1",
+      "officialUrl": "https://www.asadental.com/en/products/w0160-1/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 160.0,
+        "officialPreciseLengthMm": 155.0,
+        "officialTolerancePlusMinusMm": 1.0,
+        "absoluteDifferenceMm": 5.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 11,
+          "catalogueNominalLengthMm": 160.0,
+          "codeBBox": [
+            755.3,
+            754.038,
+            792.427,
+            764.676
+          ],
+          "lengthBBox": [
+            761.996,
+            742.536,
+            785.72,
+            753.174
+          ],
+          "codeXCenter": 773.864,
+          "lengthXCenter": 773.858,
+          "xCenterDelta": 0.005402,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 160.0,
+          "secondaryValue": 155.0,
+          "differenceMm": 5.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest",
+        "design.handleVariant"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "W0121-18L",
+      "officialUrl": "https://www.asadental.com/en/products/w0121-18l/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 160.0,
+        "officialPreciseLengthMm": 164.0,
+        "officialTolerancePlusMinusMm": null,
+        "absoluteDifferenceMm": 4.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 16,
+          "catalogueNominalLengthMm": 160.0,
+          "codeBBox": [
+            141.351,
+            683.029,
+            187.469,
+            693.667
+          ],
+          "lengthBBox": [
+            152.547,
+            671.527,
+            176.271,
+            682.165
+          ],
+          "codeXCenter": 164.41,
+          "lengthXCenter": 164.409,
+          "xCenterDelta": 0.0009,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 160.0,
+          "secondaryValue": 164.0,
+          "differenceMm": 4.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest",
+        "design.tipSerration",
+        "design.handleVariant"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0110-39R",
+      "officialUrl": "https://www.asadental.com/en/products/0110-39r/",
+      "status": "mismatch",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 160.0,
+        "officialPreciseLengthMm": 150.0,
+        "officialTolerancePlusMinusMm": null,
+        "absoluteDifferenceMm": 10.0,
+        "agreementToleranceMm": 2.5,
+        "status": "unresolved_conflict_mark_unknown",
+        "resolvedValueMm": null,
+        "geometry": {
+          "pdfPage": 20,
+          "catalogueNominalLengthMm": 160.0,
+          "codeBBox": [
+            459.017,
+            535.59,
+            500.543,
+            546.228
+          ],
+          "lengthBBox": [
+            467.918,
+            524.088,
+            491.642,
+            534.726
+          ],
+          "codeXCenter": 479.78,
+          "lengthXCenter": 479.78,
+          "xCenterDelta": 0.000443,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "primaryValue": 160.0,
+          "secondaryValue": 150.0,
+          "differenceMm": 10.0,
+          "decision": "mark_unknown_due_unresolved_source_conflict"
+        }
+      ],
+      "resolvedDifferences": [],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest",
+        "clinical.patientGroups"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    },
+    {
+      "sku": "0112-3",
+      "officialUrl": "https://www.asadental.com/en/products/0112-3/",
+      "status": "matched_with_unavailable_fields",
+      "lengthVerification": {
+        "method": "catalogue code and length paired by x-centre; official value compared as the precise measurement",
+        "catalogueNominalLengthMm": 130.0,
+        "officialPreciseLengthMm": 128.0,
+        "officialTolerancePlusMinusMm": 1.0,
+        "absoluteDifferenceMm": 2.0,
+        "agreementToleranceMm": 2.5,
+        "status": "within_nominal_rounding_use_official_precise_value",
+        "resolvedValueMm": 128.0,
+        "geometry": {
+          "pdfPage": 20,
+          "catalogueNominalLengthMm": 130.0,
+          "codeBBox": [
+            1075.088,
+            308.005,
+            1103.338,
+            318.643
+          ],
+          "lengthBBox": [
+            1077.509,
+            296.503,
+            1100.918,
+            307.141
+          ],
+          "codeXCenter": 1089.213,
+          "lengthXCenter": 1089.214,
+          "xCenterDelta": 0.000916,
+          "verticalGap": 0.864014
+        }
+      },
+      "mismatches": [],
+      "resolvedDifferences": [
+        {
+          "field": "dimensions.overallLengthMm.value",
+          "catalogueNominalValue": 130.0,
+          "officialPreciseValue": 128.0,
+          "differenceMm": 2.0,
+          "decision": "use_official_precise_value_within_nominal_rounding_tolerance"
+        }
+      ],
+      "notAvailableOnSecondaryPage": [
+        "design.beaksAtRest",
+        "clinical.patientGroups"
+      ],
+      "secondaryGapFillsAccepted": {
+        "material.name": "Stainless Steel",
+        "reprocessing.singleUse": false,
+        "reprocessing.sterilizable": true,
+        "reprocessing.maxTemperatureC": 177
+      }
+    }
+  ]
+}

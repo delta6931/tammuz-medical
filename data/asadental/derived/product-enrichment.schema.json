@@ -1,0 +1,216 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tammuzmedical.com/schemas/product-enrichment.schema.json",
+  "title": "AsaDental product enrichment record",
+  "description": "Normalized factual product data with field-level provenance. Commercial prices are intentionally outside this schema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "sku",
+    "manufacturer",
+    "taxonomy",
+    "design",
+    "dimensions",
+    "clinical",
+    "material",
+    "reprocessing",
+    "relationships",
+    "unknownFields",
+    "provenance"
+  ],
+  "properties": {
+    "schemaVersion": { "type": "string", "const": "1.0.0-review" },
+    "sku": { "type": "string", "minLength": 1 },
+    "manufacturer": { "type": "string", "const": "AsaDental" },
+    "taxonomy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chapter", "chapterName", "family", "officialSubcategory"],
+      "properties": {
+        "chapter": { "type": "integer", "minimum": 1, "maximum": 12 },
+        "chapterName": { "type": "string" },
+        "family": { "type": "string" },
+        "officialSubcategory": { "type": "string" }
+      }
+    },
+    "design": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["patternCode", "patternName", "handleVariant", "handleFeatures", "tipSerration", "beaksAtRest"],
+      "properties": {
+        "patternCode": { "type": ["string", "null"] },
+        "patternName": { "type": ["string", "null"] },
+        "handleVariant": { "enum": ["standard", "asalady", null] },
+        "handleFeatures": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": ["smaller_lighter_handle", "smaller_finger_holes", "reduced_size"]
+          }
+        },
+        "tipSerration": { "enum": ["serrated", "non_serrated", null] },
+        "beaksAtRest": { "enum": ["open", "closed", null] }
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["overallLengthMm", "workingLengthMm"],
+      "properties": {
+        "overallLengthMm": { "$ref": "#/$defs/measurement" },
+        "workingLengthMm": {
+          "oneOf": [
+            { "$ref": "#/$defs/measurement" },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "clinical": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["applications", "arches", "toothGroups", "sides", "patientGroups"],
+      "properties": {
+        "applications": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/application" }
+        },
+        "arches": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "enum": ["upper", "lower"] }
+        },
+        "toothGroups": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "enum": ["incisors_canines", "premolars", "molars", "roots", "wisdom_teeth"] }
+        },
+        "sides": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "enum": ["left", "right"] }
+        },
+        "patientGroups": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "enum": ["children", "unspecified"] }
+        }
+      }
+    },
+    "material": {
+      "type": ["object", "null"],
+      "properties": {
+        "name": { "type": ["string", "null"] },
+        "finish": { "type": ["string", "null"] }
+      },
+      "required": ["name", "finish"],
+      "additionalProperties": false
+    },
+    "reprocessing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["singleUse", "sterilizable", "maxTemperatureC"],
+      "properties": {
+        "singleUse": { "type": ["boolean", "null"] },
+        "sterilizable": { "type": ["boolean", "null"] },
+        "maxTemperatureC": { "type": ["number", "null"] }
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["relatedVariants", "procedureCompanions"],
+      "properties": {
+        "relatedVariants": {
+          "type": "array",
+          "maxItems": 6,
+          "items": { "$ref": "#/$defs/relationship" }
+        },
+        "procedureCompanions": {
+          "type": "array",
+          "maxItems": 6,
+          "items": { "$ref": "#/$defs/relationship" }
+        }
+      }
+    },
+    "unknownFields": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string" }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sources", "fieldSources", "reviewStatus"],
+      "properties": {
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/source" }
+        },
+        "fieldSources": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          }
+        },
+        "reviewStatus": { "type": "string" }
+      }
+    }
+  },
+  "$defs": {
+    "measurement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "tolerancePlusMinusMm"],
+      "properties": {
+        "value": {
+          "oneOf": [
+            { "type": "number", "exclusiveMinimum": 0 },
+            { "type": "null" }
+          ]
+        },
+        "tolerancePlusMinusMm": { "type": ["number", "null"], "minimum": 0 }
+      }
+    },
+    "application": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["arch", "toothGroup", "side", "patientGroup", "qualifier"],
+      "properties": {
+        "arch": { "enum": ["upper", "lower"] },
+        "toothGroup": { "enum": ["incisors_canines", "premolars", "molars", "roots", "wisdom_teeth"] },
+        "side": { "enum": ["left", "right", null] },
+        "patientGroup": { "enum": ["children", "unspecified"] },
+        "qualifier": { "type": ["string", "null"] }
+      }
+    },
+    "relationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sku", "relationship"],
+      "properties": {
+        "sku": { "type": "string" },
+        "relationship": { "enum": ["official_similar_product", "official_procedure_companion"] }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["id", "authority", "type"],
+      "properties": {
+        "id": { "type": "string" },
+        "authority": { "enum": ["primary", "secondary"] },
+        "type": { "type": "string" },
+        "path": { "type": "string" },
+        "url": { "type": "string" },
+        "pdfPage": { "type": "integer", "minimum": 1 },
+        "fetchedAtUnix": { "type": "integer" },
+        "matrixMarks": { "type": "array" }
+      },
+      "additionalProperties": true
+    }
+  }
+}

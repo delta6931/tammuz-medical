@@ -1,0 +1,908 @@
+{
+  "sourcePath": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_4_-_Extractive_Surgery.pdf",
+  "method": "Exact product-code reconciliation between the Chapter 4 application matrix and catalog-wide product names containing 'forcep'.",
+  "counts": {
+    "matrixCodes": 186,
+    "catalogNamesContainingForcep": 243,
+    "matrixCodesWhoseCatalogNameContainsForcep": 185,
+    "matrixCodesWhoseCatalogNameDoesNotContainForcep": 1,
+    "forcepNamedRecordsOutsideMatrix": 58,
+    "outsideMatrixListedElsewhereInChapter4": 7,
+    "outsideMatrixAbsentFromChapter4": 51
+  },
+  "reconciliation": "The apparent 243-versus-186 gap is not a cohort of 57 missing extraction forceps. The name search overlaps only 185 matrix rows because 0130-151/ is titled 'Extracting F.'; it also includes 58 non-matrix records from other forceps families, sets and accessories.",
+  "matrixRecordMissedByNameSearch": [
+    {
+      "code": "0130-151/",
+      "name": "Extracting F. anatomic handle # 151 1/2",
+      "category": "Other ASA Dental instruments"
+    }
+  ],
+  "outsideMatrixByCategory": {
+    "Extractive Surgery": 16,
+    "Instrument cassettes and trays": 2,
+    "Oral Surgery": 24,
+    "Orthodontic": 2,
+    "Other ASA Dental instruments": 2,
+    "Periodontal": 1,
+    "Restorative": 11
+  },
+  "records": [
+    {
+      "code": "0103-78",
+      "name": "Gum guillotine forcep Tomati cm. 19",
+      "category": "Periodontal",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0500-1",
+      "name": "Haemo. forcep Halstead-Mosquito straight",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0500-2",
+      "name": "Haemo. forcep Halstead-Mosquito curved",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0501-1",
+      "name": "Haemo. forcep Micro-Mosquito straight",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0501-2",
+      "name": "Haemo. forcep Micro-Mosquito curved",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0505-1",
+      "name": "H. forcep Halstead-Mosquito 1x2 straight",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0505-2",
+      "name": "Hae. forcep Halstead-Mosquito 1x2 curved",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0506-1",
+      "name": "Haem. forcep Micro-Mosquito 1x2 straight",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0506-2",
+      "name": "Haemo. forcep Micro-Mosquito 1x2 curved",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0507-1",
+      "name": "Elastic forcep cm. 12 (straight)",
+      "category": "Orthodontic",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0507-2",
+      "name": "Elastic forcep cm. 12 (curved)",
+      "category": "Orthodontic",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0510-1",
+      "name": "Haemo. forcep cm. 14 Kelly (straight)",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0510-2",
+      "name": "Haemo. forcep cm. 14 Kelly (curved)",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0515-1",
+      "name": "Haemo. forcep cm. 10 Hartmann (straight)",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0515-2",
+      "name": "Haemo. forcep cm. 10 Hartmann (curved)",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0520-1",
+      "name": "Haemo. forcep cm. 14 Crile (straight)",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0520-2",
+      "name": "Haemo. forcep cm. 14 Crile (curved)",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0530-1",
+      "name": "forcep cm. 14 Kocher 1x2 (straight)",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0530-2",
+      "name": "Haemo. forcep cm. 14 Kocher 1x2 (curved)",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0540-1",
+      "name": "Haemo. forcep cm. 14 Pean (straight)",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0540-2",
+      "name": "Haemo. forcep cm. 14 Pean (curved)",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0555-1",
+      "name": "Dressing forcep cm20 GrossMaier straight",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0555-2",
+      "name": "Dressing forcep cm20 GrossMaier curved",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0557-1",
+      "name": "Dressing forcep cm25 GrossMaier straight",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0557-2",
+      "name": "Dressing forcep cm25 GrossMaier curved",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0560.",
+      "name": "Tongue forcep cm. 16 Collin",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0561-R",
+      "name": "Tongue forcep rubber pads (single)",
+      "category": "Other ASA Dental instruments",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0561.",
+      "name": "Tongue forcep cm. 17 Young",
+      "category": "Oral Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0565-1",
+      "name": "Sterilizing forcep cm. 20",
+      "category": "Instrument cassettes and trays",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0565-2",
+      "name": "Sterilizing forcep cm. 30",
+      "category": "Instrument cassettes and trays",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0670.",
+      "name": "Articulating paper forcep cm. 15 Miller",
+      "category": "Restorative",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "0671.",
+      "name": "Articulating paper forcep cm15 (curved)",
+      "category": "Restorative",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "3030.",
+      "name": "Ivory lightweight Clamp forcep",
+      "category": "Restorative",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "3031.",
+      "name": "Brewer Clamp forcep",
+      "category": "Restorative",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "3032.",
+      "name": "Ainsworth Punch forcep",
+      "category": "Restorative",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "3033.",
+      "name": "Ivory Punch forceps",
+      "category": "Restorative",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "3034.",
+      "name": "Stoke Clamp forceps",
+      "category": "Restorative",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "9002-1",
+      "name": "Insert for 6 forceps",
+      "category": "Other ASA Dental instruments",
+      "reasonOutsideMatrix": "set_or_accessory_not_an_individual_forceps_pattern",
+      "chapter4": {
+        "listed": true,
+        "availableFields": {
+          "pdfPage": 37,
+          "kind": "case_insert_accessory",
+          "capacityForceps": 6
+        },
+        "unavailableFields": [
+          "individualClinicalMatrix",
+          "overallLength",
+          "material",
+          "sterilization",
+          "singleUse"
+        ]
+      }
+    },
+    {
+      "code": "S0100-1",
+      "name": "Set 8 extracting forceps:",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "set_or_accessory_not_an_individual_forceps_pattern",
+      "chapter4": {
+        "listed": true,
+        "availableFields": {
+          "pdfPage": 3,
+          "kind": "forceps_set",
+          "componentCount": 8,
+          "componentSkus": [
+            "0100-1",
+            "0100-17",
+            "0100-18",
+            "0100-79",
+            "0100-67A",
+            "0100-51A",
+            "0100-13",
+            "0100-22"
+          ]
+        },
+        "unavailableFields": [
+          "individualClinicalMatrix",
+          "overallLength",
+          "material",
+          "sterilization",
+          "singleUse"
+        ]
+      }
+    },
+    {
+      "code": "S0100-2",
+      "name": "Set 8 extracting forceps:",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "set_or_accessory_not_an_individual_forceps_pattern",
+      "chapter4": {
+        "listed": true,
+        "availableFields": {
+          "pdfPage": 3,
+          "kind": "forceps_set",
+          "componentCount": 8,
+          "componentSkus": [
+            "0100-1",
+            "0100-7",
+            "0100-17",
+            "0100-18",
+            "0100-4",
+            "0100-13",
+            "0100-22",
+            "0100-86C"
+          ]
+        },
+        "unavailableFields": [
+          "individualClinicalMatrix",
+          "overallLength",
+          "material",
+          "sterilization",
+          "singleUse"
+        ]
+      }
+    },
+    {
+      "code": "S0100-3",
+      "name": "Set of 4 forceps + 5 root elevators:",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "set_or_accessory_not_an_individual_forceps_pattern",
+      "chapter4": {
+        "listed": true,
+        "availableFields": {
+          "pdfPage": 37,
+          "kind": "extraction_instrument_set",
+          "componentCount": 9,
+          "componentSkus": [
+            "0100-33",
+            "0100-51A",
+            "0100-67A",
+            "0100-79",
+            "0200-1",
+            "0201-2",
+            "0201-3",
+            "0202-320",
+            "0202-321"
+          ]
+        },
+        "unavailableFields": [
+          "individualClinicalMatrix",
+          "overallLength",
+          "material",
+          "sterilization",
+          "singleUse"
+        ]
+      }
+    },
+    {
+      "code": "S0100-4",
+      "name": "Set 4 forceps+3 elevators+2 n.holders:",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "set_or_accessory_not_an_individual_forceps_pattern",
+      "chapter4": {
+        "listed": true,
+        "availableFields": {
+          "pdfPage": 37,
+          "kind": "extraction_and_oral_surgery_set",
+          "componentCount": 9,
+          "componentSkus": [
+            "0100-33",
+            "0100-51A",
+            "0100-67A",
+            "0100-79",
+            "0200-1",
+            "0201-2",
+            "0201-3",
+            "0435-14TC",
+            "0425-16TC"
+          ]
+        },
+        "unavailableFields": [
+          "individualClinicalMatrix",
+          "overallLength",
+          "material",
+          "sterilization",
+          "singleUse"
+        ]
+      }
+    },
+    {
+      "code": "S0110",
+      "name": "Set of 10 extracting forceps - children",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "set_or_accessory_not_an_individual_forceps_pattern",
+      "chapter4": {
+        "listed": true,
+        "availableFields": {
+          "pdfPage": 20,
+          "kind": "children_forceps_set",
+          "patientGroup": "children",
+          "componentCount": 10,
+          "componentSkus": [
+            "0110-37",
+            "0110-39",
+            "0110-39R",
+            "0110-39L",
+            "0110-51S",
+            "0110-13S",
+            "0110-30S",
+            "0110-33S",
+            "0110-22S",
+            "0110-38"
+          ]
+        },
+        "unavailableFields": [
+          "individualClinicalMatrix",
+          "overallLength",
+          "material",
+          "sterilization",
+          "singleUse"
+        ]
+      }
+    },
+    {
+      "code": "S0112",
+      "name": "Set of 7 extracting forceps for children",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "set_or_accessory_not_an_individual_forceps_pattern",
+      "chapter4": {
+        "listed": true,
+        "availableFields": {
+          "pdfPage": 20,
+          "kind": "children_forceps_set",
+          "patientGroup": "children",
+          "patternName": "Klein",
+          "componentCount": 7,
+          "componentSkus": [
+            "0112-1",
+            "0112-2",
+            "0112-3",
+            "0112-4",
+            "0112-5",
+            "0112-6",
+            "0112-7"
+          ]
+        },
+        "unavailableFields": [
+          "individualClinicalMatrix",
+          "overallLength",
+          "material",
+          "sterilization",
+          "singleUse"
+        ]
+      }
+    },
+    {
+      "code": "VV3030",
+      "name": "Stainless steel clamp forceps",
+      "category": "Restorative",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "VV3033",
+      "name": "Stainless steel punch forceps",
+      "category": "Restorative",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W0110-13S",
+      "name": "AsaLady extracting forcep # 13S",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W0110-22S",
+      "name": "AsaLady extracting forcep # 22S",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W0110-30S",
+      "name": "AsaLady extracting forcep # 30S",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W0110-33S",
+      "name": "AsaLady extracting forcep # 33S",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W0110-37",
+      "name": "AsaLady extracting forcep # 37",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W0110-38",
+      "name": "AsaLady extracting forcep # 38",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W0110-39",
+      "name": "AsaLady extracting forcep # 39",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W0110-39L",
+      "name": "Extra. Forceps Fig. 39L ASA LADY",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W0110-39R",
+      "name": "AsaLady extracting forcep # 39R",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W0110-51S",
+      "name": "AsaLady extracting forcep # 51S",
+      "category": "Extractive Surgery",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W3035",
+      "name": "IVORY LIGHTWEIGHT clamp forcep",
+      "category": "Restorative",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    },
+    {
+      "code": "W3036",
+      "name": "AINSWORTH punch forcep",
+      "category": "Restorative",
+      "reasonOutsideMatrix": "different_forceps_family_or_not_listed_in_2025_chapter_4",
+      "chapter4": {
+        "listed": false,
+        "availableFields": {},
+        "unavailableFields": [
+          "allFields"
+        ]
+      }
+    }
+  ]
+}

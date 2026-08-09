@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { SitePage } from "../_components/SitePage";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "/index.html" },
-  openGraph: { url: "/index.html" },
+  alternates: { canonical: "/" },
+  openGraph: { url: "/" },
 };
 
-export default function IndexPage() { return <SitePage />; }
+export default function IndexPage() { return <SitePage initialLocale="EN" canonicalPath="/" />; }

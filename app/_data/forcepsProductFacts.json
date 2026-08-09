@@ -1,0 +1,5591 @@
+{
+  "generatedFrom": "data/asadental/derived/forceps-enriched.json",
+  "contractVersion": 1,
+  "recordCount": 186,
+  "records": [
+    {
+      "sku": "0100-1",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "1",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 173,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-2",
+        "0100-3",
+        "0100-4",
+        "0100-29N",
+        "0100-31",
+        "0100-52"
+      ]
+    },
+    {
+      "sku": "0100-107",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "107",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 166,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-1",
+        "0100-2",
+        "0100-3",
+        "0100-4",
+        "0100-29N",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "0100-121",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "121",
+      "patternName": "Ogden-Felsch",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 180,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-20",
+        "0100-19",
+        "0100-22L",
+        "0100-22R",
+        "0100-67",
+        "0100-67A"
+      ]
+    },
+    {
+      "sku": "0100-13",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "13",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Reprocessing temp.",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-7",
+        "0100-8",
+        "0100-75",
+        "0100-166",
+        "0100-167",
+        "W0160-7"
+      ]
+    },
+    {
+      "sku": "0100-145",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "145",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0102-1",
+        "0102-2",
+        "0100-29",
+        "0100-29N",
+        "0100-30",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "0100-151/",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "151½",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 195,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0102-1",
+        "0102-2",
+        "0100-29",
+        "0100-29N",
+        "0100-30",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "0100-166",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "166",
+      "patternName": "Trotter",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": null,
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars",
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "universal_upper_teeth_emphasis_molars_premolars"
+      ],
+      "lengthMm": 171,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-7",
+        "0100-8",
+        "0100-13",
+        "0100-75",
+        "0100-167",
+        "W0160-7"
+      ]
+    },
+    {
+      "sku": "0100-167",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "167",
+      "patternName": "Trotter",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": null,
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars",
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 158,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-7",
+        "0100-8",
+        "0100-13",
+        "0100-75",
+        "0100-166",
+        "W0160-7"
+      ]
+    },
+    {
+      "sku": "0100-168",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "168",
+      "patternName": "Trotter",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-1",
+        "0100-2",
+        "0100-3",
+        "0100-4",
+        "0100-29N",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "0100-169",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "169",
+      "patternName": "Trotter",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": null,
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 158,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-1",
+        "0100-2",
+        "0100-3",
+        "0100-4",
+        "0100-29N",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "0100-17",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "17",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-21",
+        "0100-22",
+        "0100-22L",
+        "0100-22R"
+      ]
+    },
+    {
+      "sku": "0100-18",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "18",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18A",
+        "0100-21",
+        "0100-22",
+        "0100-22L",
+        "0100-22R",
+        "0100-23"
+      ]
+    },
+    {
+      "sku": "0100-18A",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "18A",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-21",
+        "0100-22",
+        "0100-22L",
+        "0100-22R",
+        "0100-23"
+      ]
+    },
+    {
+      "sku": "0100-19",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "19",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-20",
+        "0100-22L",
+        "0100-22R",
+        "0100-67",
+        "0100-67A",
+        "0100-67/L"
+      ]
+    },
+    {
+      "sku": "0100-2",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "2",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-1",
+        "0100-3",
+        "0100-4",
+        "0100-29N",
+        "0100-31",
+        "0100-52"
+      ]
+    },
+    {
+      "sku": "0100-20",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "20",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-19",
+        "0100-22L",
+        "0100-22R",
+        "0100-67",
+        "0100-67A",
+        "0100-67/L"
+      ]
+    },
+    {
+      "sku": "0100-21",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "21",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 161,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-22",
+        "0100-22L",
+        "0100-22R",
+        "0100-23"
+      ]
+    },
+    {
+      "sku": "0100-22",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "22",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 150,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-21",
+        "0100-22L",
+        "0100-22R",
+        "0100-23"
+      ]
+    },
+    {
+      "sku": "0100-22L",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "22L",
+      "patternName": "Routurier",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars",
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-21",
+        "0100-22",
+        "0100-22R",
+        "0100-23"
+      ]
+    },
+    {
+      "sku": "0100-22R",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "22R",
+      "patternName": "Routurier",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars",
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-21",
+        "0100-22",
+        "0100-22L",
+        "0100-23"
+      ]
+    },
+    {
+      "sku": "0100-23",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "23",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-21",
+        "0100-22",
+        "0100-22L",
+        "0100-22R"
+      ]
+    },
+    {
+      "sku": "0100-24",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "24",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-21",
+        "0100-22",
+        "0100-22L",
+        "0100-22R"
+      ]
+    },
+    {
+      "sku": "0100-29",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "29",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 173,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0102-1",
+        "0102-2",
+        "0100-29N",
+        "0100-30",
+        "0100-31",
+        "0100-33"
+      ]
+    },
+    {
+      "sku": "0100-29N",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "29N",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-1",
+        "0100-2",
+        "0100-3",
+        "0100-4",
+        "0100-31",
+        "0100-52"
+      ]
+    },
+    {
+      "sku": "0100-3",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "3",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "overlapping_teeth"
+      ],
+      "lengthMm": 172,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-1",
+        "0100-2",
+        "0100-4",
+        "0100-29N",
+        "0100-31",
+        "0100-52"
+      ]
+    },
+    {
+      "sku": "0100-30",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "30",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0102-1",
+        "0102-2",
+        "0100-29",
+        "0100-29N",
+        "0100-31",
+        "0100-33"
+      ]
+    },
+    {
+      "sku": "0100-31",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "31",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-1",
+        "0100-2",
+        "0100-3",
+        "0100-4",
+        "0100-29N",
+        "0100-52"
+      ]
+    },
+    {
+      "sku": "0100-33",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "33",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 152,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0102-1",
+        "0102-2",
+        "0100-29",
+        "0100-29N",
+        "0100-30",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "0100-33A",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "33A",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 152,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0102-1",
+        "0102-2",
+        "0100-29",
+        "0100-29N",
+        "0100-30",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "0100-33L",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "33L",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0102-1",
+        "0102-2",
+        "0100-29",
+        "0100-29N",
+        "0100-30",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "0100-346",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "346",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 183,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0102-1",
+        "0102-2",
+        "0100-29",
+        "0100-29N",
+        "0100-30",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "0100-349",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "349",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": null,
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0102-1",
+        "0102-2",
+        "0100-29",
+        "0100-29N",
+        "0100-30",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "0100-359",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "359",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": null,
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-38A",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "38A",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "fractured_or_decayed_teeth"
+      ],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-4",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "4",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-1",
+        "0100-2",
+        "0100-3",
+        "0100-29N",
+        "0100-31",
+        "0100-52"
+      ]
+    },
+    {
+      "sku": "0100-41",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "41",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-43A",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "43A",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "fractured_or_decayed_teeth"
+      ],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0102-1",
+        "0102-2",
+        "0100-29",
+        "0100-29N",
+        "0100-30",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "0100-44",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "44",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-45",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "45",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-46",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "46",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-46L",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "46L",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-48",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "48",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-49",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "49",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-51",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "51",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-51A",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "51A",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-51L",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "51L",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-51LX",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "51LX",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-52",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "52",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-54",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "54",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "tooth_separation"
+      ],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-55",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "55",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "tooth_separation"
+      ],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-56",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "56",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "tooth_separation"
+      ],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-59",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "59",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-59L",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "59L",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-60",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "60",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-65L",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "65L",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 169,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-21",
+        "0100-22",
+        "0100-22L",
+        "0100-22R"
+      ]
+    },
+    {
+      "sku": "0100-65R",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "65R",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 169,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-21",
+        "0100-22",
+        "0100-22L",
+        "0100-22R"
+      ]
+    },
+    {
+      "sku": "0100-66L",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "66L",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-66R",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "66R",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-67",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "67",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-67/L",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "67½L",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-67/R",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "67½R",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-67A",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "67A",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-68",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "68",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-7",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "7",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-73",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "73",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-74",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "74",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-74M",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "74M",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": null,
+      "arches": [
+        "lower",
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-74N",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "74N",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-75",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "75",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-79",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "79",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-79A",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "79A",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-79C",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "79C",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-8",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "8",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-7",
+        "0100-13",
+        "0100-75",
+        "0100-166",
+        "0100-167",
+        "W0160-7"
+      ]
+    },
+    {
+      "sku": "0100-86/L",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "86½L",
+      "patternName": "Routurier",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 175,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-20",
+        "0100-19",
+        "0100-22L",
+        "0100-22R",
+        "0100-67",
+        "0100-67A"
+      ]
+    },
+    {
+      "sku": "0100-86/R",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "86½R",
+      "patternName": "Routurier",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": 175,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-20",
+        "0100-19",
+        "0100-22L",
+        "0100-22R",
+        "0100-67",
+        "0100-67A"
+      ]
+    },
+    {
+      "sku": "0100-86C",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "86C",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-86W",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "86W",
+      "patternName": "White",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-87",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "87",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "broken_crowns"
+      ],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-89",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "89",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-90",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "90",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0100-99",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "99",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "broken_crowns"
+      ],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0101-1",
+      "subcategory": "extracting_forceps_roots",
+      "patternCode": "1",
+      "patternName": "Witzel",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0101-2",
+      "subcategory": "extracting_forceps_roots",
+      "patternCode": "2",
+      "patternName": "Witzel",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0102-1",
+      "subcategory": "root_and_splinter_forceps",
+      "patternCode": "1",
+      "patternName": "Stieglitz",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": null,
+      "arches": [],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0102-2",
+      "subcategory": "root_and_splinter_forceps",
+      "patternCode": "2",
+      "patternName": "Stieglitz",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": null,
+      "arches": [
+        "lower",
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "root_fragments"
+      ],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0104-1",
+      "subcategory": "extracting_forceps_mead_pattern",
+      "patternCode": "1",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0104-2",
+      "subcategory": "extracting_forceps_mead_pattern",
+      "patternCode": "2",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0104-3",
+      "subcategory": "extracting_forceps_mead_pattern",
+      "patternCode": "3",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0104-4",
+      "subcategory": "extracting_forceps_mead_pattern",
+      "patternCode": "4",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0110-13S",
+      "subcategory": "extracting_forceps_children",
+      "patternCode": "13S",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0110-22S",
+      "subcategory": "extracting_forceps_children",
+      "patternCode": "22S",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0110-30S",
+      "subcategory": "extracting_forceps_children",
+      "patternCode": "30S",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0110-33S",
+      "subcategory": "extracting_forceps_children",
+      "patternCode": "33S",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0110-37",
+      "subcategory": "extracting_forceps_children",
+      "patternCode": "37",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0110-38",
+      "subcategory": "extracting_forceps_children",
+      "patternCode": "38",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0110-39",
+      "subcategory": "extracting_forceps_children",
+      "patternCode": "39",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0110-39L",
+      "subcategory": "extracting_forceps_children",
+      "patternCode": "39L",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0110-39R",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "39R",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-21",
+        "0100-22",
+        "0100-22L",
+        "0100-22R"
+      ]
+    },
+    {
+      "sku": "0110-51S",
+      "subcategory": "extracting_forceps_children",
+      "patternCode": "51S",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0112-1",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "patternCode": "1",
+      "patternName": "Klein",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0112-2",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "patternCode": "2",
+      "patternName": "Klein",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0112-3",
+      "subcategory": "extracting_forceps_standard",
+      "patternCode": "3",
+      "patternName": "Klein",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": 128,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-21",
+        "0100-22",
+        "0100-22L",
+        "0100-22R"
+      ]
+    },
+    {
+      "sku": "0112-4",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "patternCode": "4",
+      "patternName": "Klein",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0112-5",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "patternCode": "5",
+      "patternName": "Klein",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0112-6",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "patternCode": "6",
+      "patternName": "Klein",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0112-7",
+      "subcategory": "extracting_forceps_children_klein_pattern",
+      "patternCode": "7",
+      "patternName": "Klein",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-101",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "101",
+      "patternName": "Hull",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-10S",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "10S",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-150",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "150",
+      "patternName": "Cryer",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-150S",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "150S",
+      "patternName": "Cryer",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-151",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "151",
+      "patternName": "Cryer",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-151S",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "151S",
+      "patternName": "Cryer",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-16",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "16",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-17",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "17",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-18L",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "18L",
+      "patternName": "Harris",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-18R",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "18R",
+      "patternName": "Harris",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-222",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "222",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-23",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "23",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-5",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "5",
+      "patternName": "Physick",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-53L",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "53L",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-53R",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "53R",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-6",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "6",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "tooth_separation"
+      ],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-65",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "65",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-69",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "69",
+      "patternName": "Tomes",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": null,
+      "arches": [
+        "lower",
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-88L",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "88L",
+      "patternName": "Nevius",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0120-88R",
+      "subcategory": "extracting_forceps_american_pattern",
+      "patternCode": "88R",
+      "patternName": "Nevius",
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-1",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "1",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-13",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "13",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-145",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "145",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-151/",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "151½",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-17",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "17",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-18",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "18",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-2",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "2",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-21",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "21",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-22",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "22",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-33",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "33",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-349",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "349",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-359",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "359",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-4",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "4",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-45",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "45",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-51A",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "51A",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-67A",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "67A",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-7",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "7",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-74",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "74",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-79",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "79",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-86C",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "86C",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-89",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "89",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "0130-90",
+      "subcategory": "extracting_forceps_anatomically_shaped_handle",
+      "patternCode": "90",
+      "patternName": null,
+      "handleVariant": "standard",
+      "handleFeatures": [],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-101",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "101",
+      "patternName": "Hull",
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-10S",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "10S",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-150",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "150",
+      "patternName": "Cryer",
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-150S",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "150S",
+      "patternName": "Cryer",
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-151",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "151",
+      "patternName": "Cryer",
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "premolars",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-151S",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "151S",
+      "patternName": "Cryer",
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [],
+      "sides": [],
+      "patientGroups": [
+        "children"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-16",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "16",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-17",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "17",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-18L",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "18L",
+      "patternName": "Harris",
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-18",
+        "0100-18A",
+        "0100-21",
+        "0100-22",
+        "0100-22L",
+        "0100-22R"
+      ]
+    },
+    {
+      "sku": "W0121-18R",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "18R",
+      "patternName": "Harris",
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-222",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "222",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-23",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "23",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-5",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "5",
+      "patternName": "Physick",
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-53L",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "53L",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-53R",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "53R",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-6",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "6",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [
+        "tooth_separation"
+      ],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-65",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "65",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines",
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-69",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "69",
+      "patternName": "Tomes",
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": null,
+      "arches": [
+        "lower",
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-88L",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "88L",
+      "patternName": "Nevius",
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0121-88R",
+      "subcategory": "extracting_forceps_american_pattern_asalady",
+      "patternCode": "88R",
+      "patternName": "Nevius",
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "non_serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-1",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "1",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": "Stainless Steel",
+      "singleUse": false,
+      "sterilizable": true,
+      "maxTemperatureC": 177,
+      "relatedSkus": [
+        "0100-1",
+        "0100-2",
+        "0100-3",
+        "0100-4",
+        "0100-29N",
+        "0100-31"
+      ]
+    },
+    {
+      "sku": "W0160-13",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "13",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-145",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "145",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": null,
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-151/",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "151½",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": null,
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-17",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "17",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "right"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-18",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "18",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [
+        "left"
+      ],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-2",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "2",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-21",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "21",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-22",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "22",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-33",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "33",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-4",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "4",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "incisors_canines"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-45",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "45",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-51A",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "51A",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-67A",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "67A",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-7",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "7",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "open",
+      "arches": [
+        "upper"
+      ],
+      "toothGroups": [
+        "premolars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-74",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "74",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": "serrated",
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "roots"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-79",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "79",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": null,
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "wisdom_teeth"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    },
+    {
+      "sku": "W0160-86C",
+      "subcategory": "extracting_forceps_asalady",
+      "patternCode": "86C",
+      "patternName": null,
+      "handleVariant": "asalady",
+      "handleFeatures": [
+        "smaller_lighter_handle",
+        "smaller_finger_holes",
+        "reduced_size"
+      ],
+      "serration": null,
+      "beaksAtRest": "closed",
+      "arches": [
+        "lower"
+      ],
+      "toothGroups": [
+        "molars"
+      ],
+      "sides": [],
+      "patientGroups": [
+        "unspecified"
+      ],
+      "qualifiers": [],
+      "lengthMm": null,
+      "materialName": null,
+      "singleUse": null,
+      "sterilizable": null,
+      "maxTemperatureC": null,
+      "relatedSkus": []
+    }
+  ]
+}

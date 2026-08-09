@@ -30,6 +30,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -41,3 +42,9 @@ tsconfig.tsbuildinfo
 /.wrangler/
 /outputs/
 /work/
+/data/asadental/cache/
+/data/asadental/*.pdf
+/data/asadental/*.xlsx
+/data/asadental/wetransfer_*/
+/scripts/__pycache__/
+/tmp/
