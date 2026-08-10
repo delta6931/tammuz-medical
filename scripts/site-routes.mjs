@@ -47,7 +47,7 @@ const categoryPaths = categories.map(([, slug]) => `/catalog/category/${slug}`);
 const productPaths = indexableProducts.map(item => `/catalog/product/${productSlug(item)}`);
 
 /** Standalone tool pages, one route per locale. */
-const toolPaths = ["/tools/forceps-selector"];
+const toolPaths = ["/tools/forceps-selector", "/tools/tooth-numbering"];
 export const toolRoutes = localePrefixes.flatMap(prefix => toolPaths.map(path => `${prefix}${path}`));
 
 export const cleanRoutes = [

@@ -1,0 +1,91 @@
+/* Tooth numbering converter. Scoped to /tools/* so it cannot affect catalog pages. */
+
+.tn { display: grid; gap: 24px; }
+
+.tn-toggle { display: flex; flex-wrap: wrap; gap: 8px; }
+.tn-chip {
+  padding: 10px 15px; border: 1px solid var(--line); background: #fff;
+  color: #52666d; font-size: 12px; font-weight: 700;
+}
+.tn-chip:hover { border-color: var(--teal); }
+.tn-chip.on { border-color: var(--teal); background: var(--teal); color: #fff; }
+.tn-chip:focus-visible,
+.tn-tooth:focus-visible,
+.tn-clear:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px; }
+
+.tn-input {
+  display: grid; grid-template-columns: minmax(160px, 220px) 1fr auto; gap: 14px; align-items: end;
+  margin: 0; padding: 20px 22px; border: 1px solid var(--line); background: var(--paper);
+}
+.tn-input legend { padding: 0 8px; color: var(--teal); font-size: 10px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; }
+.tn-field { display: grid; gap: 7px; min-width: 0; }
+.tn-field > span { color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; }
+.tn-field select,
+.tn-field input {
+  width: 100%; min-height: 44px; padding: 11px 12px;
+  border: 1px solid #cfd8d2; border-radius: 0; background: #fff;
+  color: var(--ink); font-size: 14px; outline-color: var(--teal);
+}
+.tn-field input[aria-invalid="true"] { border-color: #a23d35; }
+.tn-clear { min-height: 44px; padding: 0 14px; border: 1px solid var(--line); background: #fff; color: var(--muted); font-size: 11px; font-weight: 700; }
+.tn-invalid { margin: -12px 0 0; color: #a23d35; font-size: 12px; }
+
+.tn-result { padding: 24px 22px; border: 1px solid var(--line); background: var(--mint); }
+.tn-empty { margin: 0; color: #4d6167; font-size: 13px; line-height: 1.6; }
+.tn-tooth-name { margin: 0 0 18px; font-size: 25px; font-weight: 500; letter-spacing: -.4px; line-height: 1.2; }
+
+.tn-systems { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 18px; }
+.tn-system { display: grid; gap: 6px; padding: 15px 16px; background: #fff; border: 1px solid transparent; }
+.tn-system span { color: var(--teal); font-size: 9px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
+.tn-system b { font-size: 27px; font-weight: 600; line-height: 1; }
+/* The system the user typed into, so it is clear which value is the input. */
+.tn-system.source { border-color: var(--teal); }
+
+.tn-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 0; padding-top: 16px; border-top: 1px solid #c7d3cc; }
+.tn-meta dt { color: var(--muted); font-size: 10px; letter-spacing: .5px; text-transform: uppercase; }
+.tn-meta dd { margin: 5px 0 0; font-size: 13px; font-weight: 700; }
+
+.tn-chart { display: grid; gap: 18px; padding: 26px 22px; background: var(--paper); border: 1px solid var(--line); }
+.tn-arch { display: grid; gap: 8px; }
+.tn-arch-label { color: var(--teal); font-size: 10px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; }
+
+/* Column count varies: 16 permanent teeth per arch, 10 primary. */
+.tn-row { display: grid; gap: 4px; overflow-x: auto; padding-bottom: 4px; }
+.tn-row[data-count="16"] { grid-template-columns: repeat(16, minmax(38px, 1fr)); }
+.tn-row[data-count="10"] { grid-template-columns: repeat(10, minmax(44px, 1fr)); }
+
+.tn-tooth {
+  display: grid; gap: 2px; min-height: 52px; padding: 7px 2px;
+  border: 1px solid var(--line); background: #fff; color: var(--ink);
+  transition: background .15s, border-color .15s, color .15s;
+}
+.tn-tooth b { font-size: 12px; font-weight: 700; }
+.tn-tooth small { color: var(--muted); font-size: 9px; }
+.tn-tooth:hover { border-color: var(--teal); background: var(--mint); }
+.tn-tooth.selected { border-color: var(--teal); background: var(--teal); color: #fff; }
+.tn-tooth.selected small { color: #d6ece8; }
+.tn-tooth[data-midline="true"] { margin-inline-end: 8px; }
+
+.tn-hint { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.5; }
+
+@media (max-width: 900px) {
+  .tn-input { grid-template-columns: 1fr; }
+  .tn-clear { justify-self: start; }
+}
+
+@media (max-width: 650px) {
+  .tn-result { padding: 20px 16px; }
+  .tn-chart { padding: 20px 16px; }
+  .tn-tooth-name { font-size: 20px; }
+  .tn-systems { grid-template-columns: 1fr; }
+  .tn-system b { font-size: 23px; }
+}
+
+/*
+ * RTL. The arch chart is an anatomical diagram, not prose: FDI charts are drawn
+ * worldwide with the patient's right on the viewer's left, so rows stay LTR in
+ * Arabic while the surrounding layout mirrors normally.
+ */
+[dir="rtl"] .tn-row { direction: ltr; }
+[dir="rtl"] .tn-arch-label,
+[dir="rtl"] .tn-hint { text-align: right; }
