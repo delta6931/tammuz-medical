@@ -1,6 +1,7 @@
 "use client";
 
 /* Privacy-first analytics: third-party scripts load only after consent. */
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 declare global {
@@ -61,8 +62,9 @@ export function Analytics() {
   useEffect(() => {
     window.tmzTrack = trackEvent;
     const saved = localStorage.getItem(CONSENT_KEY) as "accepted" | "declined" | null;
-    setChoice(saved);
+    const update = window.setTimeout(() => setChoice(saved), 0);
     if (saved === "accepted") loadAnalytics();
+    return () => window.clearTimeout(update);
   }, []);
 
   function decide(next: "accepted" | "declined") {
@@ -75,7 +77,7 @@ export function Analytics() {
 
   return (
     <aside className="consent" aria-label="Analytics privacy choice">
-      <p>We use optional analytics to understand which pages help buyers. No analytics or advertising scripts load until you accept. <a href="/privacy">Privacy policy</a></p>
+      <p>We use optional analytics to understand which pages help buyers. No analytics or advertising scripts load until you accept. <Link href="/privacy">Privacy policy</Link></p>
       <div>
         <button className="button primary" type="button" onClick={() => decide("accepted")}>Accept analytics</button>
         <button className="button" type="button" onClick={() => decide("declined")}>Decline</button>

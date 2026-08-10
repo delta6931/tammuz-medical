@@ -12,6 +12,8 @@ const env = { ASSETS: { fetch: async () => new Response("Not found", { status: 4
 const ctx = { waitUntil() {}, passThroughOnException() {} };
 async function request(path, init = {}) { return worker.fetch(new Request(`http://localhost${path}`, init), env, ctx); }
 const forcepsPageFacts = JSON.parse(await readFile(new URL("../app/_data/forcepsProductFacts.json", import.meta.url), "utf8"));
+const catalogPageFacts = JSON.parse(await readFile(new URL("../app/_data/catalogProductFacts.json", import.meta.url), "utf8"));
+const catalogEnrichment = JSON.parse(await readFile(new URL("../data/asadental/derived/catalog-enriched.json", import.meta.url), "utf8"));
 
 const legacyRoutes = [
   ["/index.html", ""],
@@ -76,6 +78,62 @@ test("keeps the full forceps enrichment and selector projections synchronized", 
   assert.deepEqual(selector.records.map(record => record.sku).sort(), expected);
   assert.deepEqual(forcepsPageFacts.records.map(record => record.sku).sort(), expected);
   assert.doesNotMatch(JSON.stringify(enrichment), /"(?:price|currency)"\s*:/i);
+});
+
+test("covers every non-forceps SKU with price-free catalogue enrichment", () => {
+  assert.equal(catalogEnrichment.recordCount, 2_773);
+  assert.equal(catalogPageFacts.recordCount, 2_773);
+  assert.deepEqual(catalogEnrichment.priorityCounts, { "1b": 237, "2": 2_536 });
+  assert.equal(catalogEnrichment.fieldCoverage.sourcePageMatched, 2_631);
+  assert.equal(catalogEnrichment.fieldCoverage.sourcePageUnmatched, 142);
+
+  const forcepsCodes = new Set(forcepsPageFacts.records.map(record => record.sku));
+  const nonForcepsCodes = new Set(catalogEnrichment.records.map(record => record.sku));
+  assert.equal(nonForcepsCodes.size, 2_773);
+  assert.equal([...forcepsCodes].filter(code => nonForcepsCodes.has(code)).length, 0);
+  assert.deepEqual(
+    [...forcepsCodes, ...nonForcepsCodes].sort(),
+    indexableProducts.map(product => product.code).sort(),
+  );
+
+  const serialized = JSON.stringify(catalogEnrichment);
+  assert.doesNotMatch(serialized, /"(?:price|currency|unitPrice|listPrice)"\s*:/i);
+  for (const record of catalogEnrichment.records.filter(record => !record.provenance.sources.length)) {
+    assert.equal(record.dimensions.overallLengthMm, null, record.sku);
+    assert.equal(record.dimensions.tipWidthMm, null, record.sku);
+    assert.equal(record.dimensions.diameterMm, null, record.sku);
+    assert.equal(record.dimensions.sizeMm, null, record.sku);
+    assert.deepEqual(record.material, [], record.sku);
+    assert.deepEqual(record.clinical.documentedUses, [], record.sku);
+  }
+});
+
+test("renders native EN, TR and AR catalogue facts outside the forceps slice", async () => {
+  const cases = [
+    ["0103-10", "", /Extractive Surgery catalogue record/, /Bone rongeur Luer/, /Overall length/],
+    ["2800-L4", "/tr", /Belgelenmiş katalog bilgileri/, /ölçü kaşığı/, /Alüminyum/i],
+    ["2804S-L1", "/ar", /حقائق الكتالوج الموثقة/, /ملعقة طبعة/, /فولاذ مقاوم للصدأ/],
+  ];
+  for (const [code, prefix, heading, family, fact] of cases) {
+    const item = indexableProducts.find(product => product.code === code);
+    assert.ok(item, code);
+    const path = `${prefix}/catalog/product/${productSlug(item)}`;
+    const response = await request(path, { headers: { accept: "text/html" } });
+    assert.equal(response.status, 200, code);
+    const html = localizeDocumentHtml(path, await response.text());
+    assert.match(html, /class="section product-enrichment"/, code);
+    assert.match(html, heading, code);
+    assert.match(html, family, code);
+    assert.match(html, fact, code);
+    if (prefix === "/ar") assert.match(html, /<html lang="ar" dir="rtl">/i);
+  }
+
+  const unmatched = indexableProducts.find(product => product.code === "W0240-1");
+  assert.ok(unmatched);
+  const unmatchedHtml = await (await request(`/catalog/product/${productSlug(unmatched)}`, { headers: { accept: "text/html" } })).text();
+  assert.match(unmatchedHtml, /product-enrichment/);
+  assert.doesNotMatch(unmatchedHtml, /Overall length/);
+  assert.doesNotMatch(unmatchedHtml, /Material and reprocessing/);
 });
 
 test("renders all 186 enriched forceps pages in every supported locale", async () => {

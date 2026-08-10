@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vinext dev",
-    "prebuild": "node scripts/build-forceps-tool-data.mjs && node scripts/build-forceps-product-data.mjs && node scripts/generate-seo-files.mjs",
+    "prebuild": "node scripts/build-forceps-tool-data.mjs && node scripts/build-forceps-product-data.mjs && python scripts/build_asadental_catalog_enrichment.py && node scripts/build-catalog-product-data.mjs && node scripts/generate-seo-files.mjs",
     "build": "vinext build",
     "export:pages": "npm run build && node scripts/export-cloudflare-pages.mjs dist/pages && node scripts/audit-cloudflare-output.mjs dist/pages",
     "start": "vinext start",

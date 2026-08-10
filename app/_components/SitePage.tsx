@@ -4,7 +4,8 @@
 /* eslint-disable @next/next/no-html-link-for-pages, @next/next/no-img-element, react-hooks/set-state-in-effect */
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
-import { forcepsOverallLengthMm, forcepsProductForSku, localizedOverallLength } from "../_data/forcepsProductEnrichment";
+import { catalogProductForSku } from "../_data/catalogProductEnrichment";
+import { forcepsProductForSku, localizedOverallLength } from "../_data/forcepsProductEnrichment";
 import { Locale, LOCALES, translations } from "../_data/translations";
 import { trackEvent } from "./Analytics";
 import {
@@ -906,20 +907,22 @@ function ProductPage({ locale, productSlug, t, addQuoteLine, quoteLines, setQuot
   const exactImage = productImages[product.code];
   const image = exactImage || category?.image || "/assets/hero-instrument-collage.webp";
   const categoryName = translatedCategory(product.category, t);
-  const enrichment = forcepsProductForSku(product.code);
+  const forcepsEnrichment = forcepsProductForSku(product.code);
+  const catalogEnrichment = catalogProductForSku(product.code);
+  const enrichment = forcepsEnrichment || catalogEnrichment;
   const enrichedCopy = enrichment?.copy[locale];
-  const overallLengthMm = enrichment ? forcepsOverallLengthMm(enrichment) : undefined;
+  const overallLengthMm = enrichment?.overallLengthMm;
   const enrichedSpecifications = enrichedCopy
     ? [
         ...enrichedCopy.specifications,
         ...(overallLengthMm ? [localizedOverallLength(locale, overallLengthMm)] : []),
       ]
     : [];
-  // Review-gated samples use only relationships backed by the official similar
-  // product list or an explicit manufacturer set. Other product pages retain
-  // their existing category suggestions until the enrichment slice is approved.
-  const related = enrichment
-    ? enrichment.relationships
+  // Forceps use only manufacturer-backed relationships. The broader catalogue
+  // uses same-category references because the PDFs do not claim procedure-level
+  // relationships for most product families.
+  const related = forcepsEnrichment
+    ? forcepsEnrichment.relationships
         .map(relationship => catalogItems.find(item => item.code === relationship.sku))
         .filter((item): item is CatalogItem => Boolean(item))
     : catalogItems
@@ -995,7 +998,7 @@ function ProductPage({ locale, productSlug, t, addQuoteLine, quoteLines, setQuot
         const relatedImage = productImages[item.code] || category?.image || "/assets/hero-instrument-collage.webp";
         return <a href={productPath(item, locale)} key={`${item.code}-${item.name}`}>
           <img src={relatedImage} alt={`AsaDental ${item.name}, item ${item.code}`} loading="lazy" decoding="async" />
-          <span><b>{item.code}</b>{forcepsProductForSku(item.code)?.copy[locale].title || item.name}</span>
+          <span><b>{item.code}</b>{forcepsProductForSku(item.code)?.copy[locale].title || catalogProductForSku(item.code)?.copy[locale].title || item.name}</span>
         </a>;
       })}</div>
     </section>}
