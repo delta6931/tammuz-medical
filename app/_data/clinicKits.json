@@ -1,0 +1,813 @@
+{
+  "generatedFrom": "app/_data/asaCatalog.json",
+  "contractVersion": 1,
+  "areaCount": 9,
+  "kitCount": 152,
+  "areas": [
+    {
+      "area": "diagnostic",
+      "kits": [
+        {
+          "code": "S0600-6",
+          "name": "First examination kit",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0600-9",
+          "name": "First Examination Kit",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0600-23",
+          "name": "First examination kit",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0601-1",
+          "name": "pliers Set no. 5 Flagg",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0601-2",
+          "name": "pliers Set no. 5 London-College",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0601-3",
+          "name": "pliers Set no. 5 Meriam",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0690-2",
+          "name": "Set ultralight mirror and retractor",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0700-6",
+          "name": "Explorers Set no. 5 # 6",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0700-9",
+          "name": "Explorers Set no. 5 # 9",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0700-11",
+          "name": "Explorers Set no. 5 # 11",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0700-16",
+          "name": "Explorers Set no. 5 # 16",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0700-23",
+          "name": "Explorers Set no. 5 # 23",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0702L-7",
+          "name": "Set of 7 Perio pocket probes",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0702L-23",
+          "name": "Boston University set (23 instruments)",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "S0800",
+          "name": "Set: AL2746-1, 0800, 2101, 0601-2,",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "SWML0600-6",
+          "name": "First examination instrument kit AsaLady",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "SWML0600-9",
+          "name": "First examination instrument kit AsaLady",
+          "category": "Diagnostic"
+        },
+        {
+          "code": "SWML0600-23",
+          "name": "First examination instrument kit AsaLady",
+          "category": "Diagnostic"
+        }
+      ]
+    },
+    {
+      "area": "extraction",
+      "kits": [
+        {
+          "code": "S0100-1",
+          "name": "Set 8 extracting forceps",
+          "category": "Extractive Surgery"
+        },
+        {
+          "code": "S0100-2",
+          "name": "Set 8 extracting forceps",
+          "category": "Extractive Surgery"
+        },
+        {
+          "code": "S0100-3",
+          "name": "Set of 4 forceps + 5 root elevators",
+          "category": "Extractive Surgery"
+        },
+        {
+          "code": "S0100-4",
+          "name": "Set 4 forceps+3 elevators+2 n.holders",
+          "category": "Extractive Surgery"
+        },
+        {
+          "code": "S0110",
+          "name": "Set of 10 extracting forceps - children",
+          "category": "Extractive Surgery"
+        },
+        {
+          "code": "S0112",
+          "name": "Set of 7 extracting forceps for children",
+          "category": "Extractive Surgery"
+        },
+        {
+          "code": "S0200-6",
+          "name": "Set of 6 root elevators, Bein",
+          "category": "Extractive Surgery"
+        },
+        {
+          "code": "S0200-10",
+          "name": "Set of 10 root elevators",
+          "category": "Extractive Surgery"
+        },
+        {
+          "code": "S0244-6",
+          "name": "Set of 6 root elevators, kopp",
+          "category": "Extractive Surgery"
+        },
+        {
+          "code": "S0280-4",
+          "name": "Elevator kit of 4 pcs",
+          "category": "Ideal Periotomi"
+        },
+        {
+          "code": "S0296",
+          "name": "Syndesmotome kit",
+          "category": "Extractive Surgery"
+        },
+        {
+          "code": "S0296-1",
+          "name": "Syndesmotome kit",
+          "category": "Extractive Surgery"
+        },
+        {
+          "code": "SPR2781-S",
+          "name": "Oral surgery kit - Perfection",
+          "category": "Extractive Surgery"
+        }
+      ]
+    },
+    {
+      "area": "periodontal",
+      "kits": [
+        {
+          "code": "S0600-1",
+          "name": "First examination instrument set 5",
+          "category": "Periodontal"
+        },
+        {
+          "code": "S1800-23",
+          "name": "Perio instrument set",
+          "category": "Periodontal"
+        },
+        {
+          "code": "S1806",
+          "name": "Set no. 6 Columbia + 1820-Z",
+          "category": "Periodontal"
+        },
+        {
+          "code": "S1807",
+          "name": "Set no. 7 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "S1807-3",
+          "name": "Set no. 3 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "S1807AF",
+          "name": "Set no. 7 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "S1807AF-3",
+          "name": "Set no. 3 Gracey AF/type # 08,12,14",
+          "category": "Periodontal"
+        },
+        {
+          "code": "S1807MF",
+          "name": "Set no. 7 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "S1807MF-3",
+          "name": "Set no. 3 Gracey MF/type # 08,12,14",
+          "category": "Periodontal"
+        },
+        {
+          "code": "S1809",
+          "name": "Set no. 7 Goldman-Fox",
+          "category": "Periodontal"
+        },
+        {
+          "code": "S1890",
+          "name": "Wooden box + set of grinding stones",
+          "category": "Periodontal"
+        },
+        {
+          "code": "S1899",
+          "name": "Set of 15 Perio instruments",
+          "category": "Periodontal"
+        },
+        {
+          "code": "SLV1807",
+          "name": "Set 7 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "SLV1807AF",
+          "name": "Set 7 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "SLV1807MF",
+          "name": "Set 7 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "SML1807",
+          "name": "Set no. 7 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "SML1807AF",
+          "name": "Set no. 7 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "SML1807MF",
+          "name": "Set no. 7 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "SMV1806",
+          "name": "Set no. 6 Columbia + 1820-Z",
+          "category": "Periodontal"
+        },
+        {
+          "code": "SMV1807",
+          "name": "Set no. 7 Gracey - Asa Light",
+          "category": "Periodontal"
+        },
+        {
+          "code": "SMV1809",
+          "name": "Set no. 7 Goldman-Fox - Asa Light",
+          "category": "Periodontal"
+        },
+        {
+          "code": "SPR2781-P",
+          "name": "Perio kit perfection (orange kit)",
+          "category": "Periodontal"
+        }
+      ]
+    },
+    {
+      "area": "restorative",
+      "kits": [
+        {
+          "code": "S0903-1",
+          "name": "Cement spatula Set no. 5 # 1",
+          "category": "Restorative"
+        },
+        {
+          "code": "S0903-2",
+          "name": "Cement spatula Set no. 5 # 2",
+          "category": "Restorative"
+        },
+        {
+          "code": "S0903-3",
+          "name": "Cement spatula Set no. 5 # 3",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1102-1",
+          "name": "Separating spatulas Set 5 Heidemann # 1",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1102-2",
+          "name": "Separating spatulas Set 5 Heidemann # 2",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1102-3",
+          "name": "Separating spatulas Set 5 Heidemann # 3",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1200-1",
+          "name": "Set of 5 Filling instruments # 1",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1200-2",
+          "name": "Set of 5 Filling instruments # 2",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1200-3",
+          "name": "Set of 5 Filling instruments # 3",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1200-4",
+          "name": "Set of 5 Filling instruments # 4",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1200-5",
+          "name": "Set of 5 Filling instruments # 5",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1200T",
+          "name": "Set of 5 Filling instruments",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1220",
+          "name": "Set 6 Felt Filling instruments art.1220",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1222-7",
+          "name": "Set of 7 Composite instruments",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1222-15",
+          "name": "Set of 15 Composite instruments",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1400",
+          "name": "Filling Instr. Set #6 Markley art. 1400",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1700",
+          "name": "Double ended excavators Set no. 5",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1700-0",
+          "name": "Double ended excavators Set no. 5 # 0",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1700-1",
+          "name": "Double ended excavators Set no. 5 # 1",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1700-2",
+          "name": "Double ended excavators Set no. 5 # 2",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1700-3",
+          "name": "Double ended excavators Set no. 5 # 3",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1700-4",
+          "name": "Double ended excavators Set no. 5 # 4",
+          "category": "Restorative"
+        },
+        {
+          "code": "S1710-6",
+          "name": "Double end excavators Set no. 6 SS white",
+          "category": "Restorative"
+        },
+        {
+          "code": "S3000",
+          "name": "Rubber dam instrument set",
+          "category": "Restorative"
+        },
+        {
+          "code": "SMV1400",
+          "name": "Filling instruments Set no. 6 Markley",
+          "category": "Restorative"
+        },
+        {
+          "code": "SMV1700",
+          "name": "Excavators Set no. 5: MV1700-0,1,2,3,4",
+          "category": "Restorative"
+        },
+        {
+          "code": "SVS3000",
+          "name": "Kit Vision Shade",
+          "category": "Restorative"
+        }
+      ]
+    },
+    {
+      "area": "impression",
+      "kits": [
+        {
+          "code": "S2800-12",
+          "name": "Impression tray Set of 12 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2801-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2801-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2801-12",
+          "name": "Impression tray Set of 12 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2801A-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2801A-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2801A-12",
+          "name": "Impression tray Set of 12 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2802-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2802-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2802-12",
+          "name": "Impression tray Set of 12 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2802A-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2802A-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2802A-12",
+          "name": "Impression tray Set of 12 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2803-10",
+          "name": "Impression tray Set of 10 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2803S-10",
+          "name": "Set of 10 pcs. - high grip",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2804-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2804-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2804-12",
+          "name": "Impression tray Set of 12 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2804A-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2804A-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2804A-12",
+          "name": "Impression tray Set of 12 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2804S-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2804S-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2804S-12",
+          "name": "Impression tray Set of 12 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2806-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2807-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2807-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2807-12",
+          "name": "Impression tray Set of 12 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2807A-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2807A-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2807A-12",
+          "name": "Impression tray Set of 12 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2807S-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2807S-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2807S-12",
+          "name": "Impression tray Set of 12 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2808-8",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2809-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2810-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2811-1",
+          "name": "Impression tray Set of 10 (UB,OB)",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2811-2",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2811-3",
+          "name": "Impression tray Set 10 (UU,UP,OP,OU,BS)",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2811-4",
+          "name": "Impression tray Set of 8 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2813",
+          "name": "Set of 11 pcs. + compass",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2816-6",
+          "name": "Impression tray Set of 6 pcs.",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2851-24",
+          "name": "Set 24 impression trays. + compass",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2880-12",
+          "name": "Impression tray Set of 12",
+          "category": "Impression Trays"
+        },
+        {
+          "code": "S2880-12FR",
+          "name": "Impression tray Set of 12 pieces + bur",
+          "category": "Impression Trays"
+        }
+      ]
+    },
+    {
+      "area": "oral_surgery",
+      "kits": [
+        {
+          "code": "S0645",
+          "name": "Tissue pliers Set no. 5 art. 0645",
+          "category": "Oral Surgery"
+        },
+        {
+          "code": "S3002-13",
+          "name": "Surgery - Set of 12 instruments",
+          "category": "Oral Surgery"
+        },
+        {
+          "code": "S3002-17",
+          "name": "Surgery - Set of 17 instruments",
+          "category": "Oral Surgery"
+        },
+        {
+          "code": "S3002-18",
+          "name": "Surgery - Set of 17 instruments",
+          "category": "Oral Surgery"
+        }
+      ]
+    },
+    {
+      "area": "implant",
+      "kits": [
+        {
+          "code": "S0495-6",
+          "name": "Set of 6 osteotomes",
+          "category": "Implant Surgery"
+        },
+        {
+          "code": "S0498-8",
+          "name": "Sinus lift set 4+4 osteotomes",
+          "category": "Implant Surgery"
+        },
+        {
+          "code": "S3001-20",
+          "name": "Surgical instrument set",
+          "category": "Implant Surgery"
+        },
+        {
+          "code": "S3003-9",
+          "name": "Set of 9 instruments Perio",
+          "category": "Implant Surgery"
+        },
+        {
+          "code": "S3003-11",
+          "name": "Set of 11 instruments Perio",
+          "category": "Implant Surgery"
+        },
+        {
+          "code": "SPR0495",
+          "name": "Sinus-Lift mini kit (red kit additional)",
+          "category": "Implant Surgery"
+        },
+        {
+          "code": "SPR0496",
+          "name": "Sinus-Lift kit (red kit additional)",
+          "category": "Implant Surgery"
+        },
+        {
+          "code": "SPR2781-I",
+          "name": "Implant kit - Perfection (red)",
+          "category": "Implant Surgery"
+        }
+      ]
+    },
+    {
+      "area": "laboratory",
+      "kits": [
+        {
+          "code": "S5112",
+          "name": "Set no. 5 P.K. Thomas",
+          "category": "Laboratory instruments"
+        },
+        {
+          "code": "S5112AL",
+          "name": "Set di no. 5 P.K. Thomas",
+          "category": "Laboratory instruments"
+        },
+        {
+          "code": "S5160",
+          "name": "Set 3 instruments + 3 tips",
+          "category": "Laboratory instruments"
+        },
+        {
+          "code": "S6810-1",
+          "name": "Laboratory set with plastic case",
+          "category": "Laboratory instruments"
+        },
+        {
+          "code": "S6810-2",
+          "name": "Laboratory set (plastic case)",
+          "category": "Laboratory instruments"
+        },
+        {
+          "code": "S6811-2",
+          "name": "Laboratory set for prothesis instruments",
+          "category": "Laboratory instruments"
+        }
+      ]
+    },
+    {
+      "area": "other",
+      "kits": [
+        {
+          "code": "S0903-4",
+          "name": "Cement spatula Set no. 5 # 4",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "S6811-1",
+          "name": "Laboratory set for wax and porcelain",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "SML1710-6",
+          "name": "Excavators Set no. 6 SS white",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "SML2021CF",
+          "name": "Apical Micro Endo Kit Full",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "SRC0600-6",
+          "name": "First examinat.kit,(explorer #6)-AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "SRC0600-9",
+          "name": "First examinat.kit,(explorer #9)-AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "SRC0600-23",
+          "name": "First examinat.kit,(explorer #23)AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "SWLV1807",
+          "name": "AsaLady curettes Set no. 7 GRACEY",
+          "category": "Other ASA Dental instruments"
+        }
+      ]
+    }
+  ]
+}

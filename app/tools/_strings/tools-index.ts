@@ -18,6 +18,7 @@ const PATHS = {
   forceps: "/tools/forceps-selector",
   numbering: "/tools/tooth-numbering",
   gracey: "/tools/gracey-selector",
+  clinic: "/tools/clinic-setup",
 };
 
 export const toolsIndexStrings: Record<SiteLocale, ToolsIndexStrings> = {
@@ -42,6 +43,7 @@ export const toolsIndexStrings: Record<SiteLocale, ToolsIndexStrings> = {
       { path: PATHS.forceps, tag: "Extraction", name: "Extraction forceps selector", blurb: "Click the tooth you are extracting and see which AsaDental forceps patterns are designed for that position — arch, tooth group, side, serration and beak configuration." },
       { path: PATHS.numbering, tag: "Reference", name: "Tooth numbering converter", blurb: "Convert between FDI (ISO 3950), Universal and Palmer notation. Click a tooth or type a number, for permanent and primary dentition." },
       { path: PATHS.gracey, tag: "Periodontal", name: "Gracey curette selector", blurb: "Choose a tooth and the surface you are working, and see which area-specific Gracey figures are indicated — including combination instruments." },
+      { path: PATHS.clinic, tag: "Procurement", name: "Clinic setup builder", blurb: "Equipping a new surgery or adding chairs? Choose your treatment areas and room count, then build a list of AsaDental instrument sets ready to send for a quote." },
     ],
     cta: { question: "Need instruments quoted for your clinic in Turkey or Iraq?", button: "Request a quote" },
     note: "These tools are product-matching aids for procurement, not clinical advice. Instrument choice remains the clinician's judgement.",
@@ -68,6 +70,7 @@ export const toolsIndexStrings: Record<SiteLocale, ToolsIndexStrings> = {
       { path: PATHS.forceps, tag: "Çekim", name: "Diş çekme davyesi seçici", blurb: "Çekeceğiniz dişe tıklayın ve o pozisyon için tasarlanmış AsaDental davye modellerini görün — çene, diş grubu, taraf, tırtık durumu ve uçların istirahat konumu." },
       { path: PATHS.numbering, tag: "Referans", name: "Diş numaralandırma çevirici", blurb: "FDI (ISO 3950), Universal ve Palmer sistemleri arasında çeviri yapın. Dişe tıklayın veya numara yazın; sürekli ve süt dişleri için." },
       { path: PATHS.gracey, tag: "Periodontal", name: "Gracey küret seçici", blurb: "Çalıştığınız dişi ve yüzeyi seçin, bölgeye özgü hangi Gracey figürlerinin endike olduğunu görün — kombinasyon aletleri dâhil." },
+      { path: PATHS.clinic, tag: "Satın alma", name: "Klinik kurulum oluşturucu", blurb: "Yeni muayenehane mi kuruyorsunuz ya da ünit mi ekliyorsunuz? Tedavi alanlarını ve oda sayısını seçin, teklife hazır AsaDental set listesi oluşturun." },
     ],
     cta: { question: "Türkiye veya Irak'taki kliniğiniz için teklif ister misiniz?", button: "Teklif isteyin" },
     note: "Bu araçlar satın alma sürecinde ürün eşleştirme amaçlıdır, klinik tavsiye değildir. Alet seçimi hekimin kararındadır.",
@@ -94,6 +97,7 @@ export const toolsIndexStrings: Record<SiteLocale, ToolsIndexStrings> = {
       { path: PATHS.forceps, tag: "القلع", name: "أداة اختيار كلاّبات القلع", blurb: "اضغط على السن المراد قلعه لترى نماذج كلاّبات AsaDental المصمّمة لهذا الموضع — الفك ومجموعة الأسنان والجهة والتسنين ووضع الفكين عند الراحة." },
       { path: PATHS.numbering, tag: "مرجع", name: "محوّل ترقيم الأسنان", blurb: "حوّل بين أنظمة FDI (ISO 3950) وUniversal وPalmer. اضغط على سنّ أو اكتب رقماً، للأسنان الدائمة واللبنية." },
       { path: PATHS.gracey, tag: "اللثة", name: "أداة اختيار مكاشط غرايسي", blurb: "اختر السن والسطح الذي تعمل عليه لترى أرقام غرايسي المخصّصة لتلك المنطقة — بما فيها الأدوات المركّبة." },
+      { path: PATHS.clinic, tag: "المشتريات", name: "أداة تجهيز العيادة", blurb: "هل تجهّز عيادة جديدة أو تضيف كراسي؟ اختر مجالات العلاج وعدد الغرف، ثم كوّن قائمة أطقم AsaDental جاهزة لطلب عرض السعر." },
     ],
     cta: { question: "هل تحتاج عرض سعر لأدوات عيادتك في تركيا أو العراق؟", button: "اطلب عرض سعر" },
     note: "هذه الأدوات وسيلة لمطابقة المنتجات لأغراض الشراء وليست استشارة سريرية. يبقى اختيار الأداة من مسؤولية الطبيب.",
