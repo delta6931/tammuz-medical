@@ -15,7 +15,7 @@
     "name": "rolldown-runtime"
   },
   "app/_components/Analytics.tsx": {
-    "file": "assets/Analytics-Jq8d_8Hl.js",
+    "file": "assets/Analytics-BR1Wfsdy.js",
     "name": "Analytics",
     "src": "app/_components/Analytics.tsx",
     "isDynamicEntry": true,
@@ -28,8 +28,19 @@
       "node_modules/vinext/dist/shims/router.js"
     ]
   },
+  "app/_components/ClinicKitBuilder.tsx": {
+    "file": "assets/ClinicKitBuilder-pr24WVn_.js",
+    "name": "ClinicKitBuilder",
+    "src": "app/_components/ClinicKitBuilder.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_catalog-126lpWTQ.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "app/_components/ForcepsSelector.tsx": {
-    "file": "assets/ForcepsSelector-DAXl_Y3X.js",
+    "file": "assets/ForcepsSelector-D5DbPbrP.js",
     "name": "ForcepsSelector",
     "src": "app/_components/ForcepsSelector.tsx",
     "isDynamicEntry": true,
@@ -40,7 +51,7 @@
     ]
   },
   "app/_components/GraceySelector.tsx": {
-    "file": "assets/GraceySelector-Cz76ERD6.js",
+    "file": "assets/GraceySelector--iLwL9d3.js",
     "name": "GraceySelector",
     "src": "app/_components/GraceySelector.tsx",
     "isDynamicEntry": true,
@@ -51,7 +62,7 @@
     ]
   },
   "app/_components/SitePage.tsx": {
-    "file": "assets/SitePage-B8fMW3MV.js",
+    "file": "assets/SitePage-B-ptS_mN.js",
     "name": "SitePage",
     "src": "app/_components/SitePage.tsx",
     "isDynamicEntry": true,
@@ -63,7 +74,7 @@
     ]
   },
   "app/_components/ToothNotationConverter.tsx": {
-    "file": "assets/ToothNotationConverter-BWKm6UPK.js",
+    "file": "assets/ToothNotationConverter-ztZpUAJ4.js",
     "name": "ToothNotationConverter",
     "src": "app/_components/ToothNotationConverter.tsx",
     "isDynamicEntry": true,
@@ -73,7 +84,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-BktqAmGo.js",
+    "file": "assets/layout-segment-context-COk3ad_G.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -84,7 +95,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-2L64cXEO.js",
+    "file": "assets/router-BwCWINM1.js",
     "name": "router",
     "src": "node_modules/vinext/dist/shims/router.js",
     "isDynamicEntry": true,
@@ -99,7 +110,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-CUjQMMj4.js",
+    "file": "assets/index-CrIhJxd4.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -110,6 +121,7 @@
     "dynamicImports": [
       "node_modules/vinext/dist/shims/layout-segment-context.js",
       "app/_components/ToothNotationConverter.tsx",
+      "app/_components/ClinicKitBuilder.tsx",
       "app/_components/GraceySelector.tsx",
       "virtual:vinext-app-browser-entry",
       "app/_components/Analytics.tsx",
