@@ -34,6 +34,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     /* Navigation */
     "nav.home": "Home",
     "nav.catalog": "Catalog",
+    "nav.tools": "Tools",
     "nav.manufacturers": "Manufacturers",
     "nav.contact": "Contact",
     "nav.menu": "Menu",
@@ -213,6 +214,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     /* Navigation */
     "nav.home": "Ana Sayfa",
     "nav.catalog": "Katalog",
+    "nav.tools": "Araçlar",
     "nav.manufacturers": "Onaylı Üreticiler",
     "nav.contact": "İletişim",
     "nav.menu": "Menü",
@@ -392,6 +394,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     /* Navigation */
     "nav.home": "الرئيسية",
     "nav.catalog": "الكتالوج",
+    "nav.tools": "الأدوات",
     "nav.manufacturers": "المصنّعون المعتمدون",
     "nav.contact": "تواصل معنا",
     "nav.menu": "القائمة",

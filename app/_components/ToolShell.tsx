@@ -42,6 +42,7 @@ export function ToolShell({
           <img src="/assets/brand/tammuz-global-medical.png" alt="Tammuz Global Medical" width={220} height={50} />
         </a>
         <nav className="nav" aria-label={labels.navLabel}>
+          <a href={localizedPath("/tools", locale)}>{labels.tools}</a>
           <a href={catalog}>{labels.catalog}</a>
           <a href={contact}>{labels.contact}</a>
         </nav>
@@ -50,7 +51,7 @@ export function ToolShell({
       <nav className="breadcrumbs" aria-label="Breadcrumb">
         <a href={home}>{labels.home}</a>
         <span>/</span>
-        <span>{labels.tools}</span>
+        <a href={localizedPath("/tools", locale)}>{labels.tools}</a>
       </nav>
 
       <section className="page-hero">

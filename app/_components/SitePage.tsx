@@ -119,6 +119,7 @@ export function SitePage({
   const navigation = [
     ["nav.home", localizedPath("/", language as SiteLocale), "home"],
     ["nav.catalog", localizedPath("/catalog", language as SiteLocale), "catalog"],
+    ["nav.tools", localizedPath("/tools", language as SiteLocale), "tools"],
     ["nav.manufacturers", localizedPath("/verified-manufacturers", language as SiteLocale), "manufacturers"],
     ["nav.contact", localizedPath("/contact", language as SiteLocale), "contact"],
   ] as const;
