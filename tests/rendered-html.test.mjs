@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { access, readFile, stat } from "node:fs/promises";
 import test from "node:test";
-import { cleanRoutes, indexableProducts, localizeDocumentHtml, productSlug } from "../scripts/site-routes.mjs";
+import { cleanRoutes, indexableProducts, localizeDocumentHtml, productSlug, toolRoutes } from "../scripts/site-routes.mjs";
 
 const projectRoot = new URL("../", import.meta.url);
 const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -180,7 +180,9 @@ test("renders non-sample forceps enrichment natively in English, Turkish and Ara
 
 test("creates a localized, crawlable product page for every catalog reference", async () => {
   assert.equal(indexableProducts.length, 2_959);
-  assert.equal(cleanRoutes.length, (8 + 13 + indexableProducts.length) * 3 + 3);
+  // Base pages + categories + products, in three locales, plus the standalone
+  // /tools pages. Derived from toolRoutes so adding a tool does not fail this.
+  assert.equal(cleanRoutes.length, (8 + 13 + indexableProducts.length) * 3 + toolRoutes.length);
 
   const productRoutes = cleanRoutes.filter(route => route.includes("/catalog/product/"));
   assert.equal(productRoutes.length, 2_959 * 3);
