@@ -1,0 +1,830 @@
+{
+  "generatedFrom": "app/_data/asaCatalog.json",
+  "contractVersion": 1,
+  "groupCount": 12,
+  "skuCount": 109,
+  "groups": [
+    {
+      "number": "1/2",
+      "ends": [
+        1,
+        2
+      ],
+      "regions": [
+        "anterior"
+      ],
+      "surfaces": [
+        "facial",
+        "lingual",
+        "mesial",
+        "distal"
+      ],
+      "skus": [
+        {
+          "code": "1807-02",
+          "name": "Curette # 1/2 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-02AF",
+          "name": "Curette # 1/2 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-02MF",
+          "name": "Curette # 1/2 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-02",
+          "name": "Curette # 1/2 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-02AF",
+          "name": "Curette # 1/2 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-02MF",
+          "name": "Curette # 1/2 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-02",
+          "name": "Curette # 1/2 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-02AF",
+          "name": "Curette # 1/2 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-02MF",
+          "name": "Curette # 1/2 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "MV1807-02",
+          "name": "# 1/2 Asa Light Gracey curette",
+          "category": "Periodontal"
+        },
+        {
+          "code": "RC1807-02",
+          "name": "# 1/2 Gracey - AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "RC1807-02SF",
+          "name": "# 1/2 Gracey - AsaWave -Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "WLV1807-02",
+          "name": "AsaLady curettes Gracey # 1/2",
+          "category": "Other ASA Dental instruments"
+        }
+      ]
+    },
+    {
+      "number": "3/4",
+      "ends": [
+        3,
+        4
+      ],
+      "regions": [
+        "anterior"
+      ],
+      "surfaces": [
+        "facial",
+        "lingual",
+        "mesial",
+        "distal"
+      ],
+      "skus": [
+        {
+          "code": "1807-04",
+          "name": "Curette # 3/4 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-04AF",
+          "name": "Curette # 3/4 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-04MF",
+          "name": "Curette # 3/4 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-04",
+          "name": "Curette # 3/4 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-04AF",
+          "name": "Curette # 3/4 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-04MF",
+          "name": "Curette # 3/4 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-04",
+          "name": "Curette # 3/4 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-04AF",
+          "name": "Curette # 3/4 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-04MF",
+          "name": "Curette # 3/4 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "MV1807-04",
+          "name": "# 3/4 Asa Light Gracey curette",
+          "category": "Periodontal"
+        },
+        {
+          "code": "RC1807-04",
+          "name": "# 3/4 Gracey - AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "RC1807-04SF",
+          "name": "# 3/4 Gracey - AsaWave -Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "WLV1807-04",
+          "name": "AsaLady curettes Gracey # 3/4",
+          "category": "Other ASA Dental instruments"
+        }
+      ]
+    },
+    {
+      "number": "5/6",
+      "ends": [
+        5,
+        6
+      ],
+      "regions": [
+        "anterior",
+        "premolar"
+      ],
+      "surfaces": [
+        "facial",
+        "lingual",
+        "mesial",
+        "distal"
+      ],
+      "skus": [
+        {
+          "code": "1807-06",
+          "name": "Curette # 5/6 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-06AF",
+          "name": "Curette # 5/6 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-06MF",
+          "name": "Curette # 5/6 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-06",
+          "name": "Curette # 5/6 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-06AF",
+          "name": "Curette # 5/6 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-06MF",
+          "name": "Curette # 5/6 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-06SF",
+          "name": "Gracey Curette Fig. 5/6,LV Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "ML1807-06",
+          "name": "Curette # 5/6 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-06AF",
+          "name": "Curette # 5/6 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-06MF",
+          "name": "Curette # 5/6 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "MV1807-06",
+          "name": "# 5/6 Asa Light Gracey curette",
+          "category": "Periodontal"
+        },
+        {
+          "code": "RC1807-06",
+          "name": "# 5/6 Gracey - AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "RC1807-06SF",
+          "name": "#  5/6 Gracey - AsaWave -Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "WLV1807-06",
+          "name": "AsaLady curettes Gracey # 5/6",
+          "category": "Other ASA Dental instruments"
+        }
+      ]
+    },
+    {
+      "number": "7/8",
+      "ends": [
+        7,
+        8
+      ],
+      "regions": [
+        "premolar",
+        "molar"
+      ],
+      "surfaces": [
+        "facial",
+        "lingual"
+      ],
+      "skus": [
+        {
+          "code": "1807-08",
+          "name": "Curette # 7/8 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-08AF",
+          "name": "Curette # 7/8 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-08MF",
+          "name": "Curette # 7/8 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-08",
+          "name": "Curette # 7/8 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-08AF",
+          "name": "Curette # 7/8 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-08MF",
+          "name": "Curette # 7/8 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-08",
+          "name": "Curette # 7/8 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-08AF",
+          "name": "Curette # 7/8 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-08MF",
+          "name": "Curette # 7/8 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "MV1807-08",
+          "name": "# 7/8 Asa Light Gracey curette",
+          "category": "Periodontal"
+        },
+        {
+          "code": "RC1807-08",
+          "name": "# 7/8 Gracey - AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "RC1807-08SF",
+          "name": "# 7/8, Gracey - AsaWave -Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "WLV1807-08",
+          "name": "AsaLady curettes Gracey # 7/8",
+          "category": "Other ASA Dental instruments"
+        }
+      ]
+    },
+    {
+      "number": "9/10",
+      "ends": [
+        9,
+        10
+      ],
+      "regions": [
+        "premolar",
+        "molar"
+      ],
+      "surfaces": [
+        "facial",
+        "lingual"
+      ],
+      "skus": [
+        {
+          "code": "1807-10",
+          "name": "Curette # 9/10 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-10",
+          "name": "Curette # 9/10 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-10SF",
+          "name": "Gracey Curette Fig. 9/10,LV Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "ML1807-10",
+          "name": "Curette # 9/10 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "MV1807-10",
+          "name": "# 9/10 Asa Light Gracey curette",
+          "category": "Periodontal"
+        },
+        {
+          "code": "RC1807-10",
+          "name": "# 9/10 Gracey - AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "RC1807-10SF",
+          "name": "# 9/10 Gracey - AsaWave Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "WLV1807-10",
+          "name": "AsaLady curettes Gracey # 9/10",
+          "category": "Other ASA Dental instruments"
+        }
+      ]
+    },
+    {
+      "number": "10/12",
+      "ends": [
+        10,
+        12
+      ],
+      "regions": [
+        "premolar",
+        "molar"
+      ],
+      "surfaces": [
+        "facial",
+        "lingual",
+        "mesial"
+      ],
+      "skus": [
+        {
+          "code": "ML1807-12AF",
+          "name": "Curette # 10/12 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-12MF",
+          "name": "Curette # 10/12 GraceyMF/type",
+          "category": "Periodontal"
+        }
+      ]
+    },
+    {
+      "number": "11/12",
+      "ends": [
+        11,
+        12
+      ],
+      "regions": [
+        "premolar",
+        "molar"
+      ],
+      "surfaces": [
+        "mesial"
+      ],
+      "skus": [
+        {
+          "code": "1807-12",
+          "name": "Curette # 11/12 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-12AF",
+          "name": "Curette # 11/12 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-12MF",
+          "name": "Curette # 11/12 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-12",
+          "name": "Curette # 11/12 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-12AF",
+          "name": "Curette # 11/12 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-12MF",
+          "name": "Curette # 11/12 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-12",
+          "name": "Curette # 11/12 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "MV1807-12",
+          "name": "# 11/12 Asa Light Gracey curette",
+          "category": "Periodontal"
+        },
+        {
+          "code": "RC1807-12",
+          "name": "# 11/12 Gracey - AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "RC1807-12SF",
+          "name": "# 11/12 Gracey - AsaWave Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "WLV1807-12",
+          "name": "AsaLady curettes Gracey # 11/12",
+          "category": "Other ASA Dental instruments"
+        }
+      ]
+    },
+    {
+      "number": "11/14",
+      "ends": [
+        11,
+        14
+      ],
+      "regions": [
+        "premolar",
+        "molar"
+      ],
+      "surfaces": [
+        "mesial",
+        "distal"
+      ],
+      "skus": [
+        {
+          "code": "1807-11MD",
+          "name": "Curette # 11/14 Gracey Mesial-Distal",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-11MD",
+          "name": "Curette # 11/14 Gracey Mesial-Distal",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-11MD",
+          "name": "Curette # 11/14 Gracey Mesial-Distal",
+          "category": "Periodontal"
+        }
+      ]
+    },
+    {
+      "number": "12/13",
+      "ends": [
+        12,
+        13
+      ],
+      "regions": [
+        "premolar",
+        "molar"
+      ],
+      "surfaces": [
+        "mesial",
+        "distal"
+      ],
+      "skus": [
+        {
+          "code": "1807-13MD",
+          "name": "Curette # 12/13 Gracey Mesial-Distal",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-13MD",
+          "name": "Curette # 12/13 Gracey Mesial-Distal",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-13MD",
+          "name": "Curette # 12/13 Gracey Mesial-Distal",
+          "category": "Periodontal"
+        }
+      ]
+    },
+    {
+      "number": "13/14",
+      "ends": [
+        13,
+        14
+      ],
+      "regions": [
+        "premolar",
+        "molar"
+      ],
+      "surfaces": [
+        "distal"
+      ],
+      "skus": [
+        {
+          "code": "1807-14",
+          "name": "Curette # 13/14 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-14AF",
+          "name": "Curette # 13/14 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-14MF",
+          "name": "Curette # 13/14 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-14",
+          "name": "Curette # 13/14 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-14AF",
+          "name": "Curette # 13/14 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-14MF",
+          "name": "Curette # 13/14 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-14",
+          "name": "Curette # 13/14 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-14AF",
+          "name": "Curette # 13/14 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-14MF",
+          "name": "Curette # 13/14 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "MV1807-14",
+          "name": "# 13/14 Asa Light Gracey curette",
+          "category": "Periodontal"
+        },
+        {
+          "code": "RC1807-14",
+          "name": "# 13/14 Gracey - AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "RC1807-14SF",
+          "name": "# 13/14 Gracey - AsaWave Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "WLV1807-14",
+          "name": "AsaLady curettes Gracey # 13/14",
+          "category": "Other ASA Dental instruments"
+        }
+      ]
+    },
+    {
+      "number": "15/16",
+      "ends": [
+        15,
+        16
+      ],
+      "regions": [
+        "premolar",
+        "molar"
+      ],
+      "surfaces": [
+        "mesial"
+      ],
+      "skus": [
+        {
+          "code": "1807-16",
+          "name": "Curette # 15/16 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-16AF",
+          "name": "Curette # 15/16 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "1807-16MF",
+          "name": "Curette # 15/16 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-16",
+          "name": "Curette # 15/16 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-16AF",
+          "name": "Curette # 15/16 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-16MF",
+          "name": "Curette # 15/16 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-16",
+          "name": "Curette # 15/16 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-16AF",
+          "name": "Curette # 15/16 Gracey AF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-16MF",
+          "name": "Curette # 15/16 Gracey MF/type",
+          "category": "Periodontal"
+        },
+        {
+          "code": "RC1807-16",
+          "name": "# 15/16 Gracey - AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "RC1807-16SF",
+          "name": "# 15/16 Gracey - AsaWave Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        }
+      ]
+    },
+    {
+      "number": "17/18",
+      "ends": [
+        17,
+        18
+      ],
+      "regions": [
+        "premolar",
+        "molar"
+      ],
+      "surfaces": [
+        "distal"
+      ],
+      "skus": [
+        {
+          "code": "1807-18",
+          "name": "Curette # 17/18 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-18",
+          "name": "Curette # 17/18 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "ML1807-18",
+          "name": "Curette # 17/18 Gracey",
+          "category": "Periodontal"
+        },
+        {
+          "code": "RC1807-18",
+          "name": "# 17/18 Gracey - AsaWave",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "RC1807-18SF",
+          "name": "# 17/18 Gracey - AsaWave Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        }
+      ]
+    }
+  ],
+  "unnumbered": [
+    {
+      "code": "S1807",
+      "name": "Set no. 7 Gracey",
+      "category": "Periodontal"
+    },
+    {
+      "code": "S1807-3",
+      "name": "Set no. 3 Gracey",
+      "category": "Periodontal"
+    },
+    {
+      "code": "S1807AF",
+      "name": "Set no. 7 Gracey AF/type",
+      "category": "Periodontal"
+    },
+    {
+      "code": "S1807AF-3",
+      "name": "Set no. 3 Gracey AF/type # 08,12,14",
+      "category": "Periodontal"
+    },
+    {
+      "code": "S1807MF",
+      "name": "Set no. 7 Gracey MF/type",
+      "category": "Periodontal"
+    },
+    {
+      "code": "S1807MF-3",
+      "name": "Set no. 3 Gracey MF/type # 08,12,14",
+      "category": "Periodontal"
+    },
+    {
+      "code": "SLV1807",
+      "name": "Set 7 Gracey",
+      "category": "Periodontal"
+    },
+    {
+      "code": "SLV1807AF",
+      "name": "Set 7 Gracey AF/type",
+      "category": "Periodontal"
+    },
+    {
+      "code": "SLV1807MF",
+      "name": "Set 7 Gracey MF/type",
+      "category": "Periodontal"
+    },
+    {
+      "code": "SML1807",
+      "name": "Set no. 7 Gracey",
+      "category": "Periodontal"
+    },
+    {
+      "code": "SML1807AF",
+      "name": "Set no. 7 Gracey AF/type",
+      "category": "Periodontal"
+    },
+    {
+      "code": "SML1807MF",
+      "name": "Set no. 7 Gracey MF/type",
+      "category": "Periodontal"
+    },
+    {
+      "code": "SMV1807",
+      "name": "Set no. 7 Gracey - Asa Light",
+      "category": "Periodontal"
+    },
+    {
+      "code": "SWLV1807",
+      "name": "AsaLady curettes Set no. 7 GRACEY",
+      "category": "Other ASA Dental instruments"
+    }
+  ]
+}

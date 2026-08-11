@@ -1,0 +1,88 @@
+/* Gracey curette selector. Scoped to /tools/* so it cannot affect catalog pages. */
+
+.gc { display: grid; gap: 24px; }
+
+.gc-chart { display: grid; gap: 18px; padding: 26px 22px; background: var(--paper); border: 1px solid var(--line); }
+.gc-arch { display: grid; gap: 8px; }
+.gc-arch-label { color: var(--teal); font-size: 10px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; }
+
+.gc-row { display: grid; grid-template-columns: repeat(16, minmax(30px, 1fr)); gap: 4px; overflow-x: auto; padding-bottom: 4px; }
+.gc-tooth {
+  min-height: 44px; padding: 6px 0;
+  border: 1px solid var(--line); background: #fff;
+  color: var(--ink); font-size: 11px; font-weight: 700;
+  transition: background .15s, border-color .15s, color .15s;
+}
+.gc-tooth:hover { border-color: var(--teal); background: var(--mint); }
+.gc-tooth.selected { border-color: var(--teal); background: var(--teal); color: #fff; }
+.gc-tooth[data-midline="true"] { margin-inline-end: 8px; }
+.gc-tooth:focus-visible,
+.gc-chip:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px; }
+
+.gc-hint { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.5; }
+
+.gc-surfaces { margin: 0; padding: 20px 22px; border: 1px solid var(--line); background: var(--paper); }
+.gc-surfaces legend { padding: 0 8px; color: var(--teal); font-size: 10px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; }
+.gc-surface-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 12px; }
+.gc-chip {
+  min-height: 46px; padding: 10px 12px; border: 1px solid var(--line); background: #fff;
+  color: #52666d; font-size: 12px; font-weight: 700; line-height: 1.25;
+}
+.gc-chip:hover { border-color: var(--teal); }
+.gc-chip.on { border-color: var(--teal); background: var(--teal); color: #fff; }
+
+.gc-results { min-height: 110px; }
+.gc-results-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 18px; }
+.gc-results-head h3 { margin: 0; font-size: 25px; font-weight: 500; letter-spacing: -.4px; line-height: 1.2; }
+.gc-results-head span { color: var(--muted); font-size: 12px; }
+
+.gc-empty { margin: 0; padding: 26px; background: var(--mint); color: #4d6167; font-size: 13px; line-height: 1.65; }
+
+.gc-list { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
+.gc-card { padding: 20px 22px; border: 1px solid var(--line); background: #fff; }
+
+.gc-figure { display: flex; align-items: baseline; gap: 9px; }
+.gc-figure span { color: var(--teal); font-size: 10px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
+.gc-figure b { font-size: 26px; font-weight: 600; line-height: 1; }
+
+.gc-covers { margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
+.gc-covers em { color: var(--ink); font-style: normal; font-weight: 700; }
+.gc-variants { margin: 16px 0 8px; padding-top: 12px; border-top: 1px solid #eef1ee; color: var(--teal); font-size: 10px; font-weight: 800; letter-spacing: .8px; text-transform: uppercase; }
+
+.gc-skus { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.gc-skus li { display: grid; grid-template-columns: 92px 1fr auto; gap: 12px; align-items: baseline; padding-bottom: 8px; border-bottom: 1px solid #f1f4f1; }
+.gc-skus li:last-child { border-bottom: 0; padding-bottom: 0; }
+.gc-skus b { color: var(--teal); font-size: 11px; letter-spacing: .6px; }
+.gc-skus span { font-size: 12px; line-height: 1.4; }
+.gc-skus a { color: var(--teal); font-size: 11px; font-weight: 700; white-space: nowrap; }
+
+.gc-sets { padding: 18px 22px; border: 1px solid var(--line); background: var(--paper); }
+.gc-sets summary { color: var(--teal); font-size: 12px; font-weight: 800; cursor: pointer; }
+.gc-sets > p { margin: 12px 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.gc-sets ul { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.gc-sets li { display: grid; grid-template-columns: 92px 1fr auto; gap: 12px; align-items: baseline; font-size: 12px; }
+.gc-sets b { color: var(--teal); font-size: 11px; }
+.gc-sets a { color: var(--teal); font-weight: 700; white-space: nowrap; }
+
+.gc-disclaimer { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.6; }
+
+@media (max-width: 900px) {
+  .gc-surface-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 650px) {
+  .gc-chart, .gc-surfaces { padding: 20px 16px; }
+  .gc-results-head h3 { font-size: 20px; }
+  .gc-card { padding: 17px 16px; }
+  .gc-skus li, .gc-sets li { grid-template-columns: 1fr; gap: 3px; }
+  .gc-skus a, .gc-sets a { justify-self: start; }
+}
+
+/*
+ * RTL. The arch chart is an anatomical diagram, not prose: FDI charts are drawn
+ * worldwide with the patient's right on the viewer's left, so rows stay LTR in
+ * Arabic while the surrounding layout mirrors normally.
+ */
+[dir="rtl"] .gc-row { direction: ltr; }
+[dir="rtl"] .gc-arch-label,
+[dir="rtl"] .gc-hint { text-align: right; }
