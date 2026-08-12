@@ -172,10 +172,15 @@ test("renders non-sample forceps enrichment natively in English, Turkish and Ara
     if (prefix === "/ar") assert.match(html, /<html lang="ar" dir="rtl">/i);
   }
 
-  const unresolved = indexableProducts.find(product => product.code === "0130-89");
-  const unresolvedHtml = await (await request(`/tr/catalog/product/${productSlug(unresolved)}`, { headers: { accept: "text/html" } })).text();
-  assert.doesNotMatch(unresolvedHtml, /Toplam uzunluk/);
-  assert.doesNotMatch(unresolvedHtml, /Malzeme ve yeniden işleme/);
+  const resolved = indexableProducts.find(product => product.code === "0130-89");
+  const resolvedHtml = await (await request(`/tr/catalog/product/${productSlug(resolved)}`, { headers: { accept: "text/html" } })).text();
+  assert.match(resolvedHtml, /Toplam uzunluk/);
+  assert.match(resolvedHtml, /175 mm/);
+  assert.match(resolvedHtml, /Malzeme ve yeniden işleme/);
+
+  const conflicting = indexableProducts.find(product => product.code === "0100-13");
+  const conflictingHtml = await (await request(`/catalog/product/${productSlug(conflicting)}`, { headers: { accept: "text/html" } })).text();
+  assert.doesNotMatch(conflictingHtml, /Overall length/);
 });
 
 test("creates a localized, crawlable product page for every catalog reference", async () => {

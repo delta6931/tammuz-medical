@@ -9,28 +9,7 @@ import factsJson from "./catalogProductFacts.json";
 import catalogItemsJson from "./asaCatalog.json";
 import type { ForcepsSampleLocale, SampleCopy } from "./forcepsProductSamples";
 
-type CompactFact = {
-  s: string;
-  f: string;
-  l: number | null;
-  w: number | null;
-  d: number | null;
-  z: number[] | null;
-  a: number[];
-  o: string[];
-  v: string[];
-  c: string[];
-  h: string[];
-  t: string[];
-  e: string[];
-  p: string[];
-  u: string[];
-  m: string[];
-  n: string[];
-  q: number | null;
-  r: [boolean | null, boolean | null, number | null];
-  x: boolean;
-};
+type ReprocessingFact = [boolean | null, boolean | null, number | null];
 
 type Fact = {
   sku: string;
@@ -71,9 +50,26 @@ export type CatalogPageEnrichment = {
 };
 
 const catalogBySku = new Map((catalogItemsJson as Array<{ code: string; name: string; category: string }>).map(item => [item.code, item]));
-const facts = (factsJson as { records: CompactFact[] }).records.map(record => {
+
+function readReprocessingFact(sku: string, value: readonly unknown[]): ReprocessingFact {
+  if (value.length !== 3) throw new Error(`Invalid reprocessing fact for ${sku}: expected 3 values`);
+  const [singleUse, sterilizable, maxTemperatureC] = value;
+  if (singleUse !== null && typeof singleUse !== "boolean") {
+    throw new Error(`Invalid single-use fact for ${sku}`);
+  }
+  if (sterilizable !== null && typeof sterilizable !== "boolean") {
+    throw new Error(`Invalid sterilization fact for ${sku}`);
+  }
+  if (maxTemperatureC !== null && typeof maxTemperatureC !== "number") {
+    throw new Error(`Invalid reprocessing temperature for ${sku}`);
+  }
+  return [singleUse, sterilizable, maxTemperatureC];
+}
+
+const facts = factsJson.records.map(record => {
   const item = catalogBySku.get(record.s);
   if (!item) throw new Error(`Missing catalogue record for ${record.s}`);
+  const [singleUse, sterilizable, maxTemperatureC] = readReprocessingFact(record.s, record.r);
   return {
     sku: record.s,
     catalogueName: item.name,
@@ -97,9 +93,9 @@ const facts = (factsJson as { records: CompactFact[] }).records.map(record => {
     materials: record.m,
     finishes: record.n,
     quantity: record.q,
-    singleUse: record.r[0],
-    sterilizable: record.r[1],
-    maxTemperatureC: record.r[2],
+    singleUse,
+    sterilizable,
+    maxTemperatureC,
     sourceMatched: record.x,
   } satisfies Fact;
 });

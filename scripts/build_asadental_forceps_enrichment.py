@@ -495,9 +495,6 @@ def parse_official_page(code: str) -> dict[str, Any] | None:
     temperature_label = next(label for label in product if label.strip("Â") == "°C")
     description = product[product.index(temperature_label) + 1]
     length_match = re.search(r"(\d+(?:\.\d+)?)\s*(?:Â?±\s*(\d+(?:\.\d+)?))?\s*cm", description)
-    if not length_match:
-        raise ValueError(f"No official length found for cached product {code}")
-
     similar_start = lines.index("Similar products") + 1
     similar_end = lines.index("View more", similar_start)
     variants = []
@@ -516,8 +513,8 @@ def parse_official_page(code: str) -> dict[str, Any] | None:
         "sterilizable": value("Sterilization") == "Yes",
         "material": value("Material"),
         "maxTemperatureC": int(value("Reprocessing temp.")),
-        "lengthMm": float(length_match.group(1)) * 10,
-        "lengthToleranceMm": float(length_match.group(2)) * 10 if length_match.group(2) else None,
+        "lengthMm": float(length_match.group(1)) * 10 if length_match else None,
+        "lengthToleranceMm": float(length_match.group(2)) * 10 if length_match and length_match.group(2) else None,
         "serration": "serrated" if "serrated rim" in description.lower() else None,
         "relatedVariants": variants,
     }
@@ -545,7 +542,7 @@ def build_record(
     resolved_tolerance = None
     length_status = "secondary_not_cached"
 
-    if official:
+    if official and official["lengthMm"] is not None:
         difference = abs(catalogue_length_mm - official["lengthMm"])
         if difference <= LENGTH_AGREEMENT_TOLERANCE_MM:
             resolved_length = official["lengthMm"]
@@ -553,6 +550,8 @@ def build_record(
             length_status = "official_precise_within_catalogue_nominal_tolerance"
         else:
             length_status = "unresolved_catalogue_website_conflict"
+    elif official:
+        length_status = "official_length_not_published"
 
     if confirmed_length:
         resolved_length = confirmed_length["valueMm"]
@@ -650,17 +649,19 @@ def build_record(
         },
     ]
     if official:
-        sources.append({
+        official_source = {
             "id": OFFICIAL_SOURCE_ID,
             "authority": "secondary",
             "type": "official_product_page_cached",
             "url": official["url"],
             "fetchedAtUnix": official["fetchedAtUnix"],
-            "officialPreciseLengthMm": official["lengthMm"],
-            "officialTolerancePlusMinusMm": official["lengthToleranceMm"],
             "officialSerration": official["serration"],
             "lengthResolutionStatus": length_status,
-        })
+        }
+        if official["lengthMm"] is not None:
+            official_source["officialPreciseLengthMm"] = official["lengthMm"]
+            official_source["officialTolerancePlusMinusMm"] = official["lengthToleranceMm"]
+        sources.append(official_source)
     if confirmed_length:
         sources.append({
             "id": "manufacturer-confirmed-length-override",
@@ -757,6 +758,23 @@ def main() -> None:
         raise ValueError("Commercial price data was detected in enrichment output")
 
     unresolved_lengths = [record["sku"] for record in records if record["dimensions"]["overallLengthMm"]["value"] is None]
+    official_sources = {
+        record["sku"]: next(
+            source for source in record["provenance"]["sources"] if source["id"] == OFFICIAL_SOURCE_ID
+        )
+        for record in records
+    }
+    conflicting_lengths = [
+        record["sku"]
+        for record in records
+        if record["dimensions"]["overallLengthMm"]["value"] is None
+        and official_sources[record["sku"]].get("officialPreciseLengthMm") is not None
+    ]
+    official_length_not_published = [
+        record["sku"]
+        for record in records
+        if official_sources[record["sku"]].get("officialPreciseLengthMm") is None
+    ]
     unknown_serration = [record["sku"] for record in records if record["design"]["tipSerration"] is None]
     report = {
         "recordCount": len(records),
@@ -773,6 +791,12 @@ def main() -> None:
         "resolvedLengthCount": len(records) - len(unresolved_lengths),
         "unresolvedLengthCount": len(unresolved_lengths),
         "unresolvedLengthSkus": unresolved_lengths,
+        # The 20 approved sample records predate lengthResolutionStatus. Derive
+        # these totals from their actual evidence so legacy records are counted.
+        "conflictingLengthCount": len(conflicting_lengths),
+        "conflictingLengthSkus": conflicting_lengths,
+        "officialLengthNotPublishedCount": len(official_length_not_published),
+        "officialLengthNotPublishedSkus": official_length_not_published,
         "ambiguousSerrationPanelCount": len(ambiguous_serration),
         "ambiguousSerrationPanelSkus": ambiguous_serration,
         "unknownSerrationCount": len(unknown_serration),
