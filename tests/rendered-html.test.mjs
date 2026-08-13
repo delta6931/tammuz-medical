@@ -51,7 +51,7 @@ test("preserves the required homepage SEO and compliance content", async () => {
 test("renders the complete searchable catalog foundation", async () => {
   const html = await (await request("/catalog.html", { headers: { accept: "text/html" } })).text();
   assert.match(html, /Search by item code or product name/);
-  assert.match(html, /2,959 product references/);
+  assert.match(html, new RegExp(`${indexableProducts.length.toLocaleString("en-US")} product references`));
   assert.match(html, /AsaDental product categories/);
   assert.match(html, /Add to quote/);
 });
@@ -81,15 +81,16 @@ test("keeps the full forceps enrichment and selector projections synchronized", 
 });
 
 test("covers every non-forceps SKU with price-free catalogue enrichment", () => {
-  assert.equal(catalogEnrichment.recordCount, 2_773);
-  assert.equal(catalogPageFacts.recordCount, 2_773);
-  assert.deepEqual(catalogEnrichment.priorityCounts, { "1b": 237, "2": 2_536 });
-  assert.equal(catalogEnrichment.fieldCoverage.sourcePageMatched, 2_631);
+  const expectedNonForceps = indexableProducts.length - forcepsPageFacts.recordCount;
+  assert.equal(catalogEnrichment.recordCount, expectedNonForceps);
+  assert.equal(catalogPageFacts.recordCount, expectedNonForceps);
+  assert.equal(Object.values(catalogEnrichment.priorityCounts).reduce((sum, count) => sum + count, 0), expectedNonForceps);
+  assert.equal(catalogEnrichment.fieldCoverage.sourcePageMatched, 2_641);
   assert.equal(catalogEnrichment.fieldCoverage.sourcePageUnmatched, 142);
 
   const forcepsCodes = new Set(forcepsPageFacts.records.map(record => record.sku));
   const nonForcepsCodes = new Set(catalogEnrichment.records.map(record => record.sku));
-  assert.equal(nonForcepsCodes.size, 2_773);
+  assert.equal(nonForcepsCodes.size, expectedNonForceps);
   assert.equal([...forcepsCodes].filter(code => nonForcepsCodes.has(code)).length, 0);
   assert.deepEqual(
     [...forcepsCodes, ...nonForcepsCodes].sort(),
@@ -184,13 +185,13 @@ test("renders non-sample forceps enrichment natively in English, Turkish and Ara
 });
 
 test("creates a localized, crawlable product page for every catalog reference", async () => {
-  assert.equal(indexableProducts.length, 2_959);
+  assert.equal(indexableProducts.length, 2_969);
   // Base pages + categories + products, in three locales, plus the standalone
   // /tools pages. Derived from toolRoutes so adding a tool does not fail this.
   assert.equal(cleanRoutes.length, (8 + 13 + indexableProducts.length) * 3 + toolRoutes.length);
 
   const productRoutes = cleanRoutes.filter(route => route.includes("/catalog/product/"));
-  assert.equal(productRoutes.length, 2_959 * 3);
+  assert.equal(productRoutes.length, indexableProducts.length * 3);
 
   for (const code of ["0103-10", "0280-2R", "2800-L4"]) {
     const item = indexableProducts.find(product => product.code === code);

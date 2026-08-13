@@ -9,7 +9,7 @@ import { parseSiteRoute } from "../_lib/site-route";
 const seoCopy = {
   EN: {
     home: ["Tammuz Medical — Premium Medical & Dental Supplies | Turkey & Iraq", "European dental and medical supply for clinics, distributors and procurement teams in Turkey and Iraq."],
-    catalog: ["AsaDental Dental Instruments Catalog | Tammuz Medical", "Search 2,959 AsaDental dental instrument references by product name, item code or clinical category."],
+    catalog: ["AsaDental Dental Instruments Catalog | Tammuz Medical", "Search 2,969 AsaDental dental instrument references by product name, item code or clinical category."],
     manufacturers: ["Verified European Dental Manufacturers | Tammuz Medical", "Learn how Tammuz Global Medical evaluates European manufacturers, documentation and pre-shipment requirements."],
     contact: ["Request a Dental Supply Quote | Turkey & Iraq | Tammuz Medical", "Send a product list or request guidance from the Tammuz Global Medical supply team."],
     iraq: ["Dental Supplies for Clinics & Distributors in Iraq | Tammuz Medical", "Request European dental instruments for Iraq with product matching, documentation support and pre-shipment inspection."],
@@ -29,7 +29,7 @@ const seoCopy = {
   },
   AR: {
     home: ["توريد المستلزمات الطبية وطب الأسنان في تركيا والعراق | Tammuz Medical", "توريد أوروبي لعيادات الأسنان والموزعين وفرق المشتريات في تركيا والعراق."],
-    catalog: ["كتالوج أدوات AsaDental لطب الأسنان | Tammuz Medical", "ابحث في 2,959 مرجعاً من AsaDental حسب اسم المنتج أو الرمز أو الفئة السريرية."],
+    catalog: ["كتالوج أدوات AsaDental لطب الأسنان | Tammuz Medical", "ابحث في 2,969 مرجعاً من AsaDental حسب اسم المنتج أو الرمز أو الفئة السريرية."],
     manufacturers: ["مصنّعون أوروبيون موثوقون لطب الأسنان | Tammuz Medical", "تعرّف على منهجنا في تقييم المصنّعين والوثائق ومتطلبات الفحص قبل الشحن."],
     contact: ["اطلب عرض سعر لمستلزمات طب الأسنان | Tammuz Medical", "أرسل قائمة المنتجات أو اطلب المساعدة من فريق توريد Tammuz Global Medical."],
     iraq: ["مستلزمات طب الأسنان للعيادات والموزعين في العراق | Tammuz Medical", "اطلب أدوات أسنان أوروبية للعراق مع مطابقة المنتجات ودعم الوثائق والفحص قبل الشحن."],

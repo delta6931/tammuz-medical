@@ -1,21 +1,21 @@
 {
   "generatedFrom": "data/asadental/derived/catalog-enriched.json",
   "contractVersion": 1,
-  "recordCount": 2773,
+  "recordCount": 2783,
   "priorityCounts": {
-    "2": 2536,
+    "2": 2546,
     "1b": 237
   },
   "fieldCoverage": {
-    "sourcePageMatched": 2631,
+    "sourcePageMatched": 2641,
     "sourcePageUnmatched": 142,
     "overallLengthMm": 433,
     "tipWidthMm": 114,
     "diameterMm": 20,
-    "sizeMm": 116,
+    "sizeMm": 117,
     "material": 644,
     "finish": 31,
-    "forms": 575,
+    "forms": 576,
     "anatomicalApplication": 658,
     "singleUse": 34,
     "sterilizable": 4
@@ -31420,6 +31420,39 @@
       "x": true
     },
     {
+      "s": "2771-1L",
+      "f": "catalogue_item",
+      "l": null,
+      "w": null,
+      "d": null,
+      "z": [
+        182,
+        144,
+        34
+      ],
+      "a": [],
+      "o": [],
+      "v": [],
+      "c": [
+        "green",
+        "red"
+      ],
+      "h": [],
+      "t": [],
+      "e": [],
+      "p": [],
+      "u": [],
+      "m": [],
+      "n": [],
+      "q": 10,
+      "r": [
+        null,
+        null,
+        null
+      ],
+      "x": true
+    },
+    {
       "s": "2771-1R",
       "f": "catalogue_item",
       "l": null,
@@ -57533,6 +57566,32 @@
       "x": true
     },
     {
+      "s": "LV1807-02SF",
+      "f": "curette",
+      "l": null,
+      "w": null,
+      "d": null,
+      "z": null,
+      "a": [],
+      "o": [],
+      "v": [],
+      "c": [],
+      "h": [],
+      "t": [],
+      "e": [],
+      "p": [],
+      "u": [],
+      "m": [],
+      "n": [],
+      "q": null,
+      "r": [
+        null,
+        null,
+        null
+      ],
+      "x": true
+    },
+    {
       "s": "LV1807-04",
       "f": "curette",
       "l": null,
@@ -57586,6 +57645,32 @@
     },
     {
       "s": "LV1807-04MF",
+      "f": "curette",
+      "l": null,
+      "w": null,
+      "d": null,
+      "z": null,
+      "a": [],
+      "o": [],
+      "v": [],
+      "c": [],
+      "h": [],
+      "t": [],
+      "e": [],
+      "p": [],
+      "u": [],
+      "m": [],
+      "n": [],
+      "q": null,
+      "r": [
+        null,
+        null,
+        null
+      ],
+      "x": true
+    },
+    {
+      "s": "LV1807-04SF",
       "f": "curette",
       "l": null,
       "w": null,
@@ -57793,6 +57878,32 @@
       "x": true
     },
     {
+      "s": "LV1807-08SF",
+      "f": "curette",
+      "l": null,
+      "w": null,
+      "d": null,
+      "z": null,
+      "a": [],
+      "o": [],
+      "v": [],
+      "c": [],
+      "h": [],
+      "t": [],
+      "e": [],
+      "p": [],
+      "u": [],
+      "m": [],
+      "n": [],
+      "q": null,
+      "r": [
+        null,
+        null,
+        null
+      ],
+      "x": true
+    },
+    {
       "s": "LV1807-10",
       "f": "curette",
       "l": null,
@@ -57949,6 +58060,32 @@
       "x": true
     },
     {
+      "s": "LV1807-12SF",
+      "f": "curette",
+      "l": null,
+      "w": null,
+      "d": null,
+      "z": null,
+      "a": [],
+      "o": [],
+      "v": [],
+      "c": [],
+      "h": [],
+      "t": [],
+      "e": [],
+      "p": [],
+      "u": [],
+      "m": [],
+      "n": [],
+      "q": null,
+      "r": [
+        null,
+        null,
+        null
+      ],
+      "x": true
+    },
+    {
       "s": "LV1807-13MD",
       "f": "curette",
       "l": null,
@@ -58053,6 +58190,32 @@
       "x": true
     },
     {
+      "s": "LV1807-14SF",
+      "f": "curette",
+      "l": null,
+      "w": null,
+      "d": null,
+      "z": null,
+      "a": [],
+      "o": [],
+      "v": [],
+      "c": [],
+      "h": [],
+      "t": [],
+      "e": [],
+      "p": [],
+      "u": [],
+      "m": [],
+      "n": [],
+      "q": null,
+      "r": [
+        null,
+        null,
+        null
+      ],
+      "x": true
+    },
+    {
       "s": "LV1807-16",
       "f": "curette",
       "l": null,
@@ -58131,6 +58294,32 @@
       "x": true
     },
     {
+      "s": "LV1807-16SF",
+      "f": "curette",
+      "l": null,
+      "w": null,
+      "d": null,
+      "z": null,
+      "a": [],
+      "o": [],
+      "v": [],
+      "c": [],
+      "h": [],
+      "t": [],
+      "e": [],
+      "p": [],
+      "u": [],
+      "m": [],
+      "n": [],
+      "q": null,
+      "r": [
+        null,
+        null,
+        null
+      ],
+      "x": true
+    },
+    {
       "s": "LV1807-18",
       "f": "curette",
       "l": null,
@@ -58155,6 +58344,32 @@
         null
       ],
       "x": false
+    },
+    {
+      "s": "LV1807-18SF",
+      "f": "curette",
+      "l": null,
+      "w": null,
+      "d": null,
+      "z": null,
+      "a": [],
+      "o": [],
+      "v": [],
+      "c": [],
+      "h": [],
+      "t": [],
+      "e": [],
+      "p": [],
+      "u": [],
+      "m": [],
+      "n": [],
+      "q": null,
+      "r": [
+        null,
+        null,
+        null
+      ],
+      "x": true
     },
     {
       "s": "LV1826-T03",
@@ -59225,6 +59440,32 @@
     {
       "s": "ML1102-1",
       "f": "spatula",
+      "l": null,
+      "w": null,
+      "d": null,
+      "z": null,
+      "a": [],
+      "o": [],
+      "v": [],
+      "c": [],
+      "h": [],
+      "t": [],
+      "e": [],
+      "p": [],
+      "u": [],
+      "m": [],
+      "n": [],
+      "q": null,
+      "r": [
+        null,
+        null,
+        null
+      ],
+      "x": true
+    },
+    {
+      "s": "ML1222-1",
+      "f": "catalogue_item",
       "l": null,
       "w": null,
       "d": null,
@@ -74612,6 +74853,34 @@
       ],
       "n": [],
       "q": 20,
+      "r": [
+        null,
+        null,
+        null
+      ],
+      "x": true
+    },
+    {
+      "s": "SML2021FP",
+      "f": "catalogue_item",
+      "l": null,
+      "w": null,
+      "d": null,
+      "z": null,
+      "a": [],
+      "o": [
+        "locking"
+      ],
+      "v": [],
+      "c": [],
+      "h": [],
+      "t": [],
+      "e": [],
+      "p": [],
+      "u": [],
+      "m": [],
+      "n": [],
+      "q": 10,
       "r": [
         null,
         null,

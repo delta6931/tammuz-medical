@@ -762,7 +762,7 @@ function Catalog({ locale, t, addQuoteLine, quoteLines, setQuoteLines }: { local
   );
 }
 
-/** Full product-browser interface for all 2,959 catalog items. */
+/** Full product-browser interface for every verified catalogue item. */
 function CatalogBrowser({ locale, t, addQuoteLine, initialCategory }: { locale: SiteLocale; initialCategory?: string; addQuoteLine: (item: Pick<CatalogItem, "code" | "name">) => void } & ComponentWithT) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState(initialCategory || "All AsaDental products");

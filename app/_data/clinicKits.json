@@ -2,7 +2,7 @@
   "generatedFrom": "app/_data/asaCatalog.json",
   "contractVersion": 1,
   "areaCount": 9,
-  "kitCount": 152,
+  "kitCount": 153,
   "areas": [
     {
       "area": "diagnostic",
@@ -785,6 +785,11 @@
         {
           "code": "SML2021CF",
           "name": "Apical Micro Endo Kit Full",
+          "category": "Other ASA Dental instruments"
+        },
+        {
+          "code": "SML2021FP",
+          "name": "Apical Micro Endo Kit - Essential",
           "category": "Other ASA Dental instruments"
         },
         {

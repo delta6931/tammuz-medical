@@ -1,0 +1,68 @@
+import type { SiteLocale } from "../../_lib/catalog";
+import type { ToolShellLabels } from "../../_components/ToolShell";
+import { toolsIndexStrings } from "./tools-index";
+
+export type Iso6360Strings = {
+  meta: { title: string; description: string };
+  shell: ToolShellLabels;
+  input: { label: string; hint: string; placeholder: string; example: string; clear: string; invalid: string };
+  groups: { material: string; shank: string; shape: string; characteristics: string; diameter: string; optional: string };
+  unknown: string;
+  known: Record<string, string>;
+  result: string;
+  diameterUnit: string;
+  note: string;
+  source: string;
+  faqEyebrow: string;
+  faqHeading: string;
+  faq: { q: string; a: string }[];
+  cta: { question: string; button: string };
+};
+
+export const iso6360Strings: Record<SiteLocale, Iso6360Strings> = {
+  EN: {
+    meta: { title: "ISO 6360 Dental Bur Code Decoder | Tammuz Medical", description: "Split a 15- or 18-digit ISO 6360 dental rotary-instrument number into material, shank, shape, characteristics and nominal diameter groups." },
+    shell: { ...toolsIndexStrings.EN.shell, eyebrow: "Free rotary-instrument reference", title: "ISO 6360 bur code decoder", lede: "Paste a 15-digit ISO 6360 number to see its five groups. The decoder names only codes verified in the standard or an official manufacturer catalogue; unfamiliar codes stay explicitly unidentified." },
+    input: { label: "ISO 6360 number", hint: "Spaces, dots and hyphens are accepted.", placeholder: "806 314 001 524 016", example: "Use verified example", clear: "Clear", invalid: "Enter exactly 15 digits, or 18 digits when the optional diamond group is present." },
+    groups: { material: "Material / abrasive", shank: "Shank and length", shape: "Working-part shape", characteristics: "Specific characteristics", diameter: "Nominal diameter", optional: "Optional diamond group" },
+    unknown: "Code not included in this verified lookup", result: "Decoded groups", diameterUnit: "mm", note: "A decoded group identifies the code structure; it does not replace the instrument manufacturer’s label or instructions for use.", source: "Structure: ISO 6360-1. Shape and characteristic codes depend on the relevant ISO 6360 part.",
+    known: { "806": "Diamond abrasive instrument", "204": "Right-angle (RA) shank, 22 mm", "205": "Long RA shank, 26 mm", "206": "Extra-long RA shank, 34 mm", "313": "Short friction-grip (FG) shank, 16 mm", "314": "Friction-grip (FG) shank, 19 mm", "315": "Long FG shank, 21 mm", "316": "Extra-long FG shank, 25 mm", "001": "Round", "494": "Ultra-fine diamond grit", "504": "Extra-fine diamond grit", "514": "Fine diamond grit", "524": "Medium diamond grit", "534": "Coarse diamond grit", "544": "Super-coarse diamond grit" },
+    faqEyebrow: "Reference", faqHeading: "How the ISO 6360 number is organised",
+    faq: [
+      { q: "What do the 15 digits represent?", a: "ISO 6360 divides the number into five three-digit groups: material or abrasive, shank and overall length, working-part shape, specific characteristics, and nominal diameter." },
+      { q: "Why does the decoder leave some codes unidentified?", a: "The code tables span several ISO 6360 parts and many instrument families. This page deliberately names only entries verified in primary sources; an unidentified code is safer than a guessed specification." },
+      { q: "What do the last three digits mean?", a: "For conventional dental rotary instruments, the fifth group is the nominal diameter designation. A code of 016 corresponds to 1.6 mm." },
+    ],
+    cta: { question: "Need rotary instruments quoted for your clinic?", button: "Request a quote" },
+  },
+  TR: {
+    meta: { title: "ISO 6360 Dental Frez Kod Çözücü | Tammuz Medical", description: "15 veya 18 haneli ISO 6360 dental döner alet numarasını malzeme, şaft, şekil, özellik ve nominal çap gruplarına ayırın." },
+    shell: { ...toolsIndexStrings.TR.shell, eyebrow: "Ücretsiz döner alet referansı", title: "ISO 6360 frez kod çözücü", lede: "Beş grubu görmek için 15 haneli ISO 6360 numarasını yazın. Araç yalnızca standartta veya resmî üretici kataloğunda doğrulanmış kodları adlandırır; tanınmayan kodları açıkça belirsiz bırakır." },
+    input: { label: "ISO 6360 numarası", hint: "Boşluk, nokta ve kısa çizgi kullanılabilir.", placeholder: "806 314 001 524 016", example: "Doğrulanmış örneği kullan", clear: "Temizle", invalid: "Tam olarak 15 hane veya isteğe bağlı elmas grubu varsa 18 hane girin." },
+    groups: { material: "Malzeme / aşındırıcı", shank: "Şaft ve uzunluk", shape: "Çalışan bölüm şekli", characteristics: "Özel özellikler", diameter: "Nominal çap", optional: "İsteğe bağlı elmas grubu" },
+    unknown: "Kod bu doğrulanmış tabloda yer almıyor", result: "Çözümlenen gruplar", diameterUnit: "mm", note: "Kod çözümü numara yapısını açıklar; üreticinin etiketi veya kullanım talimatının yerine geçmez.", source: "Yapı: ISO 6360-1. Şekil ve özellik kodları ilgili ISO 6360 bölümüne bağlıdır.",
+    known: { "806": "Elmas aşındırıcılı alet", "204": "Anguldruva (RA) şaftı, 22 mm", "205": "Uzun RA şaftı, 26 mm", "206": "Ekstra uzun RA şaftı, 34 mm", "313": "Kısa sürtünmeli (FG) şaft, 16 mm", "314": "Sürtünmeli (FG) şaft, 19 mm", "315": "Uzun FG şaft, 21 mm", "316": "Ekstra uzun FG şaft, 25 mm", "001": "Yuvarlak", "494": "Ultra ince elmas gren", "504": "Ekstra ince elmas gren", "514": "İnce elmas gren", "524": "Orta elmas gren", "534": "Kaba elmas gren", "544": "Çok kaba elmas gren" },
+    faqEyebrow: "Referans", faqHeading: "ISO 6360 numarasının yapısı",
+    faq: [
+      { q: "15 hane neyi gösterir?", a: "ISO 6360 numarayı beş üçlü gruba ayırır: malzeme veya aşındırıcı, şaft ve toplam uzunluk, çalışan bölüm şekli, özel özellikler ve nominal çap." },
+      { q: "Bazı kodlar neden tanımsız kalıyor?", a: "Kod tabloları ISO 6360'ın birkaç bölümüne ve çok sayıda alet ailesine yayılır. Bu sayfa yalnızca birincil kaynaklarda doğrulanan girdileri adlandırır; tahmin edilmiş özellik yayımlamaz." },
+      { q: "Son üç hane ne anlama gelir?", a: "Geleneksel dental döner aletlerde beşinci grup nominal çap tanımıdır. 016 kodu 1,6 mm'ye karşılık gelir." },
+    ],
+    cta: { question: "Kliniğiniz için döner alet teklifi mi gerekiyor?", button: "Teklif isteyin" },
+  },
+  AR: {
+    meta: { title: "مفسّر رمز مبارد ISO 6360 السنية | Tammuz Medical", description: "قسّم رقم ISO 6360 المكوّن من 15 أو 18 خانة إلى مجموعات المادة والساق والشكل والخصائص والقطر الاسمي." },
+    shell: { ...toolsIndexStrings.AR.shell, eyebrow: "مرجع مجاني للأدوات الدوّارة", title: "مفسّر رمز ISO 6360 للمبارد", lede: "أدخل رقم ISO 6360 المكوّن من 15 خانة لرؤية مجموعاته الخمس. لا تسمّي الأداة إلا الرموز الموثقة في المواصفة أو في كتالوج رسمي للمصنّع، وتترك الرمز غير الموثق بلا تخمين." },
+    input: { label: "رقم ISO 6360", hint: "يمكن استخدام الفراغات والنقاط والشرطات.", placeholder: "806 314 001 524 016", example: "استخدم المثال الموثق", clear: "مسح", invalid: "أدخل 15 خانة بالضبط، أو 18 خانة عند وجود مجموعة الألماس الاختيارية." },
+    groups: { material: "المادة / المادة الساحجة", shank: "الساق والطول", shape: "شكل الجزء العامل", characteristics: "الخصائص المحددة", diameter: "القطر الاسمي", optional: "مجموعة الألماس الاختيارية" },
+    unknown: "الرمز غير مدرج في جدول التحقق هذا", result: "المجموعات المفسّرة", diameterUnit: "مم", note: "يفسّر الناتج بنية الرمز ولا يحل محل ملصق المصنّع أو تعليمات الاستخدام.", source: "البنية: ISO 6360-1. تعتمد رموز الشكل والخصائص على الجزء المعني من سلسلة ISO 6360.",
+    known: { "806": "أداة ساحجة ماسية", "204": "ساق زاوية قائمة RA بطول 22 مم", "205": "ساق RA طويلة بطول 26 مم", "206": "ساق RA فائقة الطول، 34 مم", "313": "ساق احتكاكية FG قصيرة، 16 مم", "314": "ساق احتكاكية FG، 19 مم", "315": "ساق FG طويلة، 21 مم", "316": "ساق FG فائقة الطول، 25 مم", "001": "كروي", "494": "حبيبات ألماس فائقة النعومة", "504": "حبيبات ألماس شديدة النعومة", "514": "حبيبات ألماس ناعمة", "524": "حبيبات ألماس متوسطة", "534": "حبيبات ألماس خشنة", "544": "حبيبات ألماس فائقة الخشونة" },
+    faqEyebrow: "مرجع", faqHeading: "كيف يُنظَّم رقم ISO 6360؟",
+    faq: [
+      { q: "ماذا تمثل الخانات الخمس عشرة؟", a: "تقسم ISO 6360 الرقم إلى خمس مجموعات من ثلاث خانات: المادة أو المادة الساحجة، الساق والطول الكلي، شكل الجزء العامل، الخصائص المحددة، والقطر الاسمي." },
+      { q: "لماذا تبقى بعض الرموز بلا تعريف؟", a: "تتوزع جداول الرموز على عدة أجزاء من ISO 6360 وعلى عائلات كثيرة من الأدوات. تسمّي هذه الصفحة المدخلات الموثقة من المصادر الأولية فقط؛ فالرمز غير المحدد أكثر أماناً من مواصفة مخمّنة." },
+      { q: "ماذا تعني الخانات الثلاث الأخيرة؟", a: "في الأدوات الدوّارة السنية التقليدية تمثل المجموعة الخامسة القطر الاسمي. فالرمز 016 يقابل 1.6 مم." },
+    ],
+    cta: { question: "هل تحتاج عرض سعر لأدوات دوّارة لعيادتك؟", button: "اطلب عرض سعر" },
+  },
+};

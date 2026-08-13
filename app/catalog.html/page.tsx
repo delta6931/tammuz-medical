@@ -3,7 +3,7 @@ import { SitePage } from "../_components/SitePage";
 
 export const metadata: Metadata = {
   title: "AsaDental Dental Instruments Catalog | Tammuz Medical",
-  description: "Search 2,959 AsaDental dental instrument references by product name, item code or clinical category.",
+  description: "Search 2,969 AsaDental dental instrument references by product name, item code or clinical category.",
   alternates: { canonical: "/catalog" },
   openGraph: { url: "/catalog" },
 };

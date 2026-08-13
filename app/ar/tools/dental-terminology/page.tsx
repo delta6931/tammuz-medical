@@ -1,0 +1,1 @@
+import{buildMetadata,DentalTerminologyPage}from"../../../tools/dental-terminology/shared";export const metadata=buildMetadata("AR");export default function Page(){return <DentalTerminologyPage locale="AR"/>}

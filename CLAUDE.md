@@ -1,5 +1,7 @@
 # Tammuz Medical — project context
 
+> Current operational rules, deployment safeguards and medical-data status are in `AGENTS.md` and `data/asadental/derived/MEDICAL_DATA_STATUS.md`. Where this older handover differs, those files control.
+
 ## The business
 
 Tammuz Global Medical distributes European dental instruments (primarily **AsaDental**, Italy)

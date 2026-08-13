@@ -19,14 +19,17 @@ const PATHS = {
   numbering: "/tools/tooth-numbering",
   gracey: "/tools/gracey-selector",
   clinic: "/tools/clinic-setup",
+  iso6360: "/tools/iso-6360",
+  endo: "/tools/endo-file-chart",
+  terminology: "/tools/dental-terminology",
 };
 
 export const toolsIndexStrings: Record<SiteLocale, ToolsIndexStrings> = {
   EN: {
     meta: {
-      title: "Free Dental Tools — Forceps, Tooth Numbering & Gracey Selectors | Tammuz Medical",
+      title: "Free Dental Tools — Clinical & Procurement References | Tammuz Medical",
       description:
-        "Free clinical reference tools for dentists and clinic buyers: pick extraction forceps by tooth, convert FDI/Universal/Palmer numbering, and match Gracey curettes to tooth surfaces.",
+        "Free dental reference tools: select forceps and Gracey curettes, convert tooth notation, decode ISO 6360 bur codes, check endodontic sizes, and search trilingual terminology.",
     },
     shell: {
       eyebrow: "Free clinical tools", title: "Dental tools",
@@ -44,6 +47,9 @@ export const toolsIndexStrings: Record<SiteLocale, ToolsIndexStrings> = {
       { path: PATHS.numbering, tag: "Reference", name: "Tooth numbering converter", blurb: "Convert between FDI (ISO 3950), Universal and Palmer notation. Click a tooth or type a number, for permanent and primary dentition." },
       { path: PATHS.gracey, tag: "Periodontal", name: "Gracey curette selector", blurb: "Choose a tooth and the surface you are working, and see which area-specific Gracey figures are indicated — including combination instruments." },
       { path: PATHS.clinic, tag: "Procurement", name: "Clinic setup builder", blurb: "Equipping a new surgery or adding chairs? Choose your treatment areas and room count, then build a list of AsaDental instrument sets ready to send for a quote." },
+      { path: PATHS.iso6360, tag: "Rotary", name: "ISO 6360 bur code decoder", blurb: "Split a 15- or 18-digit rotary-instrument number into material, shank, shape, characteristics and nominal diameter groups without guessing unknown codes." },
+      { path: PATHS.endo, tag: "Endodontic", name: "Endodontic size and colour chart", blurb: "Match ISO file sizes to colours and tip diameters, then calculate diameter along a stated constant-taper working part." },
+      { path: PATHS.terminology, tag: "Language", name: "Trilingual dental terminology", blurb: "Search practical instrument and anatomy terms side by side in English, Turkish and Arabic for clearer cross-border procurement." },
     ],
     cta: { question: "Need instruments quoted for your clinic in Turkey or Iraq?", button: "Request a quote" },
     note: "These tools are product-matching aids for procurement, not clinical advice. Instrument choice remains the clinician's judgement.",
@@ -51,9 +57,9 @@ export const toolsIndexStrings: Record<SiteLocale, ToolsIndexStrings> = {
 
   TR: {
     meta: {
-      title: "Ücretsiz Dental Araçlar — Davye, Diş Numaralandırma ve Gracey Seçici | Tammuz Medical",
+      title: "Ücretsiz Dental Araçlar — Klinik ve Satın Alma Referansları | Tammuz Medical",
       description:
-        "Hekimler ve klinik satın alma ekipleri için ücretsiz klinik referans araçları: dişe göre çekme davyesi seçin, FDI/Universal/Palmer çevirisi yapın, Gracey küretlerini diş yüzeyleriyle eşleştirin.",
+        "Ücretsiz dental referans araçları: davye ve Gracey seçin, diş numarasını çevirin, ISO 6360 frez kodunu çözün, endodontik boyutlara ve üç dilli terimlere bakın.",
     },
     shell: {
       eyebrow: "Ücretsiz klinik araçlar", title: "Dental araçlar",
@@ -71,6 +77,9 @@ export const toolsIndexStrings: Record<SiteLocale, ToolsIndexStrings> = {
       { path: PATHS.numbering, tag: "Referans", name: "Diş numaralandırma çevirici", blurb: "FDI (ISO 3950), Universal ve Palmer sistemleri arasında çeviri yapın. Dişe tıklayın veya numara yazın; sürekli ve süt dişleri için." },
       { path: PATHS.gracey, tag: "Periodontal", name: "Gracey küret seçici", blurb: "Çalıştığınız dişi ve yüzeyi seçin, bölgeye özgü hangi Gracey figürlerinin endike olduğunu görün — kombinasyon aletleri dâhil." },
       { path: PATHS.clinic, tag: "Satın alma", name: "Klinik kurulum oluşturucu", blurb: "Yeni muayenehane mi kuruyorsunuz ya da ünit mi ekliyorsunuz? Tedavi alanlarını ve oda sayısını seçin, teklife hazır AsaDental set listesi oluşturun." },
+      { path: PATHS.iso6360, tag: "Döner alet", name: "ISO 6360 frez kod çözücü", blurb: "15 veya 18 haneli döner alet numarasını malzeme, şaft, şekil, özellik ve nominal çap gruplarına ayırın; bilinmeyen kodlar tahmin edilmez." },
+      { path: PATHS.endo, tag: "Endodonti", name: "Endodontik boyut ve renk tablosu", blurb: "ISO eğe boyutlarını renk ve uç çapıyla eşleştirin; sabit konik çalışan bölüm boyunca çapı hesaplayın." },
+      { path: PATHS.terminology, tag: "Dil", name: "Üç dilli dental terimler", blurb: "Sınır ötesi satın alma için pratik alet ve anatomi terimlerini İngilizce, Türkçe ve Arapça yan yana arayın." },
     ],
     cta: { question: "Türkiye veya Irak'taki kliniğiniz için teklif ister misiniz?", button: "Teklif isteyin" },
     note: "Bu araçlar satın alma sürecinde ürün eşleştirme amaçlıdır, klinik tavsiye değildir. Alet seçimi hekimin kararındadır.",
@@ -78,9 +87,9 @@ export const toolsIndexStrings: Record<SiteLocale, ToolsIndexStrings> = {
 
   AR: {
     meta: {
-      title: "أدوات مجانية لطب الأسنان — الكلاّبات وترقيم الأسنان ومكاشط غرايسي | Tammuz Medical",
+      title: "أدوات مجانية لطب الأسنان — مراجع سريرية وللمشتريات | Tammuz Medical",
       description:
-        "أدوات مرجعية سريرية مجانية لأطباء الأسنان وفرق شراء العيادات: اختر كلاّبة القلع حسب السن، وحوّل بين ترقيم FDI وUniversal وPalmer، وطابق مكاشط غرايسي مع أسطح الأسنان.",
+        "أدوات مرجعية مجانية: اختيار كلاّبات القلع وغرايسي، تحويل ترقيم الأسنان، تفسير ISO 6360، مراجعة مقاسات الجذور، والبحث في المصطلحات بثلاث لغات.",
     },
     shell: {
       eyebrow: "أدوات سريرية مجانية", title: "أدوات طب الأسنان",
@@ -98,6 +107,9 @@ export const toolsIndexStrings: Record<SiteLocale, ToolsIndexStrings> = {
       { path: PATHS.numbering, tag: "مرجع", name: "محوّل ترقيم الأسنان", blurb: "حوّل بين أنظمة FDI (ISO 3950) وUniversal وPalmer. اضغط على سنّ أو اكتب رقماً، للأسنان الدائمة واللبنية." },
       { path: PATHS.gracey, tag: "اللثة", name: "أداة اختيار مكاشط غرايسي", blurb: "اختر السن والسطح الذي تعمل عليه لترى أرقام غرايسي المخصّصة لتلك المنطقة — بما فيها الأدوات المركّبة." },
       { path: PATHS.clinic, tag: "المشتريات", name: "أداة تجهيز العيادة", blurb: "هل تجهّز عيادة جديدة أو تضيف كراسي؟ اختر مجالات العلاج وعدد الغرف، ثم كوّن قائمة أطقم AsaDental جاهزة لطلب عرض السعر." },
+      { path: PATHS.iso6360, tag: "أدوات دوّارة", name: "مفسّر رمز ISO 6360", blurb: "قسّم رقم الأداة الدوّارة المكوّن من 15 أو 18 خانة إلى المادة والساق والشكل والخصائص والقطر الاسمي، من دون تخمين الرموز غير الموثقة." },
+      { path: PATHS.endo, tag: "علاج الجذور", name: "جدول مقاسات وألوان المبارد", blurb: "طابق مقاسات مبارد ISO مع اللون وقطر الرأس، واحسب القطر على طول الجزء العامل ذي التدرج الثابت." },
+      { path: PATHS.terminology, tag: "اللغة", name: "مصطلحات أسنان بثلاث لغات", blurb: "ابحث عن مصطلحات الأدوات والتشريح بالإنجليزية والتركية والعربية جنباً إلى جنب لتسهيل المشتريات عبر الحدود." },
     ],
     cta: { question: "هل تحتاج عرض سعر لأدوات عيادتك في تركيا أو العراق؟", button: "اطلب عرض سعر" },
     note: "هذه الأدوات وسيلة لمطابقة المنتجات لأغراض الشراء وليست استشارة سريرية. يبقى اختيار الأداة من مسؤولية الطبيب.",

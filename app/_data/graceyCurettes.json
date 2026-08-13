@@ -2,7 +2,7 @@
   "generatedFrom": "app/_data/asaCatalog.json",
   "contractVersion": 1,
   "groupCount": 12,
-  "skuCount": 109,
+  "skuCount": 116,
   "groups": [
     {
       "number": "1/2",
@@ -49,6 +49,11 @@
           "code": "LV1807-02MF",
           "name": "Curette # 1/2 Gracey MF/type",
           "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-02SF",
+          "name": "Gracey curette Fig. 1/2, Sharpen Free",
+          "category": "Other ASA Dental instruments"
         },
         {
           "code": "ML1807-02",
@@ -132,6 +137,11 @@
           "code": "LV1807-04MF",
           "name": "Curette # 3/4 Gracey MF/type",
           "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-04SF",
+          "name": "Gracey curette Fig. 3/4, Sharpen Free",
+          "category": "Other ASA Dental instruments"
         },
         {
           "code": "ML1807-04",
@@ -305,6 +315,11 @@
           "category": "Periodontal"
         },
         {
+          "code": "LV1807-08SF",
+          "name": "Gracey curette Fig. 7/8, Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
           "code": "ML1807-08",
           "name": "Curette # 7/8 Gracey",
           "category": "Periodontal"
@@ -471,6 +486,11 @@
           "category": "Periodontal"
         },
         {
+          "code": "LV1807-12SF",
+          "name": "Gracey curette Fig. 11/12, Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
           "code": "ML1807-12",
           "name": "Curette # 11/12 Gracey",
           "category": "Periodontal"
@@ -606,6 +626,11 @@
           "category": "Periodontal"
         },
         {
+          "code": "LV1807-14SF",
+          "name": "Gracey curette Fig. 13/14, Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
           "code": "ML1807-14",
           "name": "Curette # 13/14 Gracey",
           "category": "Periodontal"
@@ -687,6 +712,11 @@
           "category": "Periodontal"
         },
         {
+          "code": "LV1807-16SF",
+          "name": "Gracey curette Fig. 15/16, Sharpen Free",
+          "category": "Other ASA Dental instruments"
+        },
+        {
           "code": "ML1807-16",
           "name": "Curette # 15/16 Gracey",
           "category": "Periodontal"
@@ -736,6 +766,11 @@
           "code": "LV1807-18",
           "name": "Curette # 17/18 Gracey",
           "category": "Periodontal"
+        },
+        {
+          "code": "LV1807-18SF",
+          "name": "Gracey curette Fig. 17/18, Sharpen Free",
+          "category": "Other ASA Dental instruments"
         },
         {
           "code": "ML1807-18",

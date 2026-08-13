@@ -18,21 +18,21 @@
     "all price workbooks",
     "asadental.com product prose"
   ],
-  "recordCount": 2773,
+  "recordCount": 2783,
   "priorityCounts": {
     "1b": 237,
-    "2": 2536
+    "2": 2546
   },
   "fieldCoverage": {
-    "sourcePageMatched": 2631,
+    "sourcePageMatched": 2641,
     "sourcePageUnmatched": 142,
     "overallLengthMm": 433,
     "tipWidthMm": 114,
     "diameterMm": 20,
-    "sizeMm": 116,
+    "sizeMm": 117,
     "material": 644,
     "finish": 31,
-    "forms": 575,
+    "forms": 576,
     "anatomicalApplication": 658,
     "singleUse": 34,
     "sterilizable": 4
@@ -95008,6 +95008,96 @@
     },
     {
       "schemaVersion": "1.0.0",
+      "sku": "2771-1L",
+      "manufacturer": "AsaDental",
+      "catalogueName": "Locking tray for 10 instruments (lilac)",
+      "category": "Instrument cassettes and trays",
+      "priority": "2",
+      "taxonomy": {
+        "chapter": 10,
+        "chapterName": "Instrument Cassettes and Trays",
+        "family": "catalogue_item",
+        "catalogueHeading": "MEDIUM"
+      },
+      "dimensions": {
+        "overallLengthMm": null,
+        "workingLengthMm": null,
+        "tipWidthMm": null,
+        "diameterMm": null,
+        "sizeMm": [
+          182,
+          144,
+          34
+        ],
+        "anglesDegrees": []
+      },
+      "design": {
+        "forms": [],
+        "sizeDesignations": [],
+        "colors": [
+          "green",
+          "red"
+        ]
+      },
+      "clinical": {
+        "arches": [],
+        "toothGroups": [],
+        "sides": [],
+        "patientGroups": [],
+        "documentedUses": []
+      },
+      "material": [],
+      "finish": [],
+      "packaging": {
+        "quantity": 10
+      },
+      "reprocessing": {
+        "singleUse": null,
+        "sterilizable": null,
+        "maxTemperatureC": null
+      },
+      "relationships": {
+        "relatedVariants": [],
+        "procedureCompanions": []
+      },
+      "unknownFields": [
+        "dimensions.overallLengthMm",
+        "dimensions.workingLengthMm",
+        "dimensions.tipWidthMm",
+        "material",
+        "finish",
+        "reprocessing.singleUse",
+        "reprocessing.sterilizable",
+        "reprocessing.maxTemperatureC",
+        "clinical.arches",
+        "clinical.toothGroups",
+        "clinical.sides",
+        "clinical.patientGroups"
+      ],
+      "provenance": {
+        "sources": [
+          {
+            "id": "asadental-2025-ch10",
+            "authority": "primary",
+            "type": "catalogue_pdf",
+            "path": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_10_-_Instrument_Cassettes_and_Trays.pdf",
+            "pdfPage": 2,
+            "codeBBox": [
+              42.516,
+              750.21,
+              75.357,
+              760.848
+            ],
+            "matchedHeading": "MEDIUM"
+          }
+        ],
+        "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
+        "factPolicy": "Only explicit product-label, matched heading, geometric measurement or code-specific callout facts are normalized.",
+        "reviewStatus": "catalogue_matched"
+      }
+    },
+    {
+      "schemaVersion": "1.0.0",
       "sku": "2771-1R",
       "manufacturer": "AsaDental",
       "catalogueName": "Locking tray for 10 instruments (red)",
@@ -169658,6 +169748,89 @@
     },
     {
       "schemaVersion": "1.0.0",
+      "sku": "LV1807-02SF",
+      "manufacturer": "AsaDental",
+      "catalogueName": "Gracey curette Fig. 1/2, Sharpen Free",
+      "category": "Other ASA Dental instruments",
+      "priority": "2",
+      "taxonomy": {
+        "chapter": 8,
+        "chapterName": "Periodontal",
+        "family": "curette",
+        "catalogueHeading": "GRACEY CURETTES"
+      },
+      "dimensions": {
+        "overallLengthMm": null,
+        "workingLengthMm": null,
+        "tipWidthMm": null,
+        "diameterMm": null,
+        "sizeMm": null,
+        "anglesDegrees": []
+      },
+      "design": {
+        "forms": [],
+        "sizeDesignations": [],
+        "colors": []
+      },
+      "clinical": {
+        "arches": [],
+        "toothGroups": [],
+        "sides": [],
+        "patientGroups": [],
+        "documentedUses": []
+      },
+      "material": [],
+      "finish": [],
+      "packaging": {
+        "quantity": null
+      },
+      "reprocessing": {
+        "singleUse": null,
+        "sterilizable": null,
+        "maxTemperatureC": null
+      },
+      "relationships": {
+        "relatedVariants": [],
+        "procedureCompanions": []
+      },
+      "unknownFields": [
+        "dimensions.overallLengthMm",
+        "dimensions.workingLengthMm",
+        "dimensions.tipWidthMm",
+        "material",
+        "finish",
+        "reprocessing.singleUse",
+        "reprocessing.sterilizable",
+        "reprocessing.maxTemperatureC",
+        "clinical.arches",
+        "clinical.toothGroups",
+        "clinical.sides",
+        "clinical.patientGroups"
+      ],
+      "provenance": {
+        "sources": [
+          {
+            "id": "asadental-2025-ch8",
+            "authority": "primary",
+            "type": "catalogue_pdf",
+            "path": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_8_-_Periodontal.pdf",
+            "pdfPage": 6,
+            "codeBBox": [
+              660.483,
+              647.711,
+              719.055,
+              658.349
+            ],
+            "matchedHeading": "GRACEY CURETTES"
+          }
+        ],
+        "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
+        "factPolicy": "Only explicit product-label, matched heading, geometric measurement or code-specific callout facts are normalized.",
+        "reviewStatus": "catalogue_matched"
+      }
+    },
+    {
+      "schemaVersion": "1.0.0",
       "sku": "LV1807-04",
       "manufacturer": "AsaDental",
       "catalogueName": "Curette # 3/4 Gracey",
@@ -169883,6 +170056,89 @@
               382.067
             ],
             "matchedHeading": "GRACEY CURETTES - MF"
+          }
+        ],
+        "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
+        "factPolicy": "Only explicit product-label, matched heading, geometric measurement or code-specific callout facts are normalized.",
+        "reviewStatus": "catalogue_matched"
+      }
+    },
+    {
+      "schemaVersion": "1.0.0",
+      "sku": "LV1807-04SF",
+      "manufacturer": "AsaDental",
+      "catalogueName": "Gracey curette Fig. 3/4, Sharpen Free",
+      "category": "Other ASA Dental instruments",
+      "priority": "2",
+      "taxonomy": {
+        "chapter": 8,
+        "chapterName": "Periodontal",
+        "family": "curette",
+        "catalogueHeading": "GRACEY CURETTES"
+      },
+      "dimensions": {
+        "overallLengthMm": null,
+        "workingLengthMm": null,
+        "tipWidthMm": null,
+        "diameterMm": null,
+        "sizeMm": null,
+        "anglesDegrees": []
+      },
+      "design": {
+        "forms": [],
+        "sizeDesignations": [],
+        "colors": []
+      },
+      "clinical": {
+        "arches": [],
+        "toothGroups": [],
+        "sides": [],
+        "patientGroups": [],
+        "documentedUses": []
+      },
+      "material": [],
+      "finish": [],
+      "packaging": {
+        "quantity": null
+      },
+      "reprocessing": {
+        "singleUse": null,
+        "sterilizable": null,
+        "maxTemperatureC": null
+      },
+      "relationships": {
+        "relatedVariants": [],
+        "procedureCompanions": []
+      },
+      "unknownFields": [
+        "dimensions.overallLengthMm",
+        "dimensions.workingLengthMm",
+        "dimensions.tipWidthMm",
+        "material",
+        "finish",
+        "reprocessing.singleUse",
+        "reprocessing.sterilizable",
+        "reprocessing.maxTemperatureC",
+        "clinical.arches",
+        "clinical.toothGroups",
+        "clinical.sides",
+        "clinical.patientGroups"
+      ],
+      "provenance": {
+        "sources": [
+          {
+            "id": "asadental-2025-ch8",
+            "authority": "primary",
+            "type": "catalogue_pdf",
+            "path": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_8_-_Periodontal.pdf",
+            "pdfPage": 6,
+            "codeBBox": [
+              744.439,
+              370.756,
+              803.254,
+              381.394
+            ],
+            "matchedHeading": "GRACEY CURETTES"
           }
         ],
         "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
@@ -170443,6 +170699,89 @@
     },
     {
       "schemaVersion": "1.0.0",
+      "sku": "LV1807-08SF",
+      "manufacturer": "AsaDental",
+      "catalogueName": "Gracey curette Fig. 7/8, Sharpen Free",
+      "category": "Other ASA Dental instruments",
+      "priority": "2",
+      "taxonomy": {
+        "chapter": 8,
+        "chapterName": "Periodontal",
+        "family": "curette",
+        "catalogueHeading": "GRACEY CURETTES"
+      },
+      "dimensions": {
+        "overallLengthMm": null,
+        "workingLengthMm": null,
+        "tipWidthMm": null,
+        "diameterMm": null,
+        "sizeMm": null,
+        "anglesDegrees": []
+      },
+      "design": {
+        "forms": [],
+        "sizeDesignations": [],
+        "colors": []
+      },
+      "clinical": {
+        "arches": [],
+        "toothGroups": [],
+        "sides": [],
+        "patientGroups": [],
+        "documentedUses": []
+      },
+      "material": [],
+      "finish": [],
+      "packaging": {
+        "quantity": null
+      },
+      "reprocessing": {
+        "singleUse": null,
+        "sterilizable": null,
+        "maxTemperatureC": null
+      },
+      "relationships": {
+        "relatedVariants": [],
+        "procedureCompanions": []
+      },
+      "unknownFields": [
+        "dimensions.overallLengthMm",
+        "dimensions.workingLengthMm",
+        "dimensions.tipWidthMm",
+        "material",
+        "finish",
+        "reprocessing.singleUse",
+        "reprocessing.sterilizable",
+        "reprocessing.maxTemperatureC",
+        "clinical.arches",
+        "clinical.toothGroups",
+        "clinical.sides",
+        "clinical.patientGroups"
+      ],
+      "provenance": {
+        "sources": [
+          {
+            "id": "asadental-2025-ch8",
+            "authority": "primary",
+            "type": "catalogue_pdf",
+            "path": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_8_-_Periodontal.pdf",
+            "pdfPage": 6,
+            "codeBBox": [
+              912.771,
+              370.761,
+              971.326,
+              381.399
+            ],
+            "matchedHeading": "GRACEY CURETTES"
+          }
+        ],
+        "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
+        "factPolicy": "Only explicit product-label, matched heading, geometric measurement or code-specific callout facts are normalized.",
+        "reviewStatus": "catalogue_matched"
+      }
+    },
+    {
+      "schemaVersion": "1.0.0",
       "sku": "LV1807-10",
       "manufacturer": "AsaDental",
       "catalogueName": "Curette # 9/10 Gracey",
@@ -170911,6 +171250,89 @@
     },
     {
       "schemaVersion": "1.0.0",
+      "sku": "LV1807-12SF",
+      "manufacturer": "AsaDental",
+      "catalogueName": "Gracey curette Fig. 11/12, Sharpen Free",
+      "category": "Other ASA Dental instruments",
+      "priority": "2",
+      "taxonomy": {
+        "chapter": 8,
+        "chapterName": "Periodontal",
+        "family": "curette",
+        "catalogueHeading": "GRACEY CURETTES"
+      },
+      "dimensions": {
+        "overallLengthMm": null,
+        "workingLengthMm": null,
+        "tipWidthMm": null,
+        "diameterMm": null,
+        "sizeMm": null,
+        "anglesDegrees": []
+      },
+      "design": {
+        "forms": [],
+        "sizeDesignations": [],
+        "colors": []
+      },
+      "clinical": {
+        "arches": [],
+        "toothGroups": [],
+        "sides": [],
+        "patientGroups": [],
+        "documentedUses": []
+      },
+      "material": [],
+      "finish": [],
+      "packaging": {
+        "quantity": null
+      },
+      "reprocessing": {
+        "singleUse": null,
+        "sterilizable": null,
+        "maxTemperatureC": null
+      },
+      "relationships": {
+        "relatedVariants": [],
+        "procedureCompanions": []
+      },
+      "unknownFields": [
+        "dimensions.overallLengthMm",
+        "dimensions.workingLengthMm",
+        "dimensions.tipWidthMm",
+        "material",
+        "finish",
+        "reprocessing.singleUse",
+        "reprocessing.sterilizable",
+        "reprocessing.maxTemperatureC",
+        "clinical.arches",
+        "clinical.toothGroups",
+        "clinical.sides",
+        "clinical.patientGroups"
+      ],
+      "provenance": {
+        "sources": [
+          {
+            "id": "asadental-2025-ch8",
+            "authority": "primary",
+            "type": "catalogue_pdf",
+            "path": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_8_-_Periodontal.pdf",
+            "pdfPage": 6,
+            "codeBBox": [
+              1082.158,
+              370.761,
+              1138.282,
+              381.399
+            ],
+            "matchedHeading": "GRACEY CURETTES"
+          }
+        ],
+        "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
+        "factPolicy": "Only explicit product-label, matched heading, geometric measurement or code-specific callout facts are normalized.",
+        "reviewStatus": "catalogue_matched"
+      }
+    },
+    {
+      "schemaVersion": "1.0.0",
       "sku": "LV1807-13MD",
       "manufacturer": "AsaDental",
       "catalogueName": "Curette # 12/13 Gracey Mesial-Distal",
@@ -171228,6 +171650,89 @@
     },
     {
       "schemaVersion": "1.0.0",
+      "sku": "LV1807-14SF",
+      "manufacturer": "AsaDental",
+      "catalogueName": "Gracey curette Fig. 13/14, Sharpen Free",
+      "category": "Other ASA Dental instruments",
+      "priority": "2",
+      "taxonomy": {
+        "chapter": 8,
+        "chapterName": "Periodontal",
+        "family": "curette",
+        "catalogueHeading": "GRACEY CURETTES"
+      },
+      "dimensions": {
+        "overallLengthMm": null,
+        "workingLengthMm": null,
+        "tipWidthMm": null,
+        "diameterMm": null,
+        "sizeMm": null,
+        "anglesDegrees": []
+      },
+      "design": {
+        "forms": [],
+        "sizeDesignations": [],
+        "colors": []
+      },
+      "clinical": {
+        "arches": [],
+        "toothGroups": [],
+        "sides": [],
+        "patientGroups": [],
+        "documentedUses": []
+      },
+      "material": [],
+      "finish": [],
+      "packaging": {
+        "quantity": null
+      },
+      "reprocessing": {
+        "singleUse": null,
+        "sterilizable": null,
+        "maxTemperatureC": null
+      },
+      "relationships": {
+        "relatedVariants": [],
+        "procedureCompanions": []
+      },
+      "unknownFields": [
+        "dimensions.overallLengthMm",
+        "dimensions.workingLengthMm",
+        "dimensions.tipWidthMm",
+        "material",
+        "finish",
+        "reprocessing.singleUse",
+        "reprocessing.sterilizable",
+        "reprocessing.maxTemperatureC",
+        "clinical.arches",
+        "clinical.toothGroups",
+        "clinical.sides",
+        "clinical.patientGroups"
+      ],
+      "provenance": {
+        "sources": [
+          {
+            "id": "asadental-2025-ch8",
+            "authority": "primary",
+            "type": "catalogue_pdf",
+            "path": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_8_-_Periodontal.pdf",
+            "pdfPage": 6,
+            "codeBBox": [
+              745.781,
+              728.223,
+              801.938,
+              738.861
+            ],
+            "matchedHeading": "GRACEY CURETTES"
+          }
+        ],
+        "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
+        "factPolicy": "Only explicit product-label, matched heading, geometric measurement or code-specific callout facts are normalized.",
+        "reviewStatus": "catalogue_matched"
+      }
+    },
+    {
+      "schemaVersion": "1.0.0",
       "sku": "LV1807-16",
       "manufacturer": "AsaDental",
       "catalogueName": "Curette # 15/16 Gracey",
@@ -171462,6 +171967,89 @@
     },
     {
       "schemaVersion": "1.0.0",
+      "sku": "LV1807-16SF",
+      "manufacturer": "AsaDental",
+      "catalogueName": "Gracey curette Fig. 15/16, Sharpen Free",
+      "category": "Other ASA Dental instruments",
+      "priority": "2",
+      "taxonomy": {
+        "chapter": 8,
+        "chapterName": "Periodontal",
+        "family": "curette",
+        "catalogueHeading": "GRACEY CURETTES"
+      },
+      "dimensions": {
+        "overallLengthMm": null,
+        "workingLengthMm": null,
+        "tipWidthMm": null,
+        "diameterMm": null,
+        "sizeMm": null,
+        "anglesDegrees": []
+      },
+      "design": {
+        "forms": [],
+        "sizeDesignations": [],
+        "colors": []
+      },
+      "clinical": {
+        "arches": [],
+        "toothGroups": [],
+        "sides": [],
+        "patientGroups": [],
+        "documentedUses": []
+      },
+      "material": [],
+      "finish": [],
+      "packaging": {
+        "quantity": null
+      },
+      "reprocessing": {
+        "singleUse": null,
+        "sterilizable": null,
+        "maxTemperatureC": null
+      },
+      "relationships": {
+        "relatedVariants": [],
+        "procedureCompanions": []
+      },
+      "unknownFields": [
+        "dimensions.overallLengthMm",
+        "dimensions.workingLengthMm",
+        "dimensions.tipWidthMm",
+        "material",
+        "finish",
+        "reprocessing.singleUse",
+        "reprocessing.sterilizable",
+        "reprocessing.maxTemperatureC",
+        "clinical.arches",
+        "clinical.toothGroups",
+        "clinical.sides",
+        "clinical.patientGroups"
+      ],
+      "provenance": {
+        "sources": [
+          {
+            "id": "asadental-2025-ch8",
+            "authority": "primary",
+            "type": "catalogue_pdf",
+            "path": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_8_-_Periodontal.pdf",
+            "pdfPage": 6,
+            "codeBBox": [
+              829.946,
+              705.224,
+              885.965,
+              715.862
+            ],
+            "matchedHeading": "GRACEY CURETTES"
+          }
+        ],
+        "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
+        "factPolicy": "Only explicit product-label, matched heading, geometric measurement or code-specific callout facts are normalized.",
+        "reviewStatus": "catalogue_matched"
+      }
+    },
+    {
+      "schemaVersion": "1.0.0",
       "sku": "LV1807-18",
       "manufacturer": "AsaDental",
       "catalogueName": "Curette # 17/18 Gracey",
@@ -171526,6 +172114,89 @@
         "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
         "factPolicy": "Only explicit product-label, matched heading, geometric measurement or code-specific callout facts are normalized.",
         "reviewStatus": "source_page_not_matched_no_technical_facts_published"
+      }
+    },
+    {
+      "schemaVersion": "1.0.0",
+      "sku": "LV1807-18SF",
+      "manufacturer": "AsaDental",
+      "catalogueName": "Gracey curette Fig. 17/18, Sharpen Free",
+      "category": "Other ASA Dental instruments",
+      "priority": "2",
+      "taxonomy": {
+        "chapter": 8,
+        "chapterName": "Periodontal",
+        "family": "curette",
+        "catalogueHeading": "GRACEY CURETTES"
+      },
+      "dimensions": {
+        "overallLengthMm": null,
+        "workingLengthMm": null,
+        "tipWidthMm": null,
+        "diameterMm": null,
+        "sizeMm": null,
+        "anglesDegrees": []
+      },
+      "design": {
+        "forms": [],
+        "sizeDesignations": [],
+        "colors": []
+      },
+      "clinical": {
+        "arches": [],
+        "toothGroups": [],
+        "sides": [],
+        "patientGroups": [],
+        "documentedUses": []
+      },
+      "material": [],
+      "finish": [],
+      "packaging": {
+        "quantity": null
+      },
+      "reprocessing": {
+        "singleUse": null,
+        "sterilizable": null,
+        "maxTemperatureC": null
+      },
+      "relationships": {
+        "relatedVariants": [],
+        "procedureCompanions": []
+      },
+      "unknownFields": [
+        "dimensions.overallLengthMm",
+        "dimensions.workingLengthMm",
+        "dimensions.tipWidthMm",
+        "material",
+        "finish",
+        "reprocessing.singleUse",
+        "reprocessing.sterilizable",
+        "reprocessing.maxTemperatureC",
+        "clinical.arches",
+        "clinical.toothGroups",
+        "clinical.sides",
+        "clinical.patientGroups"
+      ],
+      "provenance": {
+        "sources": [
+          {
+            "id": "asadental-2025-ch8",
+            "authority": "primary",
+            "type": "catalogue_pdf",
+            "path": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_8_-_Periodontal.pdf",
+            "pdfPage": 6,
+            "codeBBox": [
+              914.022,
+              705.219,
+              970.057,
+              715.857
+            ],
+            "matchedHeading": "GRACEY CURETTES"
+          }
+        ],
+        "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
+        "factPolicy": "Only explicit product-label, matched heading, geometric measurement or code-specific callout facts are normalized.",
+        "reviewStatus": "catalogue_matched"
       }
     },
     {
@@ -174846,6 +175517,89 @@
               722.173
             ],
             "matchedHeading": "APICAL FULL"
+          }
+        ],
+        "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
+        "factPolicy": "Only explicit product-label, matched heading, geometric measurement or code-specific callout facts are normalized.",
+        "reviewStatus": "catalogue_matched"
+      }
+    },
+    {
+      "schemaVersion": "1.0.0",
+      "sku": "ML1222-1",
+      "manufacturer": "AsaDental",
+      "catalogueName": "Plugger PIR2",
+      "category": "Other ASA Dental instruments",
+      "priority": "2",
+      "taxonomy": {
+        "chapter": 7,
+        "chapterName": "Endodontics",
+        "family": "catalogue_item",
+        "catalogueHeading": "APICAL ESSENTIAL"
+      },
+      "dimensions": {
+        "overallLengthMm": null,
+        "workingLengthMm": null,
+        "tipWidthMm": null,
+        "diameterMm": null,
+        "sizeMm": null,
+        "anglesDegrees": []
+      },
+      "design": {
+        "forms": [],
+        "sizeDesignations": [],
+        "colors": []
+      },
+      "clinical": {
+        "arches": [],
+        "toothGroups": [],
+        "sides": [],
+        "patientGroups": [],
+        "documentedUses": []
+      },
+      "material": [],
+      "finish": [],
+      "packaging": {
+        "quantity": null
+      },
+      "reprocessing": {
+        "singleUse": null,
+        "sterilizable": null,
+        "maxTemperatureC": null
+      },
+      "relationships": {
+        "relatedVariants": [],
+        "procedureCompanions": []
+      },
+      "unknownFields": [
+        "dimensions.overallLengthMm",
+        "dimensions.workingLengthMm",
+        "dimensions.tipWidthMm",
+        "material",
+        "finish",
+        "reprocessing.singleUse",
+        "reprocessing.sterilizable",
+        "reprocessing.maxTemperatureC",
+        "clinical.arches",
+        "clinical.toothGroups",
+        "clinical.sides",
+        "clinical.patientGroups"
+      ],
+      "provenance": {
+        "sources": [
+          {
+            "id": "asadental-2025-ch7",
+            "authority": "primary",
+            "type": "catalogue_pdf",
+            "path": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_7_-_Endodontics.pdf",
+            "pdfPage": 6,
+            "codeBBox": [
+              270.0,
+              692.416,
+              311.105,
+              703.054
+            ],
+            "matchedHeading": "APICAL ESSENTIAL"
           }
         ],
         "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
@@ -222128,6 +222882,91 @@
               117.603
             ],
             "matchedHeading": "SML2021CF"
+          }
+        ],
+        "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",
+        "factPolicy": "Only explicit product-label, matched heading, geometric measurement or code-specific callout facts are normalized.",
+        "reviewStatus": "catalogue_matched"
+      }
+    },
+    {
+      "schemaVersion": "1.0.0",
+      "sku": "SML2021FP",
+      "manufacturer": "AsaDental",
+      "catalogueName": "Apical Micro Endo Kit - Essential",
+      "category": "Other ASA Dental instruments",
+      "priority": "2",
+      "taxonomy": {
+        "chapter": 7,
+        "chapterName": "Endodontics",
+        "family": "catalogue_item",
+        "catalogueHeading": "SML2021FP"
+      },
+      "dimensions": {
+        "overallLengthMm": null,
+        "workingLengthMm": null,
+        "tipWidthMm": null,
+        "diameterMm": null,
+        "sizeMm": null,
+        "anglesDegrees": []
+      },
+      "design": {
+        "forms": [
+          "locking"
+        ],
+        "sizeDesignations": [],
+        "colors": []
+      },
+      "clinical": {
+        "arches": [],
+        "toothGroups": [],
+        "sides": [],
+        "patientGroups": [],
+        "documentedUses": []
+      },
+      "material": [],
+      "finish": [],
+      "packaging": {
+        "quantity": 10
+      },
+      "reprocessing": {
+        "singleUse": null,
+        "sterilizable": null,
+        "maxTemperatureC": null
+      },
+      "relationships": {
+        "relatedVariants": [],
+        "procedureCompanions": []
+      },
+      "unknownFields": [
+        "dimensions.overallLengthMm",
+        "dimensions.workingLengthMm",
+        "dimensions.tipWidthMm",
+        "material",
+        "finish",
+        "reprocessing.singleUse",
+        "reprocessing.sterilizable",
+        "reprocessing.maxTemperatureC",
+        "clinical.arches",
+        "clinical.toothGroups",
+        "clinical.sides",
+        "clinical.patientGroups"
+      ],
+      "provenance": {
+        "sources": [
+          {
+            "id": "asadental-2025-ch7",
+            "authority": "primary",
+            "type": "catalogue_pdf",
+            "path": "data/asadental/Asa_Dental_2025_Catalog_-_Chapter_7_-_Endodontics.pdf",
+            "pdfPage": 5,
+            "codeBBox": [
+              654.803,
+              104.028,
+              702.345,
+              114.666
+            ],
+            "matchedHeading": "SML2021FP"
           }
         ],
         "catalogueIndex": "app/_data/asaCatalog.json (product code and label only; no commercial fields)",

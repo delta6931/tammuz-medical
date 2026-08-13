@@ -47,7 +47,16 @@ const categoryPaths = categories.map(([, slug]) => `/catalog/category/${slug}`);
 const productPaths = indexableProducts.map(item => `/catalog/product/${productSlug(item)}`);
 
 /** Standalone tool pages, one route per locale. */
-const toolPaths = ["/tools", "/tools/forceps-selector", "/tools/tooth-numbering", "/tools/gracey-selector", "/tools/clinic-setup"];
+export const toolPaths = [
+  "/tools",
+  "/tools/forceps-selector",
+  "/tools/tooth-numbering",
+  "/tools/gracey-selector",
+  "/tools/clinic-setup",
+  "/tools/iso-6360",
+  "/tools/endo-file-chart",
+  "/tools/dental-terminology",
+];
 export const toolRoutes = localePrefixes.flatMap(prefix => toolPaths.map(path => `${prefix}${path}`));
 
 export const cleanRoutes = [

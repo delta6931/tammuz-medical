@@ -11,8 +11,11 @@ const sourcePath = "data/asadental/derived/catalog-enriched.json";
 const outputPath = "app/_data/catalogProductFacts.json";
 
 const source = JSON.parse(await readFile(resolve(projectRoot, sourcePath), "utf8"));
-if (source.recordCount !== 2773 || source.records?.length !== 2773) {
-  throw new Error(`Expected 2,773 non-forceps records, received ${source.records?.length ?? 0}`);
+const catalog = JSON.parse(await readFile(resolve(projectRoot, "app/_data/asaCatalog.json"), "utf8"));
+const forceps = JSON.parse(await readFile(resolve(projectRoot, "data/asadental/derived/forceps-enriched.json"), "utf8"));
+const expectedRecords = catalog.length - forceps.records.length;
+if (source.recordCount !== expectedRecords || source.records?.length !== expectedRecords) {
+  throw new Error(`Expected ${expectedRecords.toLocaleString()} non-forceps records, received ${source.records?.length ?? 0}`);
 }
 
 // Short projection keys keep the visitor-facing JavaScript substantially

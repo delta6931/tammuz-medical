@@ -1,5 +1,5 @@
 /**
- * Native EN/TR/AR product-page copy for the 2,773 non-matrix references.
+ * Native EN/TR/AR product-page copy for all non-matrix references.
  *
  * The compact facts are generated exclusively from matched 2025 catalogue
  * pages. Each language composes its own sentences from the normalized facts;
