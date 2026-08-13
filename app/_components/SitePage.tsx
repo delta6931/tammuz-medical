@@ -516,10 +516,12 @@ function Home({ country, locale, t, addQuoteLine, quoteLines, setQuoteLines }: {
     <section className="story">
       <div className="italy italy-photo">
         <video
+          autoPlay
+          loop
           muted
           playsInline
           controls
-          preload="none"
+          preload="metadata"
           poster="/assets/brand/asa-showcase-poster.webp"
           aria-label={t("a11y.showcase_video")}
         >
