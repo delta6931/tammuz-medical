@@ -13,15 +13,24 @@ declare global {
   }
 }
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-7NVF0SV5XN";
 const META_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID;
 const CONSENT_KEY = "tmz_analytics_consent";
 
 export function trackEvent(name: string, parameters: Record<string, unknown> = {}) {
   if (typeof window === "undefined") return;
-  window.dataLayer?.push({ event: name, ...parameters });
-  window.gtag?.("event", name, parameters);
+  if (window.gtag) window.gtag("event", name, parameters);
+  else window.dataLayer?.push({ event: name, ...parameters });
   window.fbq?.("trackCustom", name, parameters);
+}
+
+export function trackToolUse(
+  toolName: string,
+  action: string,
+  locale: string,
+  parameters: Record<string, unknown> = {},
+) {
+  trackEvent("tool_use", { tool_name: toolName, action, locale: locale.toLowerCase(), ...parameters });
 }
 
 function loadAnalytics() {

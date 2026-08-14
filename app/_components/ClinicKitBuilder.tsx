@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import clinicKits from "../_data/clinicKits.json";
 import { catalogItems, localizedPath, productPath, type SiteLocale } from "../_lib/catalog";
 import { clinicKitStrings } from "../tools/_strings/clinic-kit";
+import { trackEvent, trackToolUse } from "./Analytics";
 
 type Kit = { code: string; name: string; category: string };
 type Area = { area: string; kits: Kit[] };
@@ -68,6 +69,7 @@ export function ClinicKitBuilder({ locale = "EN" }: { locale?: SiteLocale }) {
     try {
       await navigator.clipboard.writeText(listText);
       setCopied(true);
+      trackToolUse("clinic_setup", "copy_list", locale, { set_count: selected.length, total_units: totalUnits });
     } catch {
       setCopied(false);
     }
@@ -133,7 +135,10 @@ export function ClinicKitBuilder({ locale = "EN" }: { locale?: SiteLocale }) {
                   {quantity > 0 ? (
                     <span className="ck-added">{s.step3.added} · {quantity}</span>
                   ) : (
-                    <button type="button" className="ck-add" onClick={() => setQuantity(kit.code, rooms)}>
+                    <button type="button" className="ck-add" onClick={() => {
+                      setQuantity(kit.code, rooms);
+                      trackToolUse("clinic_setup", "add_set", locale, { item_code: kit.code, quantity: rooms });
+                    }}>
                       {s.step3.add} · {rooms} {s.step3.perRoom}
                     </button>
                   )}
@@ -188,6 +193,7 @@ export function ClinicKitBuilder({ locale = "EN" }: { locale?: SiteLocale }) {
                 href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(listText)}`}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent("whatsapp_click", { placement: "clinic_setup", set_count: selected.length, total_units: totalUnits })}
               >
                 {s.summary.whatsapp}
               </a>

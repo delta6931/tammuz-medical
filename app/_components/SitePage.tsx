@@ -652,7 +652,11 @@ function Quote({ t, locale, quoteLines, setQuoteLines }: ComponentWithT & QuoteS
       form.reset();
       setQuoteLines([]);
       setStatus("success");
-      trackEvent("quote_submit_success", { country: values.get("country"), product_count: quoteLines.length });
+      trackEvent("generate_lead", {
+        lead_source: "quote_form",
+        country: values.get("country"),
+        product_count: quoteLines.length,
+      });
     } catch {
       setStatus("error");
       trackEvent("quote_submit_error");
@@ -802,7 +806,7 @@ function CatalogBrowser({ locale, t, addQuoteLine, initialCategory }: { locale: 
           id="product-search"
           value={query}
           onChange={event => updateSearch(event.target.value)}
-          onBlur={() => query.trim() && trackEvent("catalog_search", { search_term: query.trim(), result_count: filtered.length })}
+          onBlur={() => query.trim() && trackEvent("search", { search_term: query.trim(), result_count: filtered.length })}
           placeholder={t("catalog.search_placeholder")}
         />
         <span>{t("catalog.search_count", { count: catalogItems.length.toLocaleString() })}</span>
@@ -932,20 +936,31 @@ function ProductPage({ locale, productSlug, t, addQuoteLine, quoteLines, setQuot
         .filter(item => item.code !== product.code && categoryForName(item.category)?.slug === category?.slug)
         .slice(0, 4);
   const whatsappText = encodeURIComponent(`Hello Tammuz Global Medical, I would like a quote for AsaDental item ${product.code}: ${product.name}.`);
+  const pageUrl = `https://tammuzmedical.com${productPath(product, locale)}`;
+  const pageName = enrichedCopy?.title || product.name;
+  const pageDescription = enrichedCopy?.metaDescription || pageCopy[locale].productIntro(product.code, product.name, categoryName);
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Product",
-    "@id": `https://tammuzmedical.com${productPath(product, locale)}#product`,
-    url: `https://tammuzmedical.com${productPath(product, locale)}`,
-    name: enrichedCopy?.title || product.name,
-    sku: product.code,
-    mpn: product.code,
-    ...(exactImage ? { image: `https://tammuzmedical.com${exactImage}` } : {}),
-    description: enrichedCopy?.metaDescription || pageCopy[locale].productIntro(product.code, product.name, categoryName),
-    category: product.category.replace("ASA Dental", "AsaDental"),
-    inLanguage: locale.toLowerCase(),
-    brand: { "@type": "Brand", name: "AsaDental" },
-    manufacturer: { "@type": "Organization", name: "AsaDental" },
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage: locale.toLowerCase(),
+        isPartOf: { "@id": "https://tammuzmedical.com/#website" },
+        about: { "@type": "Thing", name: pageName, identifier: product.code },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: pageCopy[locale].catalogBreadcrumb, item: `https://tammuzmedical.com${localizedPath("/catalog", locale)}` },
+          { "@type": "ListItem", position: 2, name: categoryName, item: `https://tammuzmedical.com${category ? categoryPath(category.slug, locale) : localizedPath("/catalog", locale)}` },
+          { "@type": "ListItem", position: 3, name: pageName, item: pageUrl },
+        ],
+      },
+    ],
   };
 
   return <>
@@ -1188,7 +1203,7 @@ function Footer({ locale, t }: { locale: SiteLocale } & ComponentWithT) {
             <b>{t("footer.contact")}</b>
             <a href="tel:+905338877740">+90 533 887 77 40</a>
             <a href={`mailto:${QUOTE_EMAIL}`}>{QUOTE_EMAIL}</a>
-            <a href={WHATSAPP_URL}>WhatsApp</a>
+            <a href={WHATSAPP_URL} onClick={() => trackEvent("whatsapp_click", { placement: "footer" })}>WhatsApp</a>
             <a href="https://www.instagram.com/tammuzmedical" target="_blank" rel="noreferrer">Instagram @tammuzmedical</a>
             <a href="https://www.facebook.com/share/1EwfKRBYuT/?mibextid=wwXIfr" target="_blank" rel="noreferrer">Facebook</a>
           </div>

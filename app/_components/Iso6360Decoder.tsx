@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import type { SiteLocale } from "../_lib/catalog";
 import { decodeIso6360, normalizeIso6360 } from "../tools/_lib/iso-6360";
 import { iso6360Strings } from "../tools/_strings/iso-6360";
+import { trackToolUse } from "./Analytics";
 
 export function Iso6360Decoder({ locale = "EN" }: { locale?: SiteLocale }) {
   const s = iso6360Strings[locale];
@@ -18,10 +19,10 @@ export function Iso6360Decoder({ locale = "EN" }: { locale?: SiteLocale }) {
 
   return <div className="iso6360">
     <div className="iso6360-input">
-      <label><span>{s.input.label}</span><input dir="ltr" inputMode="numeric" value={entry} placeholder={s.input.placeholder} aria-invalid={invalid} onChange={event => setEntry(event.target.value)} /></label>
+      <label><span>{s.input.label}</span><input dir="ltr" inputMode="numeric" value={entry} placeholder={s.input.placeholder} aria-invalid={invalid} onChange={event => setEntry(event.target.value)} onBlur={() => result && trackToolUse("iso_6360", "decode", locale, { digit_count: result.normalized.length })} /></label>
       <p>{s.input.hint}</p>
       <div className="iso6360-actions">
-        <button type="button" onClick={() => setEntry("806 314 001 524 016")}>{s.input.example}</button>
+        <button type="button" onClick={() => { setEntry("806 314 001 524 016"); trackToolUse("iso_6360", "use_example", locale); }}>{s.input.example}</button>
         {entry ? <button type="button" onClick={() => setEntry("")}>{s.input.clear}</button> : null}
       </div>
       {invalid ? <p className="iso6360-error" role="alert">{s.input.invalid} ({digits.length}/15)</p> : null}

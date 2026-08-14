@@ -7,6 +7,7 @@ import {
   type Dentition, type NotationSystem, type Tooth,
 } from "../tools/_lib/tooth-notation";
 import { toothNotationStrings } from "../tools/_strings/tooth-notation";
+import { trackToolUse } from "./Analytics";
 
 const SYSTEMS: NotationSystem[] = ["fdi", "universal", "palmer"];
 
@@ -27,6 +28,7 @@ export function ToothNotationConverter({ locale = "EN" }: { locale?: SiteLocale 
   function selectFromChart(fdi: number) {
     setEntry("");
     setClicked(current => (current === fdi ? null : fdi));
+    trackToolUse("tooth_numbering", "select_chart_tooth", locale, { tooth_fdi: fdi, dentition });
   }
 
   function switchDentition(next: Dentition) {
@@ -70,6 +72,7 @@ export function ToothNotationConverter({ locale = "EN" }: { locale?: SiteLocale 
             placeholder={s.input.placeholder}
             aria-invalid={invalid}
             onChange={event => setEntry(event.target.value)}
+            onBlur={() => typed && trackToolUse("tooth_numbering", "convert_notation", locale, { source_system: system, dentition })}
           />
         </label>
         {entry.trim() ? (

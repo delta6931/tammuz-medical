@@ -5,6 +5,7 @@ import graceyData from "../_data/graceyCurettes.json";
 import { catalogItems, productPath, type SiteLocale } from "../_lib/catalog";
 import { ALL_SURFACES, regionForPosition, type Region, type Surface } from "../tools/_lib/gracey";
 import { graceyStrings } from "../tools/_strings/gracey-selector";
+import { trackToolUse } from "./Analytics";
 
 type Sku = { code: string; name: string; category: string };
 type Group = { number: string; ends: number[]; regions: Region[]; surfaces: Surface[]; skus: Sku[] };
@@ -35,6 +36,18 @@ export function GraceySelector({ locale = "EN" }: { locale?: SiteLocale }) {
     return GROUPS.filter(group => group.regions.includes(region) && group.surfaces.includes(surface));
   }, [region, surface]);
 
+  function selectTooth(fdi: number) {
+    const next = tooth === fdi ? null : fdi;
+    setTooth(next);
+    if (next !== null) trackToolUse("gracey_selector", "select_tooth", locale, { tooth_fdi: next });
+  }
+
+  function selectSurface(nextSurface: Surface) {
+    const next = surface === nextSurface ? null : nextSurface;
+    setSurface(next);
+    if (next !== null) trackToolUse("gracey_selector", "select_surface", locale, { surface: next });
+  }
+
   return (
     <div className="gc">
       <div className="gc-chart" role="group" aria-label={s.chart.groupLabel}>
@@ -50,7 +63,7 @@ export function GraceySelector({ locale = "EN" }: { locale?: SiteLocale }) {
                   aria-pressed={tooth === fdi}
                   aria-label={s.toothLabel(fdi)}
                   data-midline={index === 7 ? "true" : undefined}
-                  onClick={() => setTooth(current => (current === fdi ? null : fdi))}
+                  onClick={() => selectTooth(fdi)}
                 >
                   {fdi}
                 </button>
@@ -70,7 +83,7 @@ export function GraceySelector({ locale = "EN" }: { locale?: SiteLocale }) {
               type="button"
               className={surface === item ? "gc-chip on" : "gc-chip"}
               aria-pressed={surface === item}
-              onClick={() => setSurface(current => (current === item ? null : item))}
+              onClick={() => selectSurface(item)}
             >
               {s.surfaces[item]}
             </button>

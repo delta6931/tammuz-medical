@@ -209,7 +209,9 @@ test("creates a localized, crawlable product page for every catalog reference", 
   assert.match(localizeDocumentHtml("/ar/catalog/product/example", html), /<html lang="ar" dir="rtl">/);
   assert.match(html, /0103-10/);
   assert.match(html, /[؀-ۿ]/);
-  assert.match(html, /<script type="application\/ld\+json">.*?"@type":"Product"/s);
+  assert.match(html, /<script type="application\/ld\+json">.*?"@type":"WebPage"/s);
+  assert.match(html, /"@type":"BreadcrumbList"/);
+  assert.doesNotMatch(html, /"@type":"Product"/);
   assert.match(html, /hrefLang="ar"/i);
 });
 

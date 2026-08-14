@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import forcepsData from "../_data/forcepsApplications.json";
 import { catalogItems, productPath, type SiteLocale } from "../_lib/catalog";
 import { forcepsStrings } from "../tools/_strings/forceps-selector";
+import { trackToolUse } from "./Analytics";
 
 type Arch = "upper" | "lower";
 type Side = "left" | "right";
@@ -94,7 +95,15 @@ export function ForcepsSelector({ locale = "EN" }: { locale?: SiteLocale }) {
   }, [tooth, filters]);
 
   function toggle(key: keyof Filters) {
-    setFilters(current => ({ ...current, [key]: !current[key] }));
+    const enabled = !filters[key];
+    setFilters(current => ({ ...current, [key]: enabled }));
+    trackToolUse("forceps_selector", "toggle_filter", locale, { filter: key, enabled });
+  }
+
+  function selectTooth(fdi: number) {
+    const next = selected === fdi ? null : fdi;
+    setSelected(next);
+    if (next !== null) trackToolUse("forceps_selector", "select_tooth", locale, { tooth_fdi: next });
   }
 
   return (
@@ -111,7 +120,7 @@ export function ForcepsSelector({ locale = "EN" }: { locale?: SiteLocale }) {
                   className={selected === fdi ? "fs-tooth selected" : "fs-tooth"}
                   aria-pressed={selected === fdi}
                   aria-label={s.toothLabel(fdi)}
-                  onClick={() => setSelected(current => (current === fdi ? null : fdi))}
+                  onClick={() => selectTooth(fdi)}
                 >
                   {fdi}
                 </button>
