@@ -51,6 +51,18 @@ await mkdir(resolve(outputRoot, "functions/api"), { recursive: true });
 await cp(resolve(projectRoot, "deploy/pages/functions/api/quote.js"), resolve(outputRoot, "functions/api/quote.js"));
 await writeFile(resolve(outputRoot, "_routes.json"), `${JSON.stringify({ version: 1, include: ["/api/*"], exclude: [] }, null, 2)}\n`, "utf8");
 await writeFile(resolve(outputRoot, "_redirects"), [
+  "/en/index.html / 301",
+  "/en/catalog.html /catalog 301",
+  "/en/contact.html /contact 301",
+  "/en/verified-manufacturers.html /verified-manufacturers 301",
+  "/tr/index.html /tr 301",
+  "/tr/catalog.html /tr/catalog 301",
+  "/tr/contact.html /tr/contact 301",
+  "/tr/verified-manufacturers.html /tr/verified-manufacturers 301",
+  "/ar/index.html /ar 301",
+  "/ar/catalog.html /ar/catalog 301",
+  "/ar/contact.html /ar/contact 301",
+  "/ar/verified-manufacturers.html /ar/verified-manufacturers 301",
   "/en / 301",
   "/en/ / 301",
   "/en/catalog /catalog 301",

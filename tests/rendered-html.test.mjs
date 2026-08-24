@@ -48,6 +48,21 @@ test("preserves the required homepage SEO and compliance content", async () => {
   assert.match(html, /\/assets\/brand\/whatsapp\.png/);
 });
 
+test("loads basic GA4 without a visitor consent prompt", async () => {
+  const [analytics, css, privacyHtml] = await Promise.all([
+    readFile(new URL("../app/_components/Analytics.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/globals.css", import.meta.url), "utf8"),
+    request("/privacy", { headers: { accept: "text/html" } }).then(response => response.text()),
+  ]);
+  assert.match(analytics, /G-7NVF0SV5XN/);
+  assert.match(analytics, /allow_google_signals:\s*false/);
+  assert.match(analytics, /allow_ad_personalization_signals:\s*false/);
+  assert.match(analytics, /useEffect\(\(\) => \{[\s\S]*?loadAnalytics\(\)/);
+  assert.doesNotMatch(analytics, /tmz_analytics_consent|Accept analytics|Decline/);
+  assert.doesNotMatch(css, /\.consent\{/);
+  assert.match(privacyHtml, /We use Google Analytics/);
+});
+
 test("renders the complete searchable catalog foundation", async () => {
   const html = await (await request("/catalog.html", { headers: { accept: "text/html" } })).text();
   assert.match(html, /Search by item code or product name/);
@@ -248,14 +263,21 @@ test("validates quote requests before attempting direct email delivery", async (
 });
 
 test("includes crawl files, mobile controls, and the local WhatsApp asset", async () => {
-  const [robots, sitemap, css, sitePage, iconStats] = await Promise.all([
+  const [robots, sitemap, redirects, css, sitePage, iconStats] = await Promise.all([
     readFile(new URL("public/robots.txt", projectRoot), "utf8"),
     readFile(new URL("public/sitemap.xml", projectRoot), "utf8"),
+    readFile(new URL("dist/pages/_redirects", projectRoot), "utf8"),
     readFile(new URL("app/globals.css", projectRoot), "utf8"),
     readFile(new URL("app/_components/SitePage.tsx", projectRoot), "utf8"),
     stat(new URL("public/assets/brand/whatsapp.png", projectRoot)),
   ]);
   assert.match(robots, /Sitemap: https:\/\/tammuzmedical\.com\/sitemap\.xml/);
+  for (const redirect of [
+    "/en/index.html / 301",
+    "/en/catalog.html /catalog 301",
+    "/tr/verified-manufacturers.html /tr/verified-manufacturers 301",
+    "/ar/index.html /ar 301",
+  ]) assert.match(redirects, new RegExp(redirect.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   for (const canonical of ["", "catalog", "verified-manufacturers", "contact", "ar/iraq/dental-supplies", "privacy"]) assert.match(sitemap, new RegExp(`https://tammuzmedical\\.com/${canonical}`));
   assert.equal((sitemap.match(/<url>/g) ?? []).length, cleanRoutes.length);
   assert.match(sitemap, /hreflang="ar"/);
