@@ -19,21 +19,17 @@
     "name": "tools-index"
   },
   "app/_components/Analytics.tsx": {
-    "file": "assets/Analytics-FEPZM6TG.js",
+    "file": "assets/Analytics-BPPElDqE.js",
     "name": "Analytics",
     "src": "app/_components/Analytics.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "virtual:vinext-app-browser-entry",
       "_framework-CXnKph_e.js"
-    ],
-    "dynamicImports": [
-      "node_modules/vinext/dist/shims/router.js"
     ]
   },
   "app/_components/ClinicKitBuilder.tsx": {
-    "file": "assets/ClinicKitBuilder-BxhpN5Eo.js",
+    "file": "assets/ClinicKitBuilder-YPDgXsFQ.js",
     "name": "ClinicKitBuilder",
     "src": "app/_components/ClinicKitBuilder.tsx",
     "isDynamicEntry": true,
@@ -45,7 +41,7 @@
     ]
   },
   "app/_components/DentalTerminology.tsx": {
-    "file": "assets/DentalTerminology-C-P0SDDN.js",
+    "file": "assets/DentalTerminology-1o3KVXH3.js",
     "name": "DentalTerminology",
     "src": "app/_components/DentalTerminology.tsx",
     "isDynamicEntry": true,
@@ -57,7 +53,7 @@
     ]
   },
   "app/_components/EndoSizeChart.tsx": {
-    "file": "assets/EndoSizeChart-DMq4u5ut.js",
+    "file": "assets/EndoSizeChart-D1JMEPhI.js",
     "name": "EndoSizeChart",
     "src": "app/_components/EndoSizeChart.tsx",
     "isDynamicEntry": true,
@@ -69,7 +65,7 @@
     ]
   },
   "app/_components/ForcepsSelector.tsx": {
-    "file": "assets/ForcepsSelector-CMemauvb.js",
+    "file": "assets/ForcepsSelector-BoCRlAQa.js",
     "name": "ForcepsSelector",
     "src": "app/_components/ForcepsSelector.tsx",
     "isDynamicEntry": true,
@@ -81,7 +77,7 @@
     ]
   },
   "app/_components/GraceySelector.tsx": {
-    "file": "assets/GraceySelector-CFeaDhBd.js",
+    "file": "assets/GraceySelector-BQlgbRYg.js",
     "name": "GraceySelector",
     "src": "app/_components/GraceySelector.tsx",
     "isDynamicEntry": true,
@@ -93,7 +89,7 @@
     ]
   },
   "app/_components/Iso6360Decoder.tsx": {
-    "file": "assets/Iso6360Decoder-DtnnEvMj.js",
+    "file": "assets/Iso6360Decoder-D-vDp0ky.js",
     "name": "Iso6360Decoder",
     "src": "app/_components/Iso6360Decoder.tsx",
     "isDynamicEntry": true,
@@ -105,7 +101,7 @@
     ]
   },
   "app/_components/SitePage.tsx": {
-    "file": "assets/SitePage-hnW-itCb.js",
+    "file": "assets/SitePage-cXGeSbZo.js",
     "name": "SitePage",
     "src": "app/_components/SitePage.tsx",
     "isDynamicEntry": true,
@@ -117,7 +113,7 @@
     ]
   },
   "app/_components/ToothNotationConverter.tsx": {
-    "file": "assets/ToothNotationConverter-3UCw97DY.js",
+    "file": "assets/ToothNotationConverter-CfrhTR9N.js",
     "name": "ToothNotationConverter",
     "src": "app/_components/ToothNotationConverter.tsx",
     "isDynamicEntry": true,
@@ -128,7 +124,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-ue-SogZK.js",
+    "file": "assets/layout-segment-context-BUrX27KV.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -138,23 +134,8 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-cR4rU_wL.js",
-    "name": "router",
-    "src": "node_modules/vinext/dist/shims/router.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "virtual:vinext-app-browser-entry",
-      "app/_components/Analytics.tsx",
-      "_framework-CXnKph_e.js"
-    ],
-    "dynamicImports": [
-      "_framework-CXnKph_e.js"
-    ]
-  },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-Ba7WZVd2.js",
+    "file": "assets/index-BoiJnEuL.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
